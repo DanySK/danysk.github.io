@@ -7,18 +7,16 @@ url: "https://danysk.github.io" # the base hostname & protocol for your site, e.
 baseurl: "/devlopr-jekyll" # the subpath of your site, e.g. /blog
 
 urls:
-    - text: Blog
-      url: /blog
-    - text: Gallery
-      url: /gallery
-    - text: Contact Me
-      url : /contact
-    - text: Styleguide
-      url: /styleguide
-    - text: Get Started
-      url: /get-started
-
-# Edit these details
+  - text: Blog
+    url: /blog
+  # - text: Gallery
+  #   url: /gallery
+  - text: Contact Me
+    url : /contact
+  # - text: Styleguide
+  #   url: /styleguide
+  # - text: Get Started
+  #   url: /get-started
 
 author_logo: profile.png
 author: Danilo Pianini
@@ -30,41 +28,125 @@ author_bio: >-
   Build automation and continuous integration zealot.
 
 author_email: "danilo.pianini@gmail.com"
+author_email_md5: b96269945e9426825bdbba067eb3eaed
 author_location: Cesena, Italy
 author_website_url: "http://www.danilopianini.org"
+author_cv: https://github.com/DanySK/Curriculum-Vitae/releases/latest/download/curriculum.pdf
 typewrite-text: Engineer, Scientist, Developer
 
-author_work_experiences:
+publications:
   - title: Chemical-oriented simulation of computational systems with Alchemist
     authors: Danilo Pianini, Sara Montagna, and Mirko Viroli
     logo: google.png
     doi: 10.1057/jos.2012.27
-    description: In this paper we address the engineering of complex and emerging computational systems featuring situatedness, adaptivity and self-organisation, like pervasive computing applications in which humans and devices, dipped in a very mobile environment, opportunistically interact to provide and exploit information services. We adopt a meta-model in which possibly mobile, interconnected and communicating agents work according to a set of chemical-like laws. According to this view, substantiated by recent research on pervasive computing systems, we present the Alchemist simulation framework, which retains the performance of known Stochastic Simulation Algorithms for (bio)chemistry, though it is tailored to the specific features of complex and situated computational systems.
+    abstract: >- 
+      In this paper we address the engineering of complex and emerging computational systems featuring situatedness,
+      adaptivity and self-organisation, like pervasive computing applications in which humans and devices,
+      dipped in a very mobile environment, opportunistically interact to provide and exploit information services.
+      We adopt a meta-model in which possibly mobile, interconnected and communicating agents work according to a set of chemical-like laws.
+      According to this view, substantiated by recent research on pervasive computing systems, we present the Alchemist simulation framework,
+      which retains the performance of known Stochastic Simulation Algorithms for (bio)chemistry,
+      though it is tailored to the specific features of complex and situated computational systems.
     visibility: true
 
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
-                visibility: true
+  - college_logo: mit.png
+    college_name: MIT
+    college_url: https://mit.org
+    college_degree: CS Engineer
+    description: Bachelor of Technology
+    visibility: true
 
 author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
-                visibility: true
-              - project_thumbnail: hack4r.PNG
-                project_title: Hack4r
-                project_description: A Platform built for Hackers and Penetration Testers
-                project_url: https://hack4r.com
-                visibility: true
+  - project_thumbnail: gamershub.png
+    project_title: Gamers Hub
+    project_description: A Platform built for Gamers and Game Devs
+    project_url: https://gamershub.in
+    visibility: true
+  - project_thumbnail: hack4r.PNG
+    project_title: Hack4r
+    project_description: A Platform built for Hackers and Penetration Testers
+    project_url: https://hack4r.com
+    visibility: true
+
+external_links:
+  - name: Research and academy
+    sites:
+      - baseurl: https://www.unibo.it/sitoweb/
+        username: danilo.pianini/en
+        icon_name: fas fa-university
+        name: University of Bologna
+      - baseurl: https://dblp.uni-trier.de/pers/hd/p
+        username: Pianini:Danilo
+        icon_name: ai ai-dblp
+        name: DBLP
+      - baseurl: https://scholar.google.it
+        username: citations?user=0CLlt5oAAAAJ&hl=en
+        icon_name: ai ai-google-scholar
+        name: Google Scholar
+      - baseurl: https://www.slideshare.net
+        username: DanySK
+        icon_name: fab fa-slideshare
+        name: SlideShare
+      - baseurl: http://orcid.org
+        username: 0000-0002-8392-5409
+        icon_name: ai ai-orcid
+        name: ORCID
+      - baseurl: https://www.scopus.com/authid
+        username: detail.uri?authorId=36997527800
+        icon_name: fas fa-book
+        name: Scopus
+      - baseurl: https://publons.com/researcher
+        username: 1103754/danilo-pianini/
+        icon_name: ai ai-publons
+        name: Publons
+  - name: Development
+    sites:
+      - baseurl: https://github.com
+        username: DanySK
+        icon_name: fab fa-github
+        name: GitHub
+      - baseurl: https://bitbucket.org
+        username: danysk
+        icon_name: fab fa-bitbucket
+        name: Bitbucket
+      - baseurl: https://gitlab.com
+        username: danilo.pianini
+        icon_name: fab fa-gitlab
+        name: GitLab
+  - name: Social and misc
+    sites:
+      - name: Facebook
+        baseurl: https://www.facebook.com
+        username: danilo.pianini
+        icon_name: fab fa-facebook
+      - name: Instagram
+        baseurl: https://www.instagram.com
+        username: pianinidanilo
+        icon_name: fab fa-instagram
+      - name: Linkedin
+        baseurl: https://www.linkedin.com/in
+        username: danilo-pianini
+        icon_name: fab fa-linkedin
+      - name: Steam
+        baseurl: https://steamcommunity.com/id
+        username: danysk
+        icon_name: fab fa-steam
+      - name: Twitter
+        baseurl: https://twitter.com
+        username: DanySK86
+        icon_name: fab fa-twitter
+      - name: YouTube
+        baseurl: https://www.youtube.com/channel
+        username: UCbMONiRSiUzvuyBldnsDT_g
+        icon_name: fab fa-youtube
+
+
+# devel links
+github_username: DanySK
 
 # social links
 twitter_username: DanySK86
-github_username:  DanySK
 facebook_username: danilo.pianini
 linkedin_username: danilo-pianini
 #behance_username: johndoe
@@ -73,6 +155,7 @@ instagram_username: pianinidanilo
 telegram_username: danilo_pianini
 #dribbble_username: johndoe
 #flickr_username: johndoe
+youtube_username: UCbMONiRSiUzvuyBldnsDT_g
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
@@ -97,9 +180,9 @@ permalink: pretty
 # google_analytics: UA-46783401-10
 
 # Choose what to show ( can be true or false)
-show_author_work_experiences: true
-show_author_education_details: true
-show_author_project_details: true
+show_publications: true
+show_author_education_details: false
+show_author_project_details: false
 
 # algolia search
 algolia:
