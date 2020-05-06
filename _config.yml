@@ -3,18 +3,14 @@ subtitle: Engineer, Scientist, Developer
 description: >- # this means to ignore newlines until "baseurl:"
   Danilo Pianini: Engineer, Scientist, Developer
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://danysk.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "/devlopr-jekyll" # the subpath of your site, e.g. /blog
 
 urls:
-    - text: About Me
-      url: /about
     - text: Blog
       url: /blog
     - text: Gallery
       url: /gallery
-    - text: Shop
-      url : /shop
     - text: Contact Me
       url : /contact
     - text: Styleguide
