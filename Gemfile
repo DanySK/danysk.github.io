@@ -6,6 +6,7 @@ gem 'kramdown'
 gem 'rack-jekyll'
 gem 'rake'
 gem 'puma'
+gem 'kramdown-math-katex'
 
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
@@ -24,7 +25,6 @@ group :jekyll_plugins do
     gem 'jekyll-algolia', '~> 1.6'
     gem 'jekyll-menus', '~> 0.6.1'
     gem 'jekyll-admin', '~> 0.9.0'
-    gem 'jekyll-katex', '~> 1.0.0'
     gem 'jekyll-tagging'
 end
 

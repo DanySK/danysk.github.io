@@ -67,9 +67,6 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-gist (1.5.0)
       octokit (~> 4.2)
-    jekyll-katex (1.0.0)
-      execjs (~> 2.7)
-      jekyll (>= 3.6, < 5.0)
     jekyll-menus (0.6.1)
       jekyll (>= 3.6, < 5.0)
     jekyll-paginate (1.1.0)
@@ -87,8 +84,13 @@ GEM
       jekyll (>= 1.5.1)
       trollop (= 2.9.9)
     json (2.3.0)
+    katex (0.6.0)
+      execjs (~> 2.7)
     kramdown (2.2.1)
       rexml
+    kramdown-math-katex (1.0.1)
+      katex (~> 0.4)
+      kramdown (~> 2.0)
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     liquid (4.0.3)
@@ -173,7 +175,6 @@ DEPENDENCIES
   jekyll-algolia (~> 1.6)
   jekyll-feed (~> 0.13.0)
   jekyll-gist (~> 1.5.0)
-  jekyll-katex (~> 1.0.0)
   jekyll-menus (~> 0.6.1)
   jekyll-paginate (~> 1.1.0)
   jekyll-seo-tag (~> 2.6.1)
@@ -181,6 +182,7 @@ DEPENDENCIES
   jekyll-tagging
   jgd (~> 1.12)
   kramdown
+  kramdown-math-katex
   puma
   rack-jekyll
   rake

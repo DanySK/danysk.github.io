@@ -5,15 +5,12 @@ title: Styleguide
 permalink: /styleguide/
 ---
 
-{% katexmm %}
-This is a mixed environment where you can have normal text and $c = \pm\sqrt{a^2 + b^2}$ fenced math. \$!
-{% endkatexmm %}
+$$\LaTeX code$$   (for display)
+\\[\LaTeX code\\] (also for display)
+\\(\LaTeX code\\) (for inline)
 
-{% katex display %}
-c = \pm\sqrt{a^2 + b^2}
-{% endkatex %}
+```kotlin
+fun main(vararg a: String) {
 
-{% katex %}
-c = \pm\sqrt{a^2 + b^2}
-{% endkatex %}
-
+}
+```

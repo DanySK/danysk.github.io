@@ -179,7 +179,7 @@ formspree_email: danilo.pianini@gmail.com
 # syntax highlighter
 markdown: kramdown
 kramdown:
-  math_engine: mathjax
+  math_engine: katex
 highlighter: rouge
 permalink: pretty
 
