@@ -1,0 +1,7 @@
+language: ruby
+
+script:
+  - bundle install
+  - bundle exec jekyll algolia
+
+cache: bundler
