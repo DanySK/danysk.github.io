@@ -105,6 +105,9 @@ html[data-theme="light"] {
     padding: 0;
 }
 
+img {
+    width: 100%;
+}
 
 /* Progress bar */
 .my-class .bar {
@@ -246,6 +249,7 @@ header {
     height: auto;
     margin: 15px;
 }
+
 #search-icon {
     color: var(--search-color) !important;
 }
