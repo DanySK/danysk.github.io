@@ -1,8 +1,6 @@
 ---
 layout: post
-sidebar: right
 title:  "Antichamber reviewed on Linux"
-subheadline:  "Life lesson in form of videogame."
 summary: "I just finished playing Antichamber, and I decided this world have not enough review of this game yet, not on Linux at least."
 tags:
     - antichamber
