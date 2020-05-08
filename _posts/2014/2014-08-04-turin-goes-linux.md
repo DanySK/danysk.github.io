@@ -1,24 +1,13 @@
 ---
-layout: page
-sidebar: right
+layout: post
 title:  "The Italian municipality of Turin is switching to Linux"
-subheadline:  "One step closer to World domination"
-teaser: "Turin will be the first Comune (municipality) in Italy to completely dispose Microsoft Windows in favor of GNU/Linux."
+summary: "Turin will be the first Comune (municipality) in Italy to completely dispose Microsoft Windows in favor of GNU/Linux."
 categories:
-    - information technology
+    - news
 tags:
     - linux
     - torino
-image:
-    title: 2014/bulltux.png
-    thumb: 2014/bulltux.png
-    homepage: 2014/torino.jpg
-    caption: A bull Tux
-    caption_url: www.danilopianini.org
-header:
-    image_fullwidth: "2014/torino.jpg"
-    caption: Aerial view of Turin
-    caption_url: https://it.wikipedia.org/wiki/Torino#/media/File:Torino_Center_NASA,_elaboration.jpg
+thumbnail: 2014/bulltux.png
 ---
 
 The key motivation for the switch is the upcoming end of support for Windows XP from Microsoft along with the need of saving money. Turin, in fact, is among the most  indebited municipalities in Italy, with [a debt floating around three billion euros](http://www.ilsole24ore.com/pdf2010/SoleOnLine5/_Oggetti_Correlati/Documenti/Notizie/2011/11/DebitoComuni.pdf?uuid=9c39af42), for a stunning per-capita debt of over € 3000.

@@ -1,26 +1,13 @@
 ---
-layout: page
-sidebar: right
+layout: post
 title:  "Anomaly Korea reviewed on Linux"
-subheadline:  "The other side of tower defense (maybe the boring one)"
-teaser: "I bought this game as I did for many others, namely it accidentally appeared on my Steam library because I hit an Humble Bundle containing something else I was interested in. In my effort to try to complete as much games for Linux as possible, I also completed this one."
+summary:  "The other side of tower defense (maybe the boring one)"
 categories:
-    - "videogames"
+    - reviews
 tags:
-    - anomaly korea
     - steam
     - linux
-    - tower attack
-image:
-    title: 2014/2014-07-31_00001.jpg
-    title: 2014/2014-07-31_00001.jpg
-    homepage: 2014/2014-07-31_00002.jpg
-    caption: Oh, f**k!
-    caption_url: http://www.11bitstudios.com/games/13/anomaly-korea
-header:
-    image_fullwidth: "2014/2014-07-31_00002.jpg"
-    caption: Anomaly Korea screenshot
-    caption_url: http://www.11bitstudios.com/games/13/anomaly-korea
+thumbnail: 2014/2014-07-31_00002.jpg
 ---
 
 ## Plot
@@ -31,7 +18,7 @@ We are in (guess!) future and (guess!) bad alien guys have invaded our beloved p
 
 The authors define the game as "tower offense". I bet you know tower defense: enemies spawn from a point and follow a route, and you must displace your towers along that route in such a way that the enemies cannot reach their goal. Flip that: you spawn from a point and you must follow a route towards some other point. Along all the possible routes, enemy defensive towers (of various kind) are waiting for you with their weapons loaded. I must admit that the gameplay brings some original contribution, do not know any other game proposing something similar. The player starts its mission is a sort of tactical view, that allows to see the whole scenario and to plan a route towards the goal. The tactical view can be re opened at any time during the mission, in order to face different conditions and events.
 
-![Tactical screen]({{ site.urlimg }}/2014/2014-07-30_00003.jpg)
+![Tactical screen]({{ site.urlimg }}/2014/2014-07-30_00003.jpg){:width="100%"}
 
 Before starting the mission, the player can spend some money to buy a pack of vehicles, up to six. There are various types of vehicles that differ for resistance, firing range and power, armor and abilities. By spending money, every vehicle can be upgraded to a better version up to three times. Money can be refilled in game by destroying towers and collecting resources. Collecting resource means (I'm not kidding) leading the convoy near them and being able to fire on them.
 
@@ -47,7 +34,7 @@ The whole game is played by using a mouse. The only useful keyboard shortcut I'v
 ## Graphics and sound
 I found Anomaly Korea to be suprisingly pleasant under the graphical point of view.
 
-![Scenario]({{ site.urlimg }}/2014/2014-07-30_00001.jpg)
+![Scenario]({{ site.urlimg }}/2014/2014-07-30_00001.jpg){:width="100%"}
 
 It is a 3D game, models and shadows are nice, textures are too, it is not a masterpiece but looks pretty nice. Moreover, it's very lightweight: I have played with my usual GeForce GT 630M, definitely not a performance champion, and with the penalty introduced by Bumblebee (through Primusrun). I played the game ad full detail with no anti aliasing without any slowdown at 1080p. The game has shown absolutely no problem running on Linux, it is very stable and this in my point of view is a big plus. If you are a Linux user with Optimus graphics like me, install Bumblebee and a OpenGL offloader (optirun or primusrun) and then go to your Steam library, right click on Anomaly Korea, choose properties and in "Set launch options..." insert:
 
@@ -57,7 +44,7 @@ primusrun %command%
 
 or optirun if that is your offloader. This command is universal, and can be applied to any game you want to run using your discrete video card. I personally like this approach, because it allows to fine-tune your power consumption on a per-game basis.
 
-![Things explode]({{ site.urlimg }}/2014/2014-07-30_00002.jpg)
+![Things explode]({{ site.urlimg }}/2014/2014-07-30_00002.jpg){:width="100%"}
 
 Unfortunately, the audio is less good than video. The whole soundtrack is about fifteen minutes of music, ending up being repetitive. But what's worse are the dialogs with fucking Morris. It makes me feel like cheering for Machines to destroy the Earth. If they are attacking there must be a reason, uh? Well, Morris is probably part of that reason.
 
@@ -66,6 +53,6 @@ The game contains a twelve-levels campaign mode and a "art of war" mode. In the 
 
 ## Conclusion
 
-![Let's save the world]({{ site.urlimg }}/2014/2014-07-31_00002.jpg)
+![Let's save the world]({{ site.urlimg }}/2014/2014-07-31_00002.jpg){:width="100%"}
 
 I liked the idea of "tower offense". It is something new and unexplored. I liked much less the frivolousness of the plot and, more important, the strong focus on action. I would have preferred the game to take a more strategic approach. The good point for the game is the technical realisation, with a nice graphics and a very stable and neat product. What a pity the game itself is not a milestone.

@@ -1,29 +1,16 @@
 ---
-layout: page
-sidebar: right
+layout: post
 title:  "Cannabis, cannabinoidi e cancro: facciamo chiarezza"
-subheadline:  "La vera verità sulla canapa che nessuno vi vogliono dirvi."
-teaser: "La canapa è il terrore delle aziende farmaceutiche? Cura il cancro e per questo la proibiscono?"
+summary: "La canapa è il terrore delle aziende farmaceutiche? Cura il cancro e per questo la proibiscono?"
 categories:
-    - "scienza"
+    - "science"
 tags:
     - cannabis
     - marijuana
     - tumore
     - cannabinoidi
     - cure
-    - big pharma
-    - olio di canapa
-image:
-    title: 2014/Bottles-of-hemp-oil.jpg
-    thumb: 2014/Bottles-of-hemp-oil.jpg
-    homepage: 2014/Bottles-of-hemp-oil.jpg
-    caption: Bottiglie di olio di canapa. Mi spiace ragazzi, non cura il cancro.
-    caption_url: http://danilopianini.org/
-header:
-    image_fullwidth: "2014/Bottles-of-hemp-oil.jpg"
-    caption: "Hemp oil. Sorry, it does not work."
-    caption_url: http://danilopianini.org/
+thumbnail: "2014/Bottles-of-hemp-oil.jpg"
 ---
 
 Mi capitano sempre più spesso discussioni con persone che si sono fatte una "cultura" sulla cannabis, i cannabinoidi ed il loro rapporto col cancro a furia di navigazione online su link di discutibile qualità, corredati dai soliti video di YouTube. Si scade spesso in posizioni che galleggiano da qualche parte fra la magia (cura miracolosa) e il complottismo (Big Pharma non ci può far soldi sopra, quindi impedisce che si usi). Dopo l'ennesima discussione animata, stavolta riguardante gli oli di cannabis, ho pensato fosse il tempo di cercare di riassumere un po' di materiale **scientifico** qua dentro, se non altro per dare un po' l'idea della complessità del problema: purtroppo l'ignoranza in una materia porta spesso con sé l'istinto a semplificare drammaticamente, con i tristi risvolti che si possono leggere ovunque in Internet.
