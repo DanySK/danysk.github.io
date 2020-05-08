@@ -25,6 +25,7 @@ group :jekyll_plugins do
     gem 'jekyll-menus', '~> 0.6.1'
     gem 'jekyll-admin', '~> 0.9.0'
     gem 'jekyll-katex', '~> 1.0.0'
+    gem 'jekyll-tagging'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

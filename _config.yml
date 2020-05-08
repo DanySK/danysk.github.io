@@ -20,6 +20,9 @@ urls:
   # - text: Get Started
   #   url: /get-started
 
+tag_page_layout: tag_page
+tag_page_dir: blog/tags
+
 author_logo: profile.png
 author: Danilo Pianini
 author_bio: >-
