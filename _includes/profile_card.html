@@ -1,6 +1,5 @@
 <div class="card" id="profile-card">
     <a href="{{ site.baseurl }}/">
-      <!-- <img src="{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="profile-img" /> -->
       <img src="https://www.gravatar.com/avatar/{{ site.author_email_md5 }}?s=500" class="profile-img" />
     </a>
     <h1 class="profile-name">{{ site.title }}</h1>
@@ -21,5 +20,4 @@
     <h6><i class="ai ai-cv"></i> <a href="{{ site.author_cv }}">Curriculum Vitae</h6></a>
     {% endif %}
     {% if site.github_username %} {%- include github_follow_button.html -%} {% endif %}
-
   </div>
