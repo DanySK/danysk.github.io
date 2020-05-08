@@ -1,7 +1,10 @@
 language: ruby
 
+install:
+  - travis_retry bundle install
+
 script:
-  - bundle install
-  - bundle exec jekyll algolia
+  - travis_retry bundle exec jekyll build
+  - travis_retry bundle exec jekyll algolia
 
 cache: bundler
