@@ -1,6 +1,5 @@
 ---
 layout: post
-sidebar: right
 title:  "My personal cloud"
 summary: "I got a few requests to describe my personal cloud system."
 tags:
