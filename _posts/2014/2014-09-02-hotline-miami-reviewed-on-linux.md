@@ -2,8 +2,6 @@
 layout: post
 title:  "Hotline Miami reviewed on Linux"
 summary: "A playable movie of David Linch; with the gore, violence, and sadness of Hostel; and on of the best soundtracks I have ever experienced in a video game."
-categories:
-    - reviews
 tags:
     - steam
     - linux

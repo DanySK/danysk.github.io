@@ -2,8 +2,6 @@
 layout: post
 title:  "Cannabis, cannabinoidi e cancro: facciamo chiarezza"
 summary: "La canapa è il terrore delle aziende farmaceutiche? Cura il cancro e per questo la proibiscono?"
-categories:
-    - "science"
 tags:
     - cannabis
     - marijuana

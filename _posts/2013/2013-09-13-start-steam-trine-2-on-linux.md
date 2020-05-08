@@ -2,7 +2,6 @@
 layout: post
 title:  "Solution for Trine 2 on Steam not starting on Sabayon Linux"
 summary: "The Steam version of Trine 2 was not starting on Linux. Here is a possible solution."
-category: guides
 tags:
     - steam
     - linux

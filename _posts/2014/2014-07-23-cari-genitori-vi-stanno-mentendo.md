@@ -3,7 +3,6 @@ layout: post
 title:  Cari genitori, vi stanno mentendo.
 summary:  Tradotto dal blog di Jennifer Raff
 summary: "Le persone che asseriscono di agire nell'interesse dei vostri figli stanno ponendo la loro salute e anche la loro vita a rischio."
-categories: opinions
 tags:
     - scienza
     - vaccini

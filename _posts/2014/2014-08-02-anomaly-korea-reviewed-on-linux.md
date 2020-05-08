@@ -2,8 +2,6 @@
 layout: post
 title:  "Anomaly Korea reviewed on Linux"
 summary:  "The other side of tower defense (maybe the boring one)"
-categories:
-    - reviews
 tags:
     - steam
     - linux

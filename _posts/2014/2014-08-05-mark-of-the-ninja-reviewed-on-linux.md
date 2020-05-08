@@ -2,8 +2,6 @@
 layout: post
 title:  "Mark of the Ninja reviewed on Linux"
 summary: "I'm not too fussed with ninjas as other people is, but I'm always happy to try games that are said to be innovative, especially if they run on Linux."
-categories:
-    - reviews
 tags:
     - steam
     - linux

@@ -2,8 +2,6 @@
 layout: post
 title:  "The Italian municipality of Turin is switching to Linux"
 summary: "Turin will be the first Comune (municipality) in Italy to completely dispose Microsoft Windows in favor of GNU/Linux."
-categories:
-    - news
 tags:
     - linux
     - torino

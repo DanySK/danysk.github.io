@@ -2,7 +2,6 @@
 layout: post
 title:  "How OLScs (onlinestoragesolution.com) lost my data"
 summary: "Beware of this service: it is just a scam."
-categories: experiences
 tags:
     - cloud
     - backup

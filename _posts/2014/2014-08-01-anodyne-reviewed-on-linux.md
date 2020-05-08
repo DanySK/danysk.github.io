@@ -2,7 +2,6 @@
 layout: post
 title:  "Anodyne reviewed on Linux"
 summary:  "Anodyne review, including a guide to actually run this thing on Linux."
-category: reviews
 tags:
     - steam
     - linux

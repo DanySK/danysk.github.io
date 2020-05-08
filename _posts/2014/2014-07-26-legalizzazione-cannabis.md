@@ -2,7 +2,6 @@
 layout: post
 title:  "Ci conviene legalizzare la cannabis?"
 summary: "Gli unici che non dovrebbero voler la legalizzazione della marijuana sono gli assuefatti."
-category: opinions
 tags:
     - cannabis
     - marijuana
