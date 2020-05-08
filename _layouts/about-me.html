@@ -48,6 +48,7 @@ layout: default
     {% if site.show_publications == true %}
     <div class="card">
       <h1 class="card-title">Selected Publications</h1>
+      <h6>For the complete list of publications, see my <a href="{{ site.author_cv }}">CV</a></h6>
       <br />
       {% for paper in site.publications %}
         {% if paper.visibility == true %}
@@ -55,11 +56,13 @@ layout: default
           <!-- <div class="col-md-2">
             <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ paper.image }}" class="company-logo"/>
           </div> -->
-          <div class="col-md-12">
-            <h4 class="experience-title">{{ paper.title }}</h4>
-            <h6 class="experience-info">{{ paper.authors}}</h6>
-            <h6> <a href="https://dx.doi.org/{{paper.doi}}"><i class="ai ai-doi"></i>{{ paper.doi}}</a></h6>
-            <p class="experience-desc">{{ paper.abstract }}</p>
+          <div class="card">
+            <div class="col-md-12">
+              <h4 class="experience-title">{{ paper.title }}</h4>
+              <h6 class="experience-info">{{ paper.authors}}</h6>
+              <h6> <a href="https://dx.doi.org/{{paper.doi}}"><i class="ai ai-doi"></i>{{ paper.doi}}</a></h6>
+              <p class="experience-desc">{{ paper.abstract }}</p>
+            </div>
           </div>
         </div>
         {% endif %}
