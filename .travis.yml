@@ -5,6 +5,5 @@ install:
 
 script:
   - travis_retry bundle exec jekyll build
-  - travis_retry bundle exec jekyll algolia
 
 cache: bundler
