@@ -1,9 +1,0 @@
-language: ruby
-
-install:
-  - travis_retry bundle install
-
-script:
-  - travis_retry bundle exec jekyll build
-
-cache: bundler
