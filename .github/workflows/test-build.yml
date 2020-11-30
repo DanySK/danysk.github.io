@@ -9,7 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    - name: Install Bundle
+      run: gem install bundler
     - name: Bundle install
       run: bundle install
-    - name: Bundle install
+    - name: Build site
       run: bundle exec jekyll build
