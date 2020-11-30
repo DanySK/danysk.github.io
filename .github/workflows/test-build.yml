@@ -1,0 +1,15 @@
+name: Try to build with Jekyll
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Bundle install
+      run: bundle install
+    - name: Bundle install
+      run: bundle exec jekyll build
