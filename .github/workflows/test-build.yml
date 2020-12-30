@@ -9,6 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    - name: Update Gem
+      run: sudo gem update --system
     - name: Install Bundler
       run: sudo gem install bundler
     - name: Bundle install
