@@ -1,0 +1,37 @@
+name: Build Jekyll Site
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: '0 0 5 * *'
+
+jobs:
+  Build-Jekyll:
+    if: ${{ github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name != github.repository }}
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout the repository
+      - name: Checkout
+        uses: actions/checkout@v2
+      - uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+  Automerge:
+    needs: Build-Jekyll
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
+      - name: automerge
+        uses: "DanySK/yaagha@master"
+        env:
+          GITHUB_TOKEN: "${{ secrets.AUTOMERGE_TOKEN }}"
+          MERGE_FORKS: "false"
+          MERGE_LABELS: "version-upgrade"
+          BLOCK_LABELS: "blocked, wontfix, invalid"
+          MERGE_METHOD: "rebase"
+          CLOSE_ON_CONFLICT: "true"
+          DELETE_BRANCH_ON_CLOSE: "true"
+          GIT_USER_NAME: "Danilo Pianini"
+          GIT_USER_EMAIL: "danilo.pianini@gmail.com"
