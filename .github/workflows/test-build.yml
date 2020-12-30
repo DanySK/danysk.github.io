@@ -9,11 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Update Gem
-      run: sudo gem update --system
-    - name: Install Bundler
-      run: sudo gem install bundler
-    - name: Bundle install
-      run: bundle install
+    - uses: ruby/setup-ruby@v1
+      with:
+        bundler-cache: true # runs 'bundle install' and caches installed gems automatically
     - name: Build site
       run: bundle exec jekyll build
