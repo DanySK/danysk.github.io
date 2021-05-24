@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Risposte ai questionari di OOP, A.A. 2021/21"
+title:  "Risposte ai questionari di OOP, A.A. 2020/21"
 summary: "Siccome prometto che i commenti li leggo tutti, grosso modo li commento tutti."
 tags:
     - didattica
