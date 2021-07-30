@@ -186,7 +186,7 @@ external_links:
         name: ORCID
       - baseurl: https://www.scopus.com/authid
         username: detail.uri?authorId=36997527800
-        icon_name: fas fa-book
+        icon_name: ai ai-scopus
         name: Scopus
       - baseurl: https://publons.com/researcher
         username: 1103754/danilo-pianini/
