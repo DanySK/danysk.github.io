@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang='en'><head>
+  <title>Risposte ai questionari di OOP 2021/22 - Danilo Pianini</title>
+  <link rel='canonical' href='https://danysk.github.io/post/2022-08-01-oop/' />
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+  <meta name='description' content='Siccome prometto che i commenti li leggo tutti, grosso modo li commento tutti.' />
+  <meta name='theme-color' content='#FD3519' />
+  
+
+  <meta name="generator" content="Hugo 0.101.0" />
+
+  
+
+
+
+
+
+<link rel="stylesheet" href="https://danysk.github.io/sass/style.min.e9d654972aaf1bd2b0d08bc6892c08c325f6e6a18a8ccda98fcda48967e1631b.css" integrity="sha256-6dZUlyqvG9Kw0IvGiSwIwyX25qGKjM2pj82kiWfhYxs=" media="screen">
+<link rel="stylesheet" href="https://danysk.github.io/syntax.min.css" integrity="" media="screen">
+
+  <meta property="og:title" content="Risposte ai questionari di OOP 2021/22" />
+<meta property="og:description" content="Siccome prometto che i commenti li leggo tutti, grosso modo li commento tutti." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://danysk.github.io/post/2022-08-01-oop/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-08-01T19:25:30+02:00" />
+<meta property="article:modified_time" content="2022-08-01T19:25:30+02:00" />
+
+
+  <meta itemprop="name" content="Risposte ai questionari di OOP 2021/22">
+<meta itemprop="description" content="Siccome prometto che i commenti li leggo tutti, grosso modo li commento tutti."><meta itemprop="datePublished" content="2021-08-01T19:25:30+02:00" />
+<meta itemprop="dateModified" content="2022-08-01T19:25:30+02:00" />
+<meta itemprop="wordCount" content="3776">
+<meta itemprop="keywords" content="" />
+</head>
+<body>
+
+  <header style="background-image:linear-gradient(
+      rgba(0,0,0,0.1),rgba(0,0,0,0.8)
+    ),url(&#39;https://upload.wikimedia.org/wikipedia/commons/7/7f/Code_on_computer_monitor_%28Unsplash%29.jpg&#39;)">
+  <div class="intro">
+    <div class="logo-container">
+      <a href="/">
+        <img src='https://0.gravatar.com/avatar/b96269945e9426825bdbba067eb3eaed?s=1000' alt="Profile Aggregate Programming for the Internet of Things" class="rounded-logo">
+      </a>
+    </div>
+    <h2>Hi, I'm Danilo 👋</h2>
+    <h3>Software engineer, researcher, scientist</h3>
+    <div class="menu">
+      
+
+        <p>
+            <a href="https://github.com/DanySK/Curriculum-Vitae/releases/latest/download/curriculum.pdf">
+                Curriculum Vitae
+            </a>
+        </p>
+
+        <p>
+            <a href="/portfolio/">
+                Selected publications
+            </a>
+        </p>
+
+        <p>
+            <a href="/post/">
+                Flow of thoughts
+            </a>
+        </p>
+
+        <p>
+            <a href="https://linktr.ee/danilo.pianini">
+                Linktr.ee
+            </a>
+        </p>
+
+      
+        
+        <p>
+            <a href="mailto:danilo.pianini@gmail.com" target="_blank" rel="external">
+                Contact
+            </a>
+        </p>
+      
+    </div>
+  </div>
+
+  <div class="socials">
+      
+  
+    <a href="dsad" class="social-link" target="_blank" rel="noopener" ><div class="icon">
+  <svg width="35px" height="35px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+  
+  </svg>
+</div>
+</a>
+  
+
+  
+    <a href="https://www.facebook.com/danilo.pianini" class="social-link" target="_blank" rel="noopener" ><div class="icon">
+  <svg width="35px" height="35px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+  
+  <path d="M115 12.321v90.358c0 6.802-5.519 12.321-12.321 12.321H80.782V69.513h15.556l2.233-17.352H80.782V41.07c0-5.03 1.387-8.445 8.6-8.445h9.19V17.122c-1.592-.206-7.034-.693-13.4-.693-13.246 0-22.333 8.086-22.333 22.948v12.81H47.232v17.352h15.633V115H12.321C5.52 115 0 109.481 0 102.679V12.32C0 5.52 5.519 0 12.321 0h90.358C109.48 0 115 5.519 115 12.321z" />
+  
+  </svg>
+</div>
+</a>
+  
+
+  
+    <a href="https://github.com/DanySK" class="social-link" target="_blank" rel="noopener" ><div class="icon">
+  <svg width="35px" height="35px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+  
+  <path d="M102.679 0H12.32C5.52 0 0 5.519 0 12.321v90.358C0 109.48 5.519 115 12.321 115h90.358c6.802 0 12.321-5.519 12.321-12.321V12.32C115 5.52 109.481 0 102.679 0zM71.182 98.494c-2.156.385-2.952-.95-2.952-2.053 0-1.386.051-8.471.051-14.195 0-4.005-1.335-6.546-2.9-7.881C74.878 73.313 84.89 72.003 84.89 55.6c0-4.671-1.669-7.007-4.39-10.01.436-1.105 1.9-5.648-.436-11.552-3.568-1.104-11.731 4.595-11.731 4.595-3.389-.95-7.06-1.438-10.679-1.438-3.62 0-7.29.488-10.679 1.438 0 0-8.163-5.699-11.73-4.595-2.337 5.878-.899 10.422-.437 11.551-2.72 3.004-4.004 5.34-4.004 10.011 0 16.326 9.574 17.712 19.072 18.765-1.232 1.104-2.336 3.003-2.72 5.724-2.44 1.104-8.677 3.004-12.4-3.568-2.335-4.056-6.545-4.39-6.545-4.39-4.159-.05-.282 2.619-.282 2.619 2.772 1.283 4.723 6.212 4.723 6.212 2.49 7.624 14.4 5.057 14.4 5.057 0 3.568.052 9.37.052 10.422 0 1.104-.77 2.438-2.952 2.053C27.21 92.821 15.35 76.701 15.35 57.86c0-23.564 18.02-41.456 41.585-41.456s42.663 17.892 42.663 41.456c.026 18.842-11.474 34.988-28.416 40.635zM46 82.81c-.488.103-.95-.102-1.001-.436-.051-.385.282-.719.77-.822.488-.05.95.154 1.001.488.077.334-.257.668-.77.77zm-2.439-.23c0 .333-.385.615-.898.615-.565.052-.95-.23-.95-.616 0-.333.385-.616.899-.616.487-.051.95.231.95.616zm-3.516-.283c-.103.334-.616.488-1.053.334-.488-.103-.821-.488-.719-.822.103-.334.617-.488 1.053-.385.513.154.847.54.719.873zm-3.158-1.386c-.23.282-.718.23-1.104-.154-.385-.334-.487-.822-.23-1.053.23-.282.718-.23 1.103.154.334.334.462.847.231 1.053zm-2.336-2.336c-.23.154-.667 0-.95-.385-.282-.385-.282-.822 0-1.001.283-.231.72-.052.95.333.283.385.283.847 0 1.053zm-1.668-2.49c-.231.23-.616.103-.899-.154-.282-.334-.333-.719-.102-.899.23-.23.616-.102.898.154.282.334.334.72.103.899zm-1.72-1.9c-.103.231-.436.283-.719.103-.334-.154-.488-.436-.385-.667.103-.154.385-.231.719-.103.334.18.488.462.385.667z"/>
+  
+  </svg>
+</div>
+</a>
+  
+
+  
+    <a href="https://gitlab.com/danilo.pianini" class="social-link" target="_blank" rel="noopener" ><div class="icon">
+  <svg width="35px" height="35px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+  
+  <path d="M23.76 5.544c-.693-1.991-3.512-1.991-4.228 0L6.892 44.653h29.532c-.022 0-12.663-39.11-12.663-39.11zM.426 64.34c-.582 1.79.067 3.782 1.589 4.923l55.464 41.167-50.61-65.778L.426 64.34zm35.977-19.688L57.5 110.43l21.098-65.778H36.402zm78.173 19.688l-6.444-19.688L57.5 110.43l55.464-41.167a4.475 4.475 0 0 0 1.61-4.923zM95.468 5.544c-.694-1.991-3.513-1.991-4.229 0L78.576 44.653h29.533L95.468 5.543z" />
+  
+  </svg>
+</div>
+</a>
+  
+
+  
+    <a href="https://www.instagram.com/pianinidanilo" class="social-link" target="_blank" rel="noopener" ><div class="icon">
+  <svg width="35px" height="35px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+  
+  <path d="M57.526 28.111c-16.254 0-29.364 13.11-29.364 29.363 0 16.254 13.11 29.364 29.364 29.364 16.253 0 29.363-13.11 29.363-29.364 0-16.253-13.11-29.363-29.363-29.363zm0 48.453c-10.504 0-19.09-8.56-19.09-19.09 0-10.528 8.56-19.09 19.09-19.09 10.528 0 19.09 8.562 19.09 19.09 0 10.53-8.587 19.09-19.09 19.09zM94.939 26.91a6.833 6.833 0 0 1-6.849 6.849 6.833 6.833 0 0 1-6.849-6.849 6.85 6.85 0 0 1 13.698 0zm19.448 6.951c-.435-9.174-2.53-17.301-9.251-23.997C98.44 3.17 90.313 1.074 81.139.614c-9.456-.537-37.797-.537-47.252 0-9.15.434-17.276 2.53-23.997 9.225S1.099 24.66.639 33.836c-.537 9.455-.537 37.796 0 47.252.434 9.174 2.53 17.3 9.251 23.996 6.721 6.696 14.822 8.792 23.997 9.252 9.455.536 37.796.536 47.252 0 9.174-.435 17.301-2.53 23.997-9.252 6.695-6.695 8.79-14.822 9.25-23.996.537-9.456.537-37.771 0-47.227zM102.17 91.233c-1.993 5.01-5.852 8.868-10.887 10.887-7.538 2.99-25.427 2.3-33.758 2.3-8.332 0-26.246.664-33.76-2.3-5.008-1.993-8.867-5.852-10.886-10.887-2.99-7.539-2.3-25.427-2.3-33.759 0-8.33-.664-26.245 2.3-33.758 1.993-5.01 5.852-8.868 10.887-10.887 7.539-2.99 25.427-2.3 33.759-2.3 8.33 0 26.245-.665 33.758 2.3 5.01 1.993 8.868 5.852 10.887 10.887 2.99 7.538 2.3 25.427 2.3 33.758 0 8.332.69 26.246-2.3 33.76z" />
+  
+  </svg>
+</div>
+</a>
+  
+
+  
+    <a href="https://www.linkedin.com/in/danilo-pianini" class="social-link" target="_blank" rel="noopener" ><div class="icon">
+  <svg width="35px" height="35px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+  
+  <path d="M106.786 0H8.189C3.67 0 0 3.722 0 8.291v98.418C0 111.278 3.67 115 8.189 115h98.597c4.518 0 8.214-3.722 8.214-8.291V8.29C115 3.722 111.304 0 106.786 0zm-72.03 98.571H17.713V43.69h17.07V98.57h-.025zm-8.522-62.377c-5.467 0-9.882-4.44-9.882-9.883 0-5.442 4.415-9.882 9.882-9.882 5.442 0 9.883 4.44 9.883 9.882a9.87 9.87 0 0 1-9.883 9.883zm72.414 62.377H81.604V71.875c0-6.366-.129-14.555-8.856-14.555-8.882 0-10.242 6.931-10.242 14.093V98.57H45.46V43.69h16.352v7.495h.23c2.285-4.312 7.855-8.856 16.147-8.856 17.25 0 20.458 11.372 20.458 26.158V98.57z"/>
+  
+  </svg>
+</div>
+</a>
+  
+
+  
+    <a href="https://twitter.com/DanySK86" class="social-link" target="_blank" rel="noopener" ><div class="icon">
+  <svg width="35px" height="35px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+  
+  <path d="M102.679 0H12.32C5.52 0 0 5.519 0 12.321v90.358C0 109.48 5.519 115 12.321 115h90.358c6.802 0 12.321-5.519 12.321-12.321V12.32C115 5.52 109.481 0 102.679 0zM90.126 40.763c.051.72.051 1.464.051 2.182 0 22.256-16.942 47.9-47.9 47.9-9.548 0-18.404-2.772-25.848-7.547 1.36.154 2.67.205 4.055.205 7.881 0 15.12-2.67 20.895-7.187-7.392-.154-13.604-5.006-15.735-11.68 2.593.385 4.929.385 7.598-.308a16.837 16.837 0 0 1-13.476-16.531v-.205a16.824 16.824 0 0 0 7.598 2.13 16.8 16.8 0 0 1-7.496-14.016c0-3.131.822-6.006 2.285-8.496a47.803 47.803 0 0 0 34.705 17.61c-2.387-11.424 6.161-20.69 16.429-20.69 4.851 0 9.215 2.027 12.296 5.313a32.99 32.99 0 0 0 10.678-4.056 16.792 16.792 0 0 1-7.393 9.267c3.389-.36 6.674-1.31 9.703-2.618a35.437 35.437 0 0 1-8.445 8.727z"/>
+  
+  </svg>
+</div>
+</a>
+  
+
+  
+    <a href="https://www.youtube.com/channel/UCbMONiRSiUzvuyBldnsDT_g" class="social-link" target="_blank" rel="noopener" ><div class="icon">
+  <svg width="35px" height="35px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+  
+  <path d="M47.95 43.664l24.438 13.887L47.951 71.44V43.664zM115 12.321v90.358c0 6.802-5.519 12.321-12.321 12.321H12.32C5.52 115 0 109.481 0 102.679V12.32C0 5.52 5.519 0 12.321 0h90.358C109.48 0 115 5.519 115 12.321zm-10.781 45.256s0-15.3-1.951-22.64c-1.078-4.056-4.236-7.24-8.266-8.318-7.264-1.976-36.502-1.976-36.502-1.976s-29.238 0-36.502 1.976c-4.03 1.079-7.188 4.262-8.266 8.317-1.95 7.316-1.95 22.641-1.95 22.641s0 15.3 1.95 22.64c1.078 4.056 4.236 7.111 8.266 8.19 7.264 1.95 36.502 1.95 36.502 1.95s29.238 0 36.502-1.976c4.03-1.079 7.188-4.133 8.266-8.189 1.95-7.316 1.95-22.615 1.95-22.615z" />
+  
+  </svg>
+</div>
+</a>
+  
+
+  </div>
+</header>
+
+<div class="mobile-header">
+  <p> Danilo Pianini </p>
+  <div class="hamburger">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+</div>
+
+<div class="overlay-menu">
+  <header>
+    <div class="intro">
+      <div class="logo-container">
+        <a href="/">
+          <img src='https://0.gravatar.com/avatar/b96269945e9426825bdbba067eb3eaed?s=1000' alt="Profile Aggregate Programming for the Internet of Things" class="rounded-logo">
+        </a>
+      </div>
+      <h2>Hi, I'm Danilo 👋</h2>
+      <h3>Software engineer, researcher, scientist</h3>
+      <div class="menu">
+        
+
+        <p>
+            <a href="https://github.com/DanySK/Curriculum-Vitae/releases/latest/download/curriculum.pdf">
+                Curriculum Vitae
+            </a>
+        </p>
+
+        <p>
+            <a href="/portfolio/">
+                Selected publications
+            </a>
+        </p>
+
+        <p>
+            <a href="/post/">
+                Flow of thoughts
+            </a>
+        </p>
+
+        <p>
+            <a href="https://linktr.ee/danilo.pianini">
+                Linktr.ee
+            </a>
+        </p>
+
+        
+          
+          <p>
+              <a href="mailto:danilo.pianini@gmail.com" target="_blank" rel="external">
+                  Contact
+              </a>
+          </p>
+        
+      </div>
+    </div>
+
+    <div class="socials">
+        
+  
+    <a href="dsad" class="social-link" target="_blank" rel="noopener" ><div class="icon">
+  <svg width="35px" height="35px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+  
+  </svg>
+</div>
+</a>
+  
+
+  
+    <a href="https://www.facebook.com/danilo.pianini" class="social-link" target="_blank" rel="noopener" ><div class="icon">
+  <svg width="35px" height="35px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+  
+  <path d="M115 12.321v90.358c0 6.802-5.519 12.321-12.321 12.321H80.782V69.513h15.556l2.233-17.352H80.782V41.07c0-5.03 1.387-8.445 8.6-8.445h9.19V17.122c-1.592-.206-7.034-.693-13.4-.693-13.246 0-22.333 8.086-22.333 22.948v12.81H47.232v17.352h15.633V115H12.321C5.52 115 0 109.481 0 102.679V12.32C0 5.52 5.519 0 12.321 0h90.358C109.48 0 115 5.519 115 12.321z" />
+  
+  </svg>
+</div>
+</a>
+  
+
+  
+    <a href="https://github.com/DanySK" class="social-link" target="_blank" rel="noopener" ><div class="icon">
+  <svg width="35px" height="35px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+  
+  <path d="M102.679 0H12.32C5.52 0 0 5.519 0 12.321v90.358C0 109.48 5.519 115 12.321 115h90.358c6.802 0 12.321-5.519 12.321-12.321V12.32C115 5.52 109.481 0 102.679 0zM71.182 98.494c-2.156.385-2.952-.95-2.952-2.053 0-1.386.051-8.471.051-14.195 0-4.005-1.335-6.546-2.9-7.881C74.878 73.313 84.89 72.003 84.89 55.6c0-4.671-1.669-7.007-4.39-10.01.436-1.105 1.9-5.648-.436-11.552-3.568-1.104-11.731 4.595-11.731 4.595-3.389-.95-7.06-1.438-10.679-1.438-3.62 0-7.29.488-10.679 1.438 0 0-8.163-5.699-11.73-4.595-2.337 5.878-.899 10.422-.437 11.551-2.72 3.004-4.004 5.34-4.004 10.011 0 16.326 9.574 17.712 19.072 18.765-1.232 1.104-2.336 3.003-2.72 5.724-2.44 1.104-8.677 3.004-12.4-3.568-2.335-4.056-6.545-4.39-6.545-4.39-4.159-.05-.282 2.619-.282 2.619 2.772 1.283 4.723 6.212 4.723 6.212 2.49 7.624 14.4 5.057 14.4 5.057 0 3.568.052 9.37.052 10.422 0 1.104-.77 2.438-2.952 2.053C27.21 92.821 15.35 76.701 15.35 57.86c0-23.564 18.02-41.456 41.585-41.456s42.663 17.892 42.663 41.456c.026 18.842-11.474 34.988-28.416 40.635zM46 82.81c-.488.103-.95-.102-1.001-.436-.051-.385.282-.719.77-.822.488-.05.95.154 1.001.488.077.334-.257.668-.77.77zm-2.439-.23c0 .333-.385.615-.898.615-.565.052-.95-.23-.95-.616 0-.333.385-.616.899-.616.487-.051.95.231.95.616zm-3.516-.283c-.103.334-.616.488-1.053.334-.488-.103-.821-.488-.719-.822.103-.334.617-.488 1.053-.385.513.154.847.54.719.873zm-3.158-1.386c-.23.282-.718.23-1.104-.154-.385-.334-.487-.822-.23-1.053.23-.282.718-.23 1.103.154.334.334.462.847.231 1.053zm-2.336-2.336c-.23.154-.667 0-.95-.385-.282-.385-.282-.822 0-1.001.283-.231.72-.052.95.333.283.385.283.847 0 1.053zm-1.668-2.49c-.231.23-.616.103-.899-.154-.282-.334-.333-.719-.102-.899.23-.23.616-.102.898.154.282.334.334.72.103.899zm-1.72-1.9c-.103.231-.436.283-.719.103-.334-.154-.488-.436-.385-.667.103-.154.385-.231.719-.103.334.18.488.462.385.667z"/>
+  
+  </svg>
+</div>
+</a>
+  
+
+  
+    <a href="https://gitlab.com/danilo.pianini" class="social-link" target="_blank" rel="noopener" ><div class="icon">
+  <svg width="35px" height="35px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+  
+  <path d="M23.76 5.544c-.693-1.991-3.512-1.991-4.228 0L6.892 44.653h29.532c-.022 0-12.663-39.11-12.663-39.11zM.426 64.34c-.582 1.79.067 3.782 1.589 4.923l55.464 41.167-50.61-65.778L.426 64.34zm35.977-19.688L57.5 110.43l21.098-65.778H36.402zm78.173 19.688l-6.444-19.688L57.5 110.43l55.464-41.167a4.475 4.475 0 0 0 1.61-4.923zM95.468 5.544c-.694-1.991-3.513-1.991-4.229 0L78.576 44.653h29.533L95.468 5.543z" />
+  
+  </svg>
+</div>
+</a>
+  
+
+  
+    <a href="https://www.instagram.com/pianinidanilo" class="social-link" target="_blank" rel="noopener" ><div class="icon">
+  <svg width="35px" height="35px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+  
+  <path d="M57.526 28.111c-16.254 0-29.364 13.11-29.364 29.363 0 16.254 13.11 29.364 29.364 29.364 16.253 0 29.363-13.11 29.363-29.364 0-16.253-13.11-29.363-29.363-29.363zm0 48.453c-10.504 0-19.09-8.56-19.09-19.09 0-10.528 8.56-19.09 19.09-19.09 10.528 0 19.09 8.562 19.09 19.09 0 10.53-8.587 19.09-19.09 19.09zM94.939 26.91a6.833 6.833 0 0 1-6.849 6.849 6.833 6.833 0 0 1-6.849-6.849 6.85 6.85 0 0 1 13.698 0zm19.448 6.951c-.435-9.174-2.53-17.301-9.251-23.997C98.44 3.17 90.313 1.074 81.139.614c-9.456-.537-37.797-.537-47.252 0-9.15.434-17.276 2.53-23.997 9.225S1.099 24.66.639 33.836c-.537 9.455-.537 37.796 0 47.252.434 9.174 2.53 17.3 9.251 23.996 6.721 6.696 14.822 8.792 23.997 9.252 9.455.536 37.796.536 47.252 0 9.174-.435 17.301-2.53 23.997-9.252 6.695-6.695 8.79-14.822 9.25-23.996.537-9.456.537-37.771 0-47.227zM102.17 91.233c-1.993 5.01-5.852 8.868-10.887 10.887-7.538 2.99-25.427 2.3-33.758 2.3-8.332 0-26.246.664-33.76-2.3-5.008-1.993-8.867-5.852-10.886-10.887-2.99-7.539-2.3-25.427-2.3-33.759 0-8.33-.664-26.245 2.3-33.758 1.993-5.01 5.852-8.868 10.887-10.887 7.539-2.99 25.427-2.3 33.759-2.3 8.33 0 26.245-.665 33.758 2.3 5.01 1.993 8.868 5.852 10.887 10.887 2.99 7.538 2.3 25.427 2.3 33.758 0 8.332.69 26.246-2.3 33.76z" />
+  
+  </svg>
+</div>
+</a>
+  
+
+  
+    <a href="https://www.linkedin.com/in/danilo-pianini" class="social-link" target="_blank" rel="noopener" ><div class="icon">
+  <svg width="35px" height="35px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+  
+  <path d="M106.786 0H8.189C3.67 0 0 3.722 0 8.291v98.418C0 111.278 3.67 115 8.189 115h98.597c4.518 0 8.214-3.722 8.214-8.291V8.29C115 3.722 111.304 0 106.786 0zm-72.03 98.571H17.713V43.69h17.07V98.57h-.025zm-8.522-62.377c-5.467 0-9.882-4.44-9.882-9.883 0-5.442 4.415-9.882 9.882-9.882 5.442 0 9.883 4.44 9.883 9.882a9.87 9.87 0 0 1-9.883 9.883zm72.414 62.377H81.604V71.875c0-6.366-.129-14.555-8.856-14.555-8.882 0-10.242 6.931-10.242 14.093V98.57H45.46V43.69h16.352v7.495h.23c2.285-4.312 7.855-8.856 16.147-8.856 17.25 0 20.458 11.372 20.458 26.158V98.57z"/>
+  
+  </svg>
+</div>
+</a>
+  
+
+  
+    <a href="https://twitter.com/DanySK86" class="social-link" target="_blank" rel="noopener" ><div class="icon">
+  <svg width="35px" height="35px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+  
+  <path d="M102.679 0H12.32C5.52 0 0 5.519 0 12.321v90.358C0 109.48 5.519 115 12.321 115h90.358c6.802 0 12.321-5.519 12.321-12.321V12.32C115 5.52 109.481 0 102.679 0zM90.126 40.763c.051.72.051 1.464.051 2.182 0 22.256-16.942 47.9-47.9 47.9-9.548 0-18.404-2.772-25.848-7.547 1.36.154 2.67.205 4.055.205 7.881 0 15.12-2.67 20.895-7.187-7.392-.154-13.604-5.006-15.735-11.68 2.593.385 4.929.385 7.598-.308a16.837 16.837 0 0 1-13.476-16.531v-.205a16.824 16.824 0 0 0 7.598 2.13 16.8 16.8 0 0 1-7.496-14.016c0-3.131.822-6.006 2.285-8.496a47.803 47.803 0 0 0 34.705 17.61c-2.387-11.424 6.161-20.69 16.429-20.69 4.851 0 9.215 2.027 12.296 5.313a32.99 32.99 0 0 0 10.678-4.056 16.792 16.792 0 0 1-7.393 9.267c3.389-.36 6.674-1.31 9.703-2.618a35.437 35.437 0 0 1-8.445 8.727z"/>
+  
+  </svg>
+</div>
+</a>
+  
+
+  
+    <a href="https://www.youtube.com/channel/UCbMONiRSiUzvuyBldnsDT_g" class="social-link" target="_blank" rel="noopener" ><div class="icon">
+  <svg width="35px" height="35px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+  
+  <path d="M47.95 43.664l24.438 13.887L47.951 71.44V43.664zM115 12.321v90.358c0 6.802-5.519 12.321-12.321 12.321H12.32C5.52 115 0 109.481 0 102.679V12.32C0 5.52 5.519 0 12.321 0h90.358C109.48 0 115 5.519 115 12.321zm-10.781 45.256s0-15.3-1.951-22.64c-1.078-4.056-4.236-7.24-8.266-8.318-7.264-1.976-36.502-1.976-36.502-1.976s-29.238 0-36.502 1.976c-4.03 1.079-7.188 4.262-8.266 8.317-1.95 7.316-1.95 22.641-1.95 22.641s0 15.3 1.95 22.64c1.078 4.056 4.236 7.111 8.266 8.19 7.264 1.95 36.502 1.95 36.502 1.95s29.238 0 36.502-1.976c4.03-1.079 7.188-4.133 8.266-8.189 1.95-7.316 1.95-22.615 1.95-22.615z" />
+  
+  </svg>
+</div>
+</a>
+  
+
+    </div>
+  </header>
+</div>
+
+  <div class="content-wrapper">
+    
+      <div class="breadcrumb">
+  
+
+
+
+
+
+<span >
+  <a href="https://danysk.github.io/">HOME</a>
+   / 
+</span>
+
+
+<span >
+  <a href="https://danysk.github.io/post/">FLOW OF THOUGHTS</a>
+   / 
+</span>
+
+
+<span  class="active">
+  <a href="https://danysk.github.io/post/2022-08-01-oop/">Risposte ai questionari di OOP 2021/22</a>
+  
+</span>
+
+</div>
+
+    
+    <main id="content" class="post">
+
+<h1>Risposte ai questionari di OOP 2021/22</h1>
+<div class="reading-time">
+  <div class="icon">
+  <svg width="18px" height="18px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+  
+  <path d="M57.5 11C29.05 11 6 34.05 6 62.5S29.05 114 57.5 114 109 90.95 109 62.5 85.95 11 57.5 11zm0 93.032c-22.947 0-41.532-18.585-41.532-41.532 0-22.947 18.585-41.532 41.532-41.532 22.947 0 41.532 18.585 41.532 41.532 0 22.947-18.585 41.532-41.532 41.532zm12.833-21.68L52.703 69.54a2.508 2.508 0 0 1-1.018-2.015V33.427a2.5 2.5 0 0 1 2.492-2.492h6.646a2.5 2.5 0 0 1 2.492 2.492v29.426l13.871 10.092c1.122.81 1.35 2.368.54 3.49l-3.904 5.377a2.51 2.51 0 0 1-3.489.54z"/>
+  
+  </svg>
+</div>
+
+  <span>18 minutes</span>
+</div>
+
+<div class="published-date">
+  <div class="icon">
+  <svg width="18px" height="18px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+  
+  <path d="M77.577 51.23a1.807 1.807 0 0 0-2.2.342l-27.562 27.79a1.807 1.807 0 0 1-2.2.342l-14.008-9.702a1.807 1.807 0 0 0-2.2.342l-1.952 1.968c-.287.22-.456.568-.455.936.001.37.172.716.46.934L45.637 86.77a1.807 1.807 0 0 0 2.2-.342l31.709-31.97c.287-.22.456-.567.455-.936a1.175 1.175 0 0 0-.46-.933l-1.963-1.36z"/><path d="M97.304 20H80.512c-.041.34-.063.683-.064 1.026a5.986 5.986 0 0 0 1.256 4.1c.054.003.103.02.157.025a4.881 4.881 0 0 1 1.865-.025c3.05.562 4.984 3.907 4.32 7.47-.666 3.563-3.678 5.996-6.728 5.433a4.932 4.932 0 0 1-2.437-1.258c-6.018-1.378-10.445-7.795-10.445-15.745 0-.347.023-.685.04-1.026H34.579c-.041.34-.063.683-.064 1.026a5.986 5.986 0 0 0 1.256 4.1c.054.003.103.02.157.025a4.881 4.881 0 0 1 1.865-.025c3.05.562 4.984 3.907 4.32 7.47-.666 3.563-3.678 5.996-6.728 5.433a4.932 4.932 0 0 1-2.437-1.258c-6.018-1.378-10.445-7.795-10.445-15.745 0-.22.019-.434.025-.652a9.788 9.788 0 0 0-5.697 4.471 9.683 9.683 0 0 0-2.65 4.764L1.158 92.871c-.965 4.689 2.6 8.503 7.948 8.503h6.334v2.673c-.077 5.41 4.263 9.861 9.705 9.953h72.16c5.438-.095 9.774-4.546 9.694-9.953V29.953c.08-5.407-4.256-9.858-9.695-9.953zM10.078 96.653c-2.378 0-3.964-1.697-3.535-3.782L16.637 43.84h80.787L87.331 92.871a5.254 5.254 0 0 1-5.091 3.782H10.078zm91.535 7.394c.036 2.403-1.891 4.382-4.308 4.424h-72.16c-2.42-.04-4.352-2.018-4.32-4.424v-2.673h60.443c5.348 0 10.484-3.814 11.449-8.503l8.897-43.215v54.391z"/><path d="M34.814 33c1.243 0 2.251-1.057 2.251-2.36 0-1.305-1.008-2.362-2.25-2.362-2.04 0-4.313-3.194-4.313-7.778s2.272-7.778 4.312-7.778c1.227 0 2.536 1.163 3.386 3.084H43C41.716 11.19 38.578 8 34.814 8 29.871 8 26 13.49 26 20.5c0 7.009 3.871 12.5 8.814 12.5z"/>
+  
+  </svg>
+</div>
+
+  <span>August 1, 2021</span>
+</div>
+
+<p>Per ogni corso, l&rsquo;Università di Bologna richiede agli studenti di compilare dei questionari anonimi, i cui risultati sono poi visibili ai docenti.</p>
+<p>Personalmente insisto sull&rsquo;importanza di compilare (oltre allo spazio con le risposte sintetiche sul gradimento del corso) anche lo spazio con i commenti in testo libero,
+visto che scoccio per scriverli, mi prendo la briga di leggerli e rispondere.
+I commenti dovrebbero esserci tutti, tranne quelli con argomenti capiti meglio / peggio senza un chiaro contesto.</p>
+<p>I commenti positivi sono raccolti in fondo,
+le critiche ed i suggerimenti sono in cima, organizzati per macro-argomenti.
+L&rsquo;ordine in cui appaiono i commenti è quello delle schede del sistema UniBo,
+fatta eccezione quando rispondo a multipli commenti con una sola risposta.</p>
+<p>I commenti riferiti a colleghi o tutor non sono riportati
+(ma mi assicuro di inoltrare sempre i secondi ai destinatari).</p>
+<p>Il corso è stato svolto in didattica mista a causa del coronavirus.</p>
+<h2 id="organizzazione">Organizzazione</h2>
+<blockquote>
+<p>🗨️ Data la mia esperienza io continuerei a mantenere la D.A.D. anche dopo il periodo COVID in quanto per diverse settimane sono
+stato malato e grazie a questa modalitá sono riuscito a seguire ogni corso senza dover fare ricorso a appunti di altri studenti. Lo
+ritengo un passo verso il futuro e non vedo il motivo di volerla togliere.</p>
+</blockquote>
+<p>↪️ Beh, un motivo è che molti perdono motivazione a seguire
+(tanto c&rsquo;è la registrazione)
+e finiscono poi col restare indietro.
+Un altro è che ci costringe ad usare un sistema di ticketing per gestire le richieste,
+che rende complicato e lento il fornire aiuto.
+Vediamo: non è detto che non ne terremo in piedi delle parti.</p>
+<blockquote>
+<p>🗨️ ho trovato 2 problemi: l&rsquo;orario delle lezioni del laboratorio e il testo degli esercizi. penso che svolgere il laboratorio all inizio della
+settimana sia troppo lontano dalle lezioni, secondo me sarebbe stato meglio farlo come ultima lezione della settimana in modo tale
+da avere ancora in testa ciò che è stato detto a lezione e permettere a tutti di avere del tempo per finire gli esercizi (avendo il
+laboratorio il martedì, o svolgo gli esercizi durante la lezione, oppure devo aspettare il weekend per farli perché durante la settimana
+è torno sempre a casa tardi dall&rsquo; università).</p>
+</blockquote>
+<p>↪️ Non c&rsquo;è molto che si possa fare a riguardo, purtroppo, ma grazie del consiglio.</p>
+<blockquote>
+<p>🗨️ &ldquo;Scarsità&rdquo; di ore dedicate a questo corso che portano ad avere un carico di studio maggiore per riuscire a comprendere argomenti
+importanti molto profondi</p>
+</blockquote>
+<p>↪️ I crediti sono quelli, e quindi le ore sono quelle.</p>
+<blockquote>
+<p>🗨️ La difficoltà delle lezioni (e quindi anche degli esercizi da svolgere) cresce esponenzialmente. Questi rende più difficoltoso
+l&rsquo;apprendimento per chi parte da zero con la programmazione ad oggetti.</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Il corso è difficile e molto ampio, a mio parere si tende ad andare troppo veloci e il carico di studio risulta molto pesante</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Ad un certo punto il corso impenna di difficoltà ma ci può stare.
+C&rsquo;è molta differenza di difficoltà tra gli esempi visti a lezione e gli esercizi effettivi in laboratorio</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Ogni tanto è stato difficile stare al passo con il carico complessivo di studio.</p>
+</blockquote>
+<blockquote>
+<p>🗨️ L&rsquo;accelerazione troppo rapida da una settimana all&rsquo;altra di complessità degli esercizi</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Dal laboratorio 5 si è complicato molto, faccio molta più fatica a seguire e eseguire gli esercizi. Inoltre la trattazione di git è stata
+molto veloce per uno che non l&rsquo;ha mai visto</p>
+</blockquote>
+<blockquote>
+<p>🗨️ L&rsquo;unico lato negativo che posso trovare è la mole di esercizi assegnati settimanalmente che, nonostante sia tarata per essere svolta
+anche a casa, è comunque, a parer mio, importante.</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Più o meno ho sempre cercato di rimanere al passo con gli argomenti, ma spesso mi è risultato difficile e stressante</p>
+</blockquote>
+<p>↪️ Tutto vero, e ve lo diciamo fin dalla prima lezione:
+dal lab 5 si accelera molto velocemente.
+A lezione vedete alcuni casi esemplificativi,
+in laboratorio dovete sporcarvi un po&rsquo; più le mani.
+La quantità di esercizi è tarata per far sì che, a meno che non siate fenomeni, abbiate qualcosa su cui rimuginare a casa.</p>
+<blockquote>
+<p>🗨️ Spiegazioni lunghe che tolgono tempo all&rsquo;esercitazione in laboratorio</p>
+</blockquote>
+<p>↪️ Sì, è vero, e d&rsquo;altra parte, come detto sopra, queste sono le ore che abbiamo.</p>
+<h2 id="contenuti">Contenuti</h2>
+<blockquote>
+<p>🗨️ Nonostante il corso incoraggi lo studente a cercare da solo la soluzione al proprio problema avventurandosi nei sistemi complessi
+che vengono affrontati, è probabile che un modo molto utile per aiutare lo studente in difficoltà sia pubblicare, insieme alle soluzioni
+di codice, anche dei file text che indichino soluzioni per quanto riguarda compilazioni da riga di comando (ancora tediose per ora) o
+eventuali esercizi di commit con Git. Il corso è strutturato molto bene nel complesso e anche in parecchi aspetti specifici e credo
+che questo sia l&rsquo;unico aspetto fisicamente migliorabile</p>
+</blockquote>
+<p>↪️ Sarebbero tutti file molto, molto simili fra loro 😄 :</p>
+<pre tabindex="0"><code>javac -d bin src/**/*.java
+java -cp bin main.class.Name
+</code></pre><p>Invece mi sembra ottimo il suggerimento di allegare qualche esempio di uso di git non banale.</p>
+<blockquote>
+<p>🗨️  Avevo difficoltà a avere motivazione a fare gli esercizi, erano un po&rsquo; &ldquo;noiosi&rdquo;, non intendo inutili. Avevo difficoltà a trovare &ldquo;la voglia&rdquo;
+di farli. Nel corso di programmazione del primo anno, i professori usavano delle ricreazioni di giochi dove noi dovevamo scrivere
+una funzione per renderlo funzionante, questo dava soddisfazione.</p>
+</blockquote>
+<p>↪️ Interessante. Approccio che valuteremo.</p>
+<blockquote>
+<p>🗨️ Per ora non è ancora un problema, ma potrei avere difficoltà a rimanere in pari con gli argomenti trattati, ad ogni lezione la mole di
+argomenti sale significativamente in quanto bisogna ogni volta sapere la parte precedente</p>
+</blockquote>
+<p>↪️ confermo, il corso è incrementale, tutto quello fatto in precedenza serve successivamente.
+D&rsquo;altronde non è che uno quando studia come fare il tetto della casa può dimenticare tutto di come si fan le fondamenta, altrimenti la casa non la fa.</p>
+<blockquote>
+<p>🗨️ Sono rimasto molto soddisfatto delle ore dedicate all&rsquo;insegnamento di git.</p>
+</blockquote>
+<p>↪️ ottimo 🚀</p>
+<h2 id="erogazione">Erogazione</h2>
+<blockquote>
+<p>🗨️ Problemi ad offrire aiuti se il laboratorio veniva svolto online, il prof lascia di solito la classe un&rsquo;ora prima: rimane quindi spesso un
+solo tutor presente a dare aiuti e correzioni ai ragazzi sia in laboratorio che da casa.</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Consiglio magari al prof di restare presente fino a fine lezione per poter così meglio aiutare tutti i ragazzi presenti al laboratorio.</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Avrei apprezzato se il tempo di permanenza del professore in aula durante il laboratorio fosse stato maggiore, in quanto a volte è
+difficile farsi correggere gli esercizi, soprattutto se l&rsquo;affluenza è alta. Nonostante ciò, ho decisamente gradito l&rsquo;impostazione del
+corso e la qualità della didattica.</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Si potrebbero inserire più tutor o avere più lezioni di laboratorio in modo da suddividere gli studenti in gruppi più piccoli, così da
+gestirli meglio</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Non sono mai riuscito a farmi correggere gli esercizi dal prof. o dal tutor (online) per mancanza di tempo (finiva sempre la lezione</p>
+</blockquote>
+<p>↪️ Il numero di ore da coprire non è arbitrario:
+è inevitabile che lasci il laboratorio un&rsquo;ora prima.
+Non abbiamo purtroppo nemmeno margine per avere più tutor e più ore,
+però ci sono i ricevimenti, che nessuno ha sfruttato.
+L&rsquo;erogazione mista dei laboratori è un po&rsquo; problematica,
+vedremo come affrontare la cosa.</p>
+<blockquote>
+<p>🗨️ Un problema è dato dai controlli del codice in laboratorio. Il sistema di ticketing di per sé è buono ma difficilmente sono riuscito a
+farmi controllare una buona parte del codice in laboratorio. Non c&rsquo;è molto che si possa fare a riguardo essendo questo un limite che
+prescinde dagli sforzi dei professori che sono comunque molto attivi (si pensi anche al forum dove è comunque possibile chiedere
+qualsiasi cosa anche riguardo il codice degli esercizi in laboratorio), ma vale la pena evidenziare che a volte esistono difficoltà
+correlate a questo, negli studenti che hanno basi meno approfondite della materia</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Il corso permette di provare le conoscenze teoriche acquisite mettendosi in gioco&hellip;
+spesso forse fin troppo duramente, il supporto dei docenti c&rsquo;è ma, probabilmente essendo tanti studenti da seguire, risulta
+insufficiente se si è in difficoltà seria</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Credo che il sistema di aiuto sia ottimo però dato l&rsquo;alto numero di studenti è difficile essere seguiti (ovviamente) in maniera puntuale.
+Capisco il problema, però è capitato troppo spesso che, nonostante abbia studiato gli argomenti delle lezioni e ascoltato la parte
+teorica di laboratorio, rimanessi indietro e non riuscissi ad andare avanti</p>
+</blockquote>
+<blockquote>
+<p>🗨️ La correzione degli esercizi da parte dei docenti in laboratorio non risulta efficiente (mi riferisco alla modalità via teams usata
+quest&rsquo;anno) a causa dell&rsquo;interminabile lista di richieste via teams.
+La maggior parte delle volte non sono riuscito ad avere la correzione e quindi capire i possibili errori commessi.</p>
+</blockquote>
+<blockquote>
+<p>🗨️ purtroppo la correzione non è così frequente, per la grande richiesta di correzioni.</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Difficile coordinarsi per la correzione degli esercizi in laboratorio.</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Non sono riuscito a farmi correggere gli esercizi in laboratorio, e come me anche altri miei amici. È necessaria una procedura di
+controllo degli esercizi svolti in laboratorio più efficace. Anche riportare da qualche parte gli errori più comuni sarebbe una buona
+idea.</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Essendo in tanti facevo fatica a chiamare il prof per chiarimenti poiché per me interpretare le consegne scritte è più difficile piuttosto
+che ascoltarle a voce</p>
+</blockquote>
+<blockquote>
+<p>🗨️ tempi attesa richiesta aiuto a volte elevati</p>
+</blockquote>
+<blockquote>
+<p>🗨️ L’ uso della piattaforma teams per gestire le richieste di aiuto/correzioni non mi è sembrata molto utile in quanto allungava di molto i
+tempi di attesa e (per il mio account) non è mai stata attivata a seguito di problemi con l’applicazione.</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Lo strumento di assistenza certe volte non funziona, perciò talvolta è difficile avvisare il professore di qualche domanda.</p>
+</blockquote>
+<p>↪️ In effetti il sistema di ticketing è men che subottimo.
+Purtroppo Teams non è fatto per quello e non abbiamo trovato strumenti migliori.
+Speriamo che il ritorno in presenza aiuti.</p>
+<blockquote>
+<p>🗨️ Per la parte di laboratorio suggerirei di dare agli studenti un esercizio in meno (4 invece di 5) e magari dedicare mezz&rsquo;ora o un&rsquo;ora
+per svolgere o rivedere l&rsquo;esercizio più complicato (anche per capire se il ragionamento usato per gli esercizi è giusto o meno)</p>
+</blockquote>
+<blockquote>
+<p>🗨️ sarebbe bello poter fare degli esercizi insieme al professore per poter capire meglio come muoversi.</p>
+</blockquote>
+<p>↪️ preferiamo l&rsquo;approccio corrente:
+ci si prova, e quando ci si blocca o si finisce si chiede aiuto o si fa una retrospettiva.
+Osservare il ragionamento di un docente non è formativo quanto sbattersi da soli,
+arrivare comunque alla soluzione,
+e vedere come si sarebbe potuto far di meglio.</p>
+<blockquote>
+<p>🗨️ Un altro punto a sfavore è la presentazione delle correzioni che sin dal primo laboratorio sono irraggiungibili (come design) per
+gente che ha appena imparato a programmare</p>
+</blockquote>
+<p>↪️ Dissento: è giusto che fin da subito vi si mostri l&rsquo;eccellenza tecnica.
+È <em>normalissimo</em>, e vi viene detto, che la soluzione cui arrivate non sia al livello di quella prodotta dai docenti.
+È giusto quindi che vi si mostri il meglio che riusciamo a fare, così che possiate maturare coscienza di quali sono gli aspetti su cui avete margine per migliorare.</p>
+<blockquote>
+<p>🗨️ Per quanto le spiegazioni siano molto chiare ed esaustive, qualche volta vengono svolte con un&rsquo;improvvisa celerità che, pur
+essendo in grado di stare al passo, potrebbe mettere in leggera difficoltà</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Alcuni argomenti potevano essere spiegati un po&rsquo; più lentamente, per esempio Git (soprattutto per chi non lo ha mai usato prima di
+questo corso è parso un po&rsquo; complicato inizialmente)</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Alcune feature di git sono state affrontate molto velocemente e non viste tramite esempi, perciò non ho compreso attentamente il
+relativo funzionamento.</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Durante il corso vengono spiegati argomenti interessanti ed utili, oltre che per la preparazione del progetto finale, anche per una
+conoscenza personale futura. Come già detto, questi argomenti vengono liquidati in modo molto frettoloso senza il dovuto
+approfondimento.</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Il professore espone in maniera troppo rapida gli argomenti,</p>
+</blockquote>
+<blockquote>
+<p>🗨️ A tratti durante la spiegazione (specialmente di git) il docente va veloce</p>
+</blockquote>
+<blockquote>
+<p>🗨️ il professore spiega troppo velocemente, a volte è difficile stargli dietro</p>
+</blockquote>
+<blockquote>
+<p>🗨️ In alcune occasioni, dato il ritmo veloce della lezione, ho faticato a tenere il segno.</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Il professore svolge le esercitazioni molto velocemente</p>
+</blockquote>
+<blockquote>
+<p>🗨️ forse, è stato troppo veloce nella spiegazione dei comandi con github, oppure dava determinati comandi come perscontati</p>
+</blockquote>
+<p>↪️ Purtroppo ragazzi questo è un po&rsquo; un problema cronico.
+Ci sono relativamente poche ore, e ci sono molti argomenti.
+Forse il version control vi andrebbe spiegato subito, al primo anno, e non in programmazione.
+Ma purtroppo al momento siamo messi così.</p>
+<blockquote>
+<p>🗨️ alcune volte si da per scontato l&rsquo;utilizzo di software o di sistemi operativi dei quali non si è mai spiegato nulla</p>
+</blockquote>
+<blockquote>
+<p>🗨️ pur non essendo spiegati comunque nel tempo si riesce ad ogni modo ad adattarsi a qualsiasi software o sistema operativo non
+spiegato in quanto semplice e/o intuitivo</p>
+</blockquote>
+<p>↪️ Sarebbe stato bello sapere quale software viene dato per scontato 😄
+Il sistema operativo praticamente non lo usiamo, usiamo un terminale bash/zsh del quale vi do una cheatsheet al primo lab.</p>
+<blockquote>
+<p>🗨️ Le lezioni registrate permettono di rivedere la lezione appena arrivati a casa o nei giorni successivi, questo aiuta molto in caso di
+dubbi di poco conto</p>
+</blockquote>
+<p>↪️ Valuteremo se mantenerle.</p>
+<blockquote>
+<p>🗨️ a volte non sono rispettate le pause che ritengo necessarie per mantenere l&rsquo; attenzione alta</p>
+</blockquote>
+<p>↪️ dopo la lezione iniziale il laboratorio è <em>sempre</em> in pausa,
+nel senso che quando volete fate una pausa.
+Più flessibile di così&hellip;</p>
+<h2 id="materiale">Materiale</h2>
+<blockquote>
+<p>🗨️ Slide abbastanza chiare (non
+tutte)</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Certe slide (come quelle di GitHub) non sono
+chiarissime se viste da sole senza ascolto della registrazione</p>
+</blockquote>
+<blockquote>
+<p>🗨️ argomenti spiegati superficialmente nei lucidi forniti</p>
+</blockquote>
+<blockquote>
+<p>🗨️ materiale didattico ben fatto</p>
+</blockquote>
+<p>↪️ Le slide sono fatte per <em>supportare</em> la lezione, che va seguita.
+Poi possono essere riusate per recuperare alcuni pezzi,
+ma da sole non sono fatte per sostituire il docente.</p>
+<blockquote>
+<p>🗨️ Non sono inoltre sicuro se esista un metodo per stabilire se
+l&rsquo;esercizio che ho svolto è corretto se non la correzione diretta con il prof (o una singola soluzione presente offerta dai prof): sarebbe
+carino anche se faticoso elaborare un sistema automatizzato per la correzione</p>
+</blockquote>
+<p>↪️ Il giorno in cui sapremo fare un software che dà consigli a livello di design di soluzioni,
+saremo tutti disoccupati 😄</p>
+<p>Vi serve in effetti la correzione del docente, che è il motivo per cui ci sono i docenti in aula a correggere.
+Spesso vi mettiamo dei test, quelli servono a vedere se &ldquo;funziona&rdquo;, ma non correggono il design.</p>
+<blockquote>
+<p>🗨️ Gli
+esercizi sono generalmente buoni per capire cosa fare, ma a volte certe consegne non sono chiarissime (forse questo il motivo per
+cui esercizi riguardanti throw non mi sono risultati chiari inizialmente).</p>
+</blockquote>
+<blockquote>
+<p>Un&rsquo;altra cosa è quella di dare esercizi più chiari, non dico che tutti fossero
+poco chiari, ma direi che il 5% del totale avesse un testo ambiguo o poco chiaro.</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Forse la cosa che mi è risultata più difficile è stat il capire le consegne degli esercizi. Non è sempre facile entrare in esercizi/progetti
+altrui e, dato che quando non finivo tutti gli esercizi in laboratorio i restanti li svolgevo a casa, a volte impiegavo un pò di tempo per
+questo.</p>
+</blockquote>
+<blockquote>
+<p>🗨️ A volte la consegna degli esercizi risulta confusa e difficile da comprendere</p>
+</blockquote>
+<blockquote>
+<p>🗨️ I testi di alcuni esercizi sono poco chiari.</p>
+</blockquote>
+<blockquote>
+<p>🗨️ invece per quanto riguarda il testo degli esercizi, l ho trovato estremamente sintetico, e
+visto che il codice fornito non è sempre facilmente comprensibile dei dettagli aggiuntivi farebbero comodo.</p>
+</blockquote>
+<p>↪️ Se ci segnalate le consegne poco chiare, le sistemiamo.</p>
+<blockquote>
+<p>🗨️ Un consiglio che posso dare ai prof è di mettere nelle esercitazioni del laboratorio esercizi in cui sia presente solo il testo del
+problema e successivamente noi studenti risolviamo l&rsquo;esercitazione a modo nostro ( poi ovviamente rilascerete la vostra soluzione
+in modo da confrontare e correggere eventuali errori ).</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Consegne degli esercizi non sempre molto chiare, spiegazioni in qualche caso fatte un po&rsquo; troppo velocemente e difficili da star
+dietro</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Inoltre sarebbe bello avere qualche esercizio da implementare da zero.</p>
+</blockquote>
+<p>↪️ Ce ne sono diversi, a partire dal lab 5.</p>
+<blockquote>
+<p>🗨️ Non ho riscontrato particolari problemi, se non qualche difficoltà a comprendere la consegna di alcuni esercizi di laboratorio (per
+esempio collections2 nel lab06).</p>
+</blockquote>
+<p>↪️ grazie della segnalazione.
+La consegna è stata migliorata.</p>
+<blockquote>
+<p>🗨️ Gli esercizi di java, sono complessi al punto giusto ti fanno ragionare e imparare su gli argomenti spiegati a lezione</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Esercizi completi per far capire i nuovi argomenti passo per passo</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Materiale didattico completo e chiaro.</p>
+</blockquote>
+<p>↪️ 🚀</p>
+<blockquote>
+<p>🗨️ Gli esercizi sono difficili, sarebbe utile un maggior aiuto dal tutor/docente</p>
+</blockquote>
+<p>↪️ ma ha provato a chiamarci?</p>
+<h2 id="infrastrutture">Infrastrutture</h2>
+<blockquote>
+<p>🗨️ I computer in labooratorio non sempre funzionano (per esempio nella mia fila appena un cavo si muove tutta la fila di monitor si
+spegne).</p>
+</blockquote>
+<p>↪️ quando succede, lo dite a me ed io informo i tecnici</p>
+<blockquote>
+<p>🗨️ difficoltà a gestire il corso con i computer di laboratorio i quali utilizzano il sistema operativo Finestre mentre nel corso si utilizza
+Linux</p>
+</blockquote>
+<p>↪️ Il corso è fruibile indipendentemente dal sistema operativo.
+Poi sì, io Viroli, e Casadei usiamo tutti Linux.
+Ma il terminal bash/zsh c&rsquo;è anche nei PC del lab,
+l&rsquo;IDE che usiamo gira su tutte le piattaforme,
+vi spieghiamo la programmazione multipiattaforma,
+quindi dovreste riuscire bene anche con Windows.</p>
+<p>By the way, ho provato in passato a chiedere un dual boot, ma non è fattibile banalmente secondo il parere dei tecnici.</p>
+<h2 id="commenti-positivi">Commenti positivi</h2>
+<blockquote>
+<p>🗨️ Il corso stimola altamente le persone ad imparare la materia. Personalmente, penso che il programmatore abbia la parte di
+preparazione e la parte più &ldquo;curiosa&rdquo;, che cerca di conoscere più cose (anche esterne al corso) e risolversi i problemi ricercando ed
+ingegnandosi. Per diversi motivi (sia voluti che non) questa curiosità che porta lo sviluppatore più in alto viene stimolata e
+riconosciuta come fondamentale, molto più che negli altri corsi.</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Abbiamo un forum in cui é possibile esporre ogni dubbio / problema a cui i prof rispondono cercando di aiutarci. Il corso é molto
+interessante e i prof ci spronano a fare sempre di piú e ad innamorarci della materia.</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Prima del laboratorio faccio fatica a comprendere bene l&rsquo;utilizzo delle varie novitá studiate a lezione, ma dopo il laboratorio mi é tutto
+piú chiaro.</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Il prof ha un tono/voce stimolante che mi tiene interessato alla lezione.</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Materia molto molto interessante, il prof è sempre riuscito a stimolare la mia attenzione, sempre molto chiaro nello spiegare.</p>
+</blockquote>
+<blockquote>
+<p>🗨️ il prof è veramente molto bravo, sa spiegare in maniera ottima. Ottimo prof ed ottima persona!!!!!!</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Ho apprezzato la grande chiarezza espositiva e gli esercizi guidati per imparare ad utilizzare Git. Inoltre, il professore è sempre
+reperibile per chiarimenti (anche sul forum) ed è in particolare molto utile la sua correzione degli esercizi in laboratorio.</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Un grande aspetto positivo è sicuramentre il modo in cui si viene seguiti in laboratorio sia dal prof che dal tutor. E&rsquo; sicuramente un
+corso fondamentale ed essere seguiti bene soprattuto nella parte pratica è un grande pro.</p>
+</blockquote>
+<blockquote>
+<p>🗨️ La possibilità di mettere in pratica tutto quello appreso precedentemente a lezione, rispetto a quando facevo a distanza trovo il tutto
+molto più chiaro e stimolante</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Corso molto interessante e ben gestito da parte di tutti i docenti e tutor. In particolare a lato laboratorio gli esercizi sono fatti in
+maniera tale da consentire di mettere in pratica quanto fatto nell&rsquo;arco della settimana successiva. Per quanto riguarda il professor
+Pianini, sebbene mi sia sembrato leggermente frettoloso nel trattare qualche argomento, trovo che sia un buonissimo insegnante:
+sempre disponibile a rispiegare ulteriormente in caso di dubbi e molto stimolante dal punto di vista didattico</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Corso molto pratico, necessario per imparare un nuovo linguaggio di programmazione</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Docente chiaro e disponibile</p>
+</blockquote>
+<blockquote>
+<p>🗨️ I professori e i tutor sono sempre molto disponibili per spiegare i concetti non chiari e i dubbi riscontrati</p>
+</blockquote>
+<blockquote>
+<p>🗨️ In generale il programma è stato spiegato e capito molto bene</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Vi ringrazio molto per essere stati pazienti con i vari dubbi (anche schiocchi) che sono usciti durante lezione e durante lo
+svolgimento degli esercizi :)</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Un aspetto positivo è sicuramente il forum, il quale è uno strumento molto utile al fine di capire al meglio il corso.</p>
+</blockquote>
+<blockquote>
+<p>🗨️ molto coinvolgente, riesce a dare un contesto applicativo ad ogni argomento affrontato</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Il laboratorio è un aspetto fondamentale per l&rsquo;apprendimento di questa materia, inoltre, risulta molto interessante e coinvolgente
+svolgere gli esercizi assegnati</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Professore molto disponibile e professionale. Stimola molto vari aspetti della scrittura del codice e discipline di programmazione,
+che risultano molto interessanti ed essenziali per il nostro futuro.</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Buona spiegazione degli argomenti trattati a lezione, esercizi pertinenti agli argomenti studiati e utili all&rsquo;apprendimento della materia</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Spiegazioni buone per la compressione della materia, disponibilità per dubbi durante e fuori le lezioni.</p>
+</blockquote>
+<blockquote>
+<p>🗨️ E&rsquo; di aiuto per fare pratica nell&rsquo;utilizzo di Java e altri strumenti e i professori sono disponibili a rispondere a domande durante lo
+svolgimento delle esercitazioni.</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Il professore è molto bravo e stimolante, la materia è bella</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Il corso, nel suo complesso, è ottimo, l&rsquo;insegnante di laboratorio ed i tutor espongono in modo chiaro gli argomenti e sono disponibili
+per qualsiasi aiuto in caso di difficoltà.</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Spiega bene l&rsquo;importanza pratica delle cose viste a lezione</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Ottima la divisione in giornate, è molto utile avere le lezioni di laboratorio concentrate in un giorno solo piuttosto che divise in due
+mezze giornate</p>
+</blockquote>
+<blockquote>
+<p>🗨️ DIVERTENTE</p>
+</blockquote>
+<blockquote>
+<p>🗨️ mi è piaciuto il corso, è stato svolto in maniera professionale.</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Un corso molto attento verso i studenti, si puo chiarire i dubbi in qualsiasi momento e il docente spiega bene gli argomenti.</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Insegnamento spedito e conciso</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Gli insegnanti sono molto bravi e sopratutto quando c&rsquo;é bisogno di chiarimenti sono sempre disponibili a rispiegarti l&rsquo;argomento/la
+domanda richiesta</p>
+</blockquote>
+<blockquote>
+<p>🗨️ il docente è disponibile</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Spiegazioni ben comprensibili</p>
+</blockquote>
+<blockquote>
+<p>🗨️ il professore è disponibile a chiarimenti ed elucubrazioni su argomenti meno chiari</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Grande predisposizione da parte dell&rsquo;insegnante alla comunicazione con gli alunni.</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Le spiegazioni coinvolgenti e chiare</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Prof lei è un mito
+Da un suo fan</p>
+</blockquote>
+<blockquote>
+<p>🗨️ molto stimolante</p>
+</blockquote>
+<blockquote>
+<p>🗨️ disponibilità del docente</p>
+</blockquote>
+<blockquote>
+<p>🗨️ il docente è disponibile per chiarimenti a lezione</p>
+</blockquote>
+<blockquote>
+<p>🗨️ La chiarezza in cui sono esposti gli argomenti</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Insegnanti preparati e disponibili</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Abbiamo un forum in cui é possibile esporre ogni dubbio / problema a cui i prof rispondono cercando di aiutarci. Il corso é molto
+interessante e i prof ci spronano a fare sempre di piú e ad innamorarci della materia.</p>
+</blockquote>
+<blockquote>
+<p>🗨️ Il prof è molto disponibile (soprattutto tramite il forum) per offrire aiuti e consigli su aspetti non chiari.</p>
+</blockquote>
+<p>↪️ Non ho molto da rispondere qui, ringrazio Per le belle parole che fanno molto piacere.</p>
+
+
+    </main>
+  </div>
+  <footer>
+    <div class="footer-wrapper">
+      <p>Made with ❤️ &mdash; Powered by <a href="https://gohugo.io/" target="_blank" rel="external">Hugo</a> and the <a href="https://github.com/bjacquemet/personal-web" target='_blank' rel="external">Personal Web</a> theme. Icons come from the great <a href="https://fontawesome.com/license" target="_blank" rel="external">Font Awesome</a> library</p>
+      <p>© Danilo Pianini</p>
+    </div>
+  </footer>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600|Raleway:400,400i,600" rel="stylesheet">
+  
+  <script type="text/javascript">
+    document.querySelector('.mobile-header').addEventListener('click', function () {
+      var om = document.querySelector(".overlay-menu");
+      if (document.querySelector('.hamburger').classList.contains("cross")) {
+        document.querySelector('.hamburger').classList.remove("cross");
+        om.style.display = "none";
+        om.style.width = "0%";
+        om.style.height = "0%";
+      }
+      else {
+        document.querySelector('.hamburger').classList.add("cross");
+        om.style.width = "100%";
+        om.style.height = "100vh";
+        om.style.display = "block";
+      }
+    });
+  </script>
+</body>
+</html>
