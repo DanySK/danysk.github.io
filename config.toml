@@ -1,0 +1,116 @@
+baseURL = "https://danysk.github.io/"
+languageCode = "en-us"
+title = "Danilo Pianini"
+theme = "personal-web"
+copyright="© Danilo Pianini"
+googleAnalytics = ""
+enableEmoji=true
+enableRobotsTXT=true
+pygmentsUseClasses=true
+pygmentsCodeFences=true
+
+[params.intro]
+  main = "Hi, I'm Danilo :wave:"
+  sub = "Software engineer, researcher, scientist"
+
+[params.main]
+  latestPublishHeader = "My Latest Project"
+
+[taxonomies]
+  design = "designs"
+  tech = "techs"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[params]
+  breadcrumb = true
+  accentColor = "#FD3519"
+  mainSections = ['portfolio'] # values: ['post', 'portfolio'] only accept one section, to be displayed bellow 404
+
+[params.notFound]
+  gopher = "/images/gopher.png" # checkout https://gopherize.me/
+  h1 = 'Bummer!'
+  p = "It seems that this page doesn't exist."
+
+[params.sections]
+  # Define how your sections will be called
+  # when automatically pulled. For instance in the 404 page
+  post = "article"
+  portfolio = "project"
+
+[params.sidebar]
+  backgroundImage = 'https://upload.wikimedia.org/wikipedia/commons/7/7f/Code_on_computer_monitor_%28Unsplash%29.jpg' # header background image - default "/images/default_sidebar.jpg" - Photo by Tim Marshall on Unsplash
+  gradientOverlay = 'rgba(0,0,0,0.1),rgba(0,0,0,0.8)' # default: rgba(0,0,0,0.1),rgba(0,0,0,1)
+  logo = "https://0.gravatar.com/avatar/b96269945e9426825bdbba067eb3eaed?s=1000" # - default "/images/edna-west.jpg"
+[params.assets]
+  favicon = ""
+  customCSS = ""
+
+[params.social]
+  github = "https://github.com/DanySK"
+  twitter = "https://twitter.com/DanySK86"
+  linkedin = "https://www.linkedin.com/in/danilo-pianini"
+#  codepen = "https://codepen.io/"
+  facebook = "https://www.facebook.com/danilo.pianini"
+  youtube = "https://www.youtube.com/channel/UCbMONiRSiUzvuyBldnsDT_g"
+  instagram = "https://www.instagram.com/pianinidanilo"
+  gitlab = "https://gitlab.com/danilo.pianini"
+  codersrank = "dsad"
+#  keybase = "https://keybase.io/"
+
+[params.contact]
+  email = "danilo.pianini@gmail.com"
+  text= "Contact" # text of the contact link in the sidebar. If email params.contact.email is defined
+
+
+[menu]
+
+[[menu.main]]
+  identifier = "about"
+  name = "Curriculum Vitae"
+  title = "Curriculum Vitae"
+  url = "https://github.com/DanySK/Curriculum-Vitae/releases/latest/download/curriculum.pdf"
+  weight = -120
+
+[[menu.main]]
+  identifier = "portfolio"
+  name = "Selected publications"
+  title = "Selected publications"
+  url = "/portfolio/"
+  weight = -110
+
+[[menu.main]]
+  identifier = "blog"
+  name = "Flow of thoughts"
+  title = "Opinions"
+  url = "/post/"
+  weight = -100
+
+[[menu.main]]
+  identifier = "links"
+  name = "Linktr.ee"
+  title = "Linktr.ee"
+  url = "https://linktr.ee/danilo.pianini"
+  weight = -90
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = true
+    respectDoNotTrack = true
+    useSessionStorage = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = false
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
