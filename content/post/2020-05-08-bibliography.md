@@ -1,5 +1,5 @@
 ---
-title:  "Comparing lambda expressions in four JVM-hosted languages"
+title:  "How to bibliography in your thesis or essay"
 description: "Encompasses understanding how science works, how to find resources, and how to cite them. LaTeX centered."
 date: "2020-05-08T19:25:30+02:00"
 publishDate: "2020-05-08T19:25:30+02:00"
