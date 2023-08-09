@@ -5,7 +5,7 @@ jobDate: 2022
 work: [IEEE Internet Computing]
 #techs: [ protelis ]
 designs: [Gianluca Aguzzi, Roberto Casadei, Danilo Pianini, Mirko Viroli]
-thumbnail: 2020-fgcs/thumb.png
+thumbnail: 2022-ieeeinternetcomp/thumb.png
 projectUrl: https://doi.org/10.1109/MIC.2022.3216753
 # testimonial:
 #   name: John Doe
