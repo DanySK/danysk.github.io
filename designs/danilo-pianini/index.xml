@@ -35,6 +35,15 @@
     </item>
     
     <item>
+      <title>Dynamic Decentralization Domains for the Internet of Things</title>
+      <link>https://danysk.github.io/portfolio/2022-ieeeinternetcomp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://danysk.github.io/portfolio/2022-ieeeinternetcomp/</guid>
+      <description>Abstract The Internet of Things (IoT) and edge computing are fostering a future of ecosystems hosting complex decentralized computations that are deeply integrated with our very dynamic environments. Digitalized buildings, communities of people, and cities will be the next-generation “hardwarae and platform,” counting myriads of interconnected devices, on top of which intrinsically distributed computational processes will run and self-organize. They will spontaneously spawn, diffuse to pertinent logical/physical regions, cooperate and compete, opportunistically summon required resources, collect and analyze data, compute results, trigger distributed actions, and eventually decay.</description>
+    </item>
+    
+    <item>
       <title>Engineering Resilient Collective Adaptive Systems by Self-Stabilisation</title>
       <link>https://danysk.github.io/portfolio/2018-tomacs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
