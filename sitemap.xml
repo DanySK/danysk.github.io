@@ -42,6 +42,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://danysk.github.io/portfolio/2022-acsos-boundedelection/</loc>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://danysk.github.io/post/2022-08-03-se-dtm/</loc>
     <lastmod>2022-08-03T19:25:30+02:00</lastmod>
     <changefreq>monthly</changefreq>
