@@ -23,7 +23,7 @@
       <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>https://danysk.github.io/portfolio/2022-acsos-boundedelection/</guid>
-      <description>Abstract A common task in situated distributed systems is the self-organising election of leaders. These leaders can be devices or software agents appointed, for instance, to coordinate the activities of other agents or processes. In this work, we focus on the multi-leader election problem in networks of asynchronous message-passing devices, which are a common model in self-organisation approaches like aggregate computing. Specifically, we introduce a novel algorithm for space- and priority-based leader election and compare it with the state of the art.</description>
+      <description>Slides Abstract A common task in situated distributed systems is the self-organising election of leaders. These leaders can be devices or software agents appointed, for instance, to coordinate the activities of other agents or processes. In this work, we focus on the multi-leader election problem in networks of asynchronous message-passing devices, which are a common model in self-organisation approaches like aggregate computing. Specifically, we introduce a novel algorithm for space- and priority-based leader election and compare it with the state of the art.</description>
     </item>
     
     <item>
