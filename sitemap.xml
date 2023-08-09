@@ -2,17 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://danysk.github.io/designs/danilo-pianini/</loc>
+    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danysk.github.io/designs/</loc>
+    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danysk.github.io/portfolio/2022-ieeeinternetcomp/</loc>
+    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danysk.github.io/designs/gianluca-aguzzi/</loc>
+    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danysk.github.io/</loc>
+    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danysk.github.io/designs/mirko-viroli/</loc>
+    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danysk.github.io/designs/roberto-casadei/</loc>
+    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danysk.github.io/portfolio/</loc>
+    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://danysk.github.io/post/2022-08-03-se-dtm/</loc>
     <lastmod>2022-08-03T19:25:30+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://danysk.github.io/post/</loc>
-    <lastmod>2022-08-03T19:25:30+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danysk.github.io/</loc>
     <lastmod>2022-08-03T19:25:30+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -37,6 +72,16 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://danysk.github.io/designs/antonio-natali/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danysk.github.io/portfolio/2020-fgcs/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://danysk.github.io/post/2020-12-28-risposte-studenti/</loc>
     <lastmod>2020-12-28T19:25:30+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -47,92 +92,67 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://danysk.github.io/designs/ferruccio-damiani/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danysk.github.io/portfolio/2013-jos-alchemist/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danysk.github.io/designs/giorgio-audrito/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danysk.github.io/designs/jacob-beal/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danysk.github.io/portfolio/2019-tocl/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danysk.github.io/portfolio/2018-tomacs/</loc>
+    <lastmod>2018-04-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://danysk.github.io/post/2018-01-31-lambda/</loc>
     <lastmod>2018-01-31T19:25:30+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://danysk.github.io/portfolio/2019-tocl/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danysk.github.io/portfolio/2015-ieee-computer/</loc>
+    <loc>https://danysk.github.io/portfolio/2017-taas/</loc>
+    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://danysk.github.io/designs/and-jacob-beal/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danysk.github.io/designs/antonio-natali/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danysk.github.io/portfolio/2019-jlamp/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danysk.github.io/designs/danilo-pianini/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danysk.github.io/designs/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danysk.github.io/portfolio/2022-ieeeinternetcomp/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danysk.github.io/portfolio/2018-tomacs/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danysk.github.io/designs/ferruccio-damiani/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danysk.github.io/portfolio/2013-jos-alchemist/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danysk.github.io/designs/gianluca-aguzzi/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danysk.github.io/designs/giorgio-audrito/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danysk.github.io/designs/jacob-beal/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danysk.github.io/designs/mirko-viroli/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danysk.github.io/portfolio/2020-fgcs/</loc>
+    <lastmod>2015-04-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://danysk.github.io/portfolio/2015-sac-protelis/</loc>
+    <lastmod>2015-04-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://danysk.github.io/designs/roberto-casadei/</loc>
+    <loc>https://danysk.github.io/portfolio/2019-jlamp/</loc>
+    <lastmod>2013-09-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://danysk.github.io/designs/sara-montagna/</loc>
+    <lastmod>2013-09-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://danysk.github.io/portfolio/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danysk.github.io/portfolio/2017-taas/</loc>
+    <loc>https://danysk.github.io/portfolio/2015-ieee-computer/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
