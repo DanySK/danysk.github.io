@@ -1,6 +1,6 @@
 ---
 title: Partitioned integration and coordination via the self-organising coordination regions pattern
-date: "2021-01"
+date: "2021-01-01"
 jobDate: 2021
 work: [Future Generation Computer Systems]
 #techs: [ protelis ]

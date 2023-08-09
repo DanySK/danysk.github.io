@@ -1,6 +1,6 @@
 ---
 title: Chemical-oriented simulation of computational systems with Alchemist
-date: "2013"
+date: "2013-09-01"
 jobDate: 2013
 work: [Journal of Simulation]
 #techs: [ protelis ]

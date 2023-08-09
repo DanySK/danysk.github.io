@@ -1,7 +1,7 @@
 ---
 title: "Protelis: Practical Aggregate Programming"
 #description: This is the description of our sample project
-date: "2015-04"
+date: "2015-04-01"
 jobDate: 2015
 work: [SAC 2015: Symposium on Applied Computing]
 #techs: [ protelis ]

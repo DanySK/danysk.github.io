@@ -1,6 +1,6 @@
 ---
 title: From distributed coordination to field calculus and aggregate computing
-date: "2019-12"
+date: "2019-12-01"
 jobDate: 2019
 work: [Journal of Logical and Algebraic Methods in Programming]
 #techs: [ protelis ]

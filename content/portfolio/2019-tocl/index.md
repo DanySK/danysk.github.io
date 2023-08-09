@@ -1,6 +1,6 @@
 ---
 title: A Higher-Order Calculus of Computational Fields
-date: "2019-01"
+date: "2019-01-01"
 jobDate: 2019
 work: [ACM Transactions on Computational Logic]
 #techs: [ protelis ]

@@ -1,6 +1,6 @@
 ---
 title: Self-Adaptation to Device Distribution in the Internet of Things
-date: "2017-09"
+date: "2017-09-01"
 jobDate: 2017
 work: [ACM Transactions on Autonomous and Adaptive Systems]
 #techs: [ protelis ]

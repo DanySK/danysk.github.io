@@ -1,6 +1,6 @@
 ---
 title: Engineering Resilient Collective Adaptive Systems by Self-Stabilisation
-date: "2018-04"
+date: "2018-04-01"
 jobDate: 2018
 work: [ACM Transactions on Modeling and Computer Simulation]
 #techs: [ protelis ]

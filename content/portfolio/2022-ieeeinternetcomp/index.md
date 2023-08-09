@@ -1,6 +1,6 @@
 ---
 title: Dynamic Decentralization Domains for the Internet of Things
-date: "2022-12"
+date: "2022-12-01"
 jobDate: 2022
 work: [IEEE Internet Computing]
 #techs: [ protelis ]
