@@ -8,7 +8,7 @@
   <meta name='theme-color' content='#FD3519' />
   
 
-  <meta name="generator" content="Hugo 0.119.0">
+  <meta name="generator" content="Hugo 0.120.1">
 
   
 
@@ -25,6 +25,7 @@
 <meta property="og:url" content="https://danysk.github.io/post/2018-01-31-lambda/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2018-01-31T19:25:30+02:00" />
 <meta property="article:modified_time" content="2018-01-31T19:25:30+02:00" />
+
 
   <meta itemprop="name" content="Comparing lambda expressions in four JVM-hosted languages">
 <meta itemprop="description" content="Which language is most compact and easy to read?"><meta itemprop="datePublished" content="2018-01-31T19:25:30+02:00" />
@@ -387,10 +388,10 @@ The latter is somewhat a dead language, almost superseded by Kotlin, but it is a
 <p>The inspiration from this post comes from the fact that, whatever language I&rsquo;m using, I feel like I&rsquo;d like to use another one to write some specific lambda&hellip;</p>
 <h3 id="a-lambda-with-a-single-parameter-used-once">A lambda with a single parameter used once</h3>
 <p>Let&rsquo;s start with: a single parameter lambda, where the parameter is used once. Our baseline is Java:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">final</span> <span class="n">Function</span><span class="o">&lt;</span><span class="n">Object</span><span class="o">,</span> <span class="n">Object</span><span class="o">&gt;</span> <span class="n">foo</span> <span class="o">=</span> <span class="n">o</span> <span class="o">-&gt;</span> <span class="n">o</span><span class="o">.</span><span class="na">toString</span><span class="o">();</span>
-</span></span><span class="line"><span class="cl"><span class="c1">// Or, with method reference:
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">final</span> <span class="n">Function</span><span class="o">&lt;</span><span class="n">Object</span><span class="o">,</span> <span class="n">Object</span><span class="o">&gt;</span> <span class="n">bar</span> <span class="o">=</span> <span class="n">Object</span><span class="o">::</span><span class="n">toString</span><span class="o">;</span>
-</span></span></code></pre></div><p>I find the second option way more elegant, but, as you can see, you end up spending more or less the same length.
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">final</span><span class="w"> </span><span class="n">Function</span><span class="o">&lt;</span><span class="n">Object</span><span class="p">,</span><span class="w"> </span><span class="n">Object</span><span class="o">&gt;</span><span class="w"> </span><span class="n">foo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">o</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">o</span><span class="p">.</span><span class="na">toString</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">// Or, with method reference:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">final</span><span class="w"> </span><span class="n">Function</span><span class="o">&lt;</span><span class="n">Object</span><span class="p">,</span><span class="w"> </span><span class="n">Object</span><span class="o">&gt;</span><span class="w"> </span><span class="n">bar</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Object</span><span class="p">::</span><span class="n">toString</span><span class="p">;</span><span class="w">
+</span></span></span></code></pre></div><p>I find the second option way more elegant, but, as you can see, you end up spending more or less the same length.
 The caveat here is: if I have a single parameter, why do I need to name it?
 Let&rsquo;s see what Kotlin does:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-kotlin" data-lang="kotlin"><span class="line"><span class="cl"><span class="k">val</span> <span class="py">foo</span><span class="p">:</span> <span class="p">(</span><span class="n">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Any</span> <span class="p">=</span> <span class="p">{</span> <span class="n">o</span> <span class="o">-&gt;</span> <span class="n">o</span><span class="p">.</span><span class="n">toString</span><span class="p">()</span> <span class="p">}</span>
@@ -428,9 +429,9 @@ Combine this with the possibility of omitting the parentheses, and you get an ex
 <p>My personal preference order for this kind of lambda is Scala &gt; Kotlin &gt; Xtend &gt; Java</p>
 <h3 id="a-lambda-with-a-single-parameter-used-twice">A lambda with a single parameter used twice</h3>
 <p>As before, let&rsquo;s start with Java:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">final</span> <span class="n">Function</span><span class="o">&lt;</span><span class="n">Object</span><span class="o">,</span> <span class="n">String</span><span class="o">&gt;</span> <span class="n">foo</span> <span class="o">=</span>
-</span></span><span class="line"><span class="cl">    <span class="n">o</span> <span class="o">-&gt;</span> <span class="n">o</span><span class="o">.</span><span class="na">toString</span><span class="o">()</span> <span class="o">+</span> <span class="n">o</span><span class="o">.</span><span class="na">toString</span><span class="o">();</span>
-</span></span></code></pre></div><p>Actually, the method reference format is still available, but you have to have the function defined with a name somewhere.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">final</span><span class="w"> </span><span class="n">Function</span><span class="o">&lt;</span><span class="n">Object</span><span class="p">,</span><span class="w"> </span><span class="n">String</span><span class="o">&gt;</span><span class="w"> </span><span class="n">foo</span><span class="w"> </span><span class="o">=</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">o</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">o</span><span class="p">.</span><span class="na">toString</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">o</span><span class="p">.</span><span class="na">toString</span><span class="p">();</span><span class="w">
+</span></span></span></code></pre></div><p>Actually, the method reference format is still available, but you have to have the function defined with a name somewhere.</p>
 <p>In Kotlin, in addition to explicitly naming the object, we can use <code>it</code> multiple times:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-kotlin" data-lang="kotlin"><span class="line"><span class="cl"><span class="k">val</span> <span class="py">bar</span><span class="p">:</span> <span class="p">(</span><span class="n">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">String</span> <span class="p">=</span>
 </span></span><span class="line"><span class="cl">    <span class="p">{</span> <span class="k">it</span><span class="p">.</span><span class="n">toString</span><span class="p">()</span> <span class="p">+</span> <span class="k">it</span><span class="p">.</span><span class="n">toString</span><span class="p">()</span> <span class="p">}</span>

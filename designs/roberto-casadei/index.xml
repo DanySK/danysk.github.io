@@ -7,42 +7,35 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Danilo Pianini</copyright>
-    <lastBuildDate>Thu, 01 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://danysk.github.io/designs/roberto-casadei/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://danysk.github.io/designs/roberto-casadei/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dynamic Decentralization Domains for the Internet of Things</title>
       <link>https://danysk.github.io/portfolio/2022-ieeeinternetcomp/</link>
       <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://danysk.github.io/portfolio/2022-ieeeinternetcomp/</guid>
       <description>Abstract The Internet of Things (IoT) and edge computing are fostering a future of ecosystems hosting complex decentralized computations that are deeply integrated with our very dynamic environments. Digitalized buildings, communities of people, and cities will be the next-generation “hardwarae and platform,” counting myriads of interconnected devices, on top of which intrinsically distributed computational processes will run and self-organize. They will spontaneously spawn, diffuse to pertinent logical/physical regions, cooperate and compete, opportunistically summon required resources, collect and analyze data, compute results, trigger distributed actions, and eventually decay.</description>
     </item>
-    
     <item>
       <title>Self-stabilising Priority-Based Multi-Leader Election and Network Partitioning</title>
       <link>https://danysk.github.io/portfolio/2022-acsos-boundedelection/</link>
       <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://danysk.github.io/portfolio/2022-acsos-boundedelection/</guid>
       <description>Slides Abstract A common task in situated distributed systems is the self-organising election of leaders. These leaders can be devices or software agents appointed, for instance, to coordinate the activities of other agents or processes. In this work, we focus on the multi-leader election problem in networks of asynchronous message-passing devices, which are a common model in self-organisation approaches like aggregate computing. Specifically, we introduce a novel algorithm for space- and priority-based leader election and compare it with the state of the art.</description>
     </item>
-    
     <item>
       <title>Partitioned integration and coordination via the self-organising coordination regions pattern</title>
       <link>https://danysk.github.io/portfolio/2020-fgcs/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://danysk.github.io/portfolio/2020-fgcs/</guid>
       <description>Highlights Self-organising Coordination Regions (SCR) is a design pattern for decentralised self-integration in dynamic environments. SCR captures recurrent design approaches in a variety of domains including swarm control, resource management, and service orchestration. SCR consists of a dynamic process involving leader election, coalition formation, and feedback loops between leaders and subordinates. SCR can be straightforwardly implemented as continuous collective workflows in Aggregate Programming languages. SCR is versatile, as shown through case studies in edge computing and hierarchical, heterogeneous networks.</description>
     </item>
-    
     <item>
       <title>From distributed coordination to field calculus and aggregate computing</title>
       <link>https://danysk.github.io/portfolio/2013-jos-alchemist/</link>
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://danysk.github.io/portfolio/2013-jos-alchemist/</guid>
       <description>Aggregate computing is an emerging approach to the engineering of complex coordination for distributed systems, based on viewing system interactions in terms of information propagating through collectives of devices, rather than in terms of individual devices and their interaction with their peers and environment. The foundation of this approach is the distillation of a number of prior approaches, both formal and pragmatic, proposed under the umbrella of field-based coordination, and culminating into the field calculus, a universal functional programming model for the specification and composition of collective behaviours with equivalent local and aggregate semantics.</description>
     </item>
-    
   </channel>
 </rss>

@@ -8,7 +8,7 @@
   <meta name='theme-color' content='#FD3519' />
   
 
-  <meta name="generator" content="Hugo 0.119.0">
+  <meta name="generator" content="Hugo 0.120.1">
 
   
 
@@ -25,6 +25,7 @@
 <meta property="og:url" content="https://danysk.github.io/post/2020-12-28-risposte-studenti/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2020-12-28T19:25:30+02:00" />
 <meta property="article:modified_time" content="2020-12-28T19:25:30+02:00" />
+
 
   <meta itemprop="name" content="Risposte ai questionari di OOP 2019/20">
 <meta itemprop="description" content="Siccome prometto che i commenti li leggo tutti, grosso modo li commento tutti."><meta itemprop="datePublished" content="2020-12-28T19:25:30+02:00" />
@@ -635,10 +636,10 @@ I linguaggi si ammodernano, e Java non è escluso.
 Tutti i linguaggi &ldquo;post Java&rdquo; (Groovy, Scala, Kotlin&hellip;) hanno modi compatti per esprimere la creazione di una variabile lasciando al compilatore l&rsquo;inferenza del tipo di dato.
 Kotlin e Scala in particolare usano <code>var</code> e <code>val</code>, equivalenti in Java a <code>var</code> e <code>final var</code>.
 L&rsquo;uso di <code>var</code> laddove il tipo è facilmente inferibile, e.g.:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">var</span> <span class="n">someList</span> <span class="o">=</span> <span class="k">new</span> <span class="n">ArrayList</span><span class="o">&lt;</span><span class="n">String</span><span class="o">&gt;()</span>
-</span></span></code></pre></div><p>è da considerarsi meglio leggibile dell&rsquo;equivalente &ldquo;classico&rdquo;, dove l&rsquo;informazione di tipo è ridondante (nonostante l&rsquo;uso del diamond operator):</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">List</span><span class="o">&lt;</span><span class="n">String</span><span class="o">&gt;</span> <span class="n">someList</span> <span class="o">=</span> <span class="k">new</span> <span class="n">ArrayList</span><span class="o">&lt;&gt;()</span>
-</span></span></code></pre></div><h3 id="soluzioni">Soluzioni</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">var</span><span class="w"> </span><span class="n">someList</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ArrayList</span><span class="o">&lt;</span><span class="n">String</span><span class="o">&gt;</span><span class="p">()</span><span class="w">
+</span></span></span></code></pre></div><p>è da considerarsi meglio leggibile dell&rsquo;equivalente &ldquo;classico&rdquo;, dove l&rsquo;informazione di tipo è ridondante (nonostante l&rsquo;uso del diamond operator):</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">List</span><span class="o">&lt;</span><span class="n">String</span><span class="o">&gt;</span><span class="w"> </span><span class="n">someList</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ArrayList</span><span class="o">&lt;&gt;</span><span class="p">()</span><span class="w">
+</span></span></span></code></pre></div><h3 id="soluzioni">Soluzioni</h3>
 <blockquote>
 <p>Soluzioni degli esercizi in laboratorio spesso difficili da capire.</p>
 </blockquote>

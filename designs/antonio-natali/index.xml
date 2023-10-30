@@ -7,15 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Danilo Pianini</copyright>
-    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://danysk.github.io/designs/antonio-natali/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://danysk.github.io/designs/antonio-natali/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Partitioned integration and coordination via the self-organising coordination regions pattern</title>
       <link>https://danysk.github.io/portfolio/2020-fgcs/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://danysk.github.io/portfolio/2020-fgcs/</guid>
       <description>Highlights Self-organising Coordination Regions (SCR) is a design pattern for decentralised self-integration in dynamic environments. SCR captures recurrent design approaches in a variety of domains including swarm control, resource management, and service orchestration. SCR consists of a dynamic process involving leader election, coalition formation, and feedback loops between leaders and subordinates. SCR can be straightforwardly implemented as continuous collective workflows in Aggregate Programming languages. SCR is versatile, as shown through case studies in edge computing and hierarchical, heterogeneous networks.</description>
     </item>
-    
   </channel>
 </rss>

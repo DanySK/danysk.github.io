@@ -7,96 +7,77 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Danilo Pianini</copyright>
-    <lastBuildDate>Thu, 01 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://danysk.github.io/designs/mirko-viroli/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://danysk.github.io/designs/mirko-viroli/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dynamic Decentralization Domains for the Internet of Things</title>
       <link>https://danysk.github.io/portfolio/2022-ieeeinternetcomp/</link>
       <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://danysk.github.io/portfolio/2022-ieeeinternetcomp/</guid>
       <description>Abstract The Internet of Things (IoT) and edge computing are fostering a future of ecosystems hosting complex decentralized computations that are deeply integrated with our very dynamic environments. Digitalized buildings, communities of people, and cities will be the next-generation “hardwarae and platform,” counting myriads of interconnected devices, on top of which intrinsically distributed computational processes will run and self-organize. They will spontaneously spawn, diffuse to pertinent logical/physical regions, cooperate and compete, opportunistically summon required resources, collect and analyze data, compute results, trigger distributed actions, and eventually decay.</description>
     </item>
-    
     <item>
       <title>Self-stabilising Priority-Based Multi-Leader Election and Network Partitioning</title>
       <link>https://danysk.github.io/portfolio/2022-acsos-boundedelection/</link>
       <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://danysk.github.io/portfolio/2022-acsos-boundedelection/</guid>
       <description>Slides Abstract A common task in situated distributed systems is the self-organising election of leaders. These leaders can be devices or software agents appointed, for instance, to coordinate the activities of other agents or processes. In this work, we focus on the multi-leader election problem in networks of asynchronous message-passing devices, which are a common model in self-organisation approaches like aggregate computing. Specifically, we introduce a novel algorithm for space- and priority-based leader election and compare it with the state of the art.</description>
     </item>
-    
     <item>
       <title>Partitioned integration and coordination via the self-organising coordination regions pattern</title>
       <link>https://danysk.github.io/portfolio/2020-fgcs/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://danysk.github.io/portfolio/2020-fgcs/</guid>
       <description>Highlights Self-organising Coordination Regions (SCR) is a design pattern for decentralised self-integration in dynamic environments. SCR captures recurrent design approaches in a variety of domains including swarm control, resource management, and service orchestration. SCR consists of a dynamic process involving leader election, coalition formation, and feedback loops between leaders and subordinates. SCR can be straightforwardly implemented as continuous collective workflows in Aggregate Programming languages. SCR is versatile, as shown through case studies in edge computing and hierarchical, heterogeneous networks.</description>
     </item>
-    
     <item>
       <title>From distributed coordination to field calculus and aggregate computing</title>
       <link>https://danysk.github.io/portfolio/2013-jos-alchemist/</link>
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://danysk.github.io/portfolio/2013-jos-alchemist/</guid>
       <description>Aggregate computing is an emerging approach to the engineering of complex coordination for distributed systems, based on viewing system interactions in terms of information propagating through collectives of devices, rather than in terms of individual devices and their interaction with their peers and environment. The foundation of this approach is the distillation of a number of prior approaches, both formal and pragmatic, proposed under the umbrella of field-based coordination, and culminating into the field calculus, a universal functional programming model for the specification and composition of collective behaviours with equivalent local and aggregate semantics.</description>
     </item>
-    
     <item>
       <title>A Higher-Order Calculus of Computational Fields</title>
       <link>https://danysk.github.io/portfolio/2019-tocl/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://danysk.github.io/portfolio/2019-tocl/</guid>
       <description>The complexity of large-scale distributed systems, particularly when deployed in physical space, calls for new mechanisms to address composability and reusability of collective adaptive behaviour. Computational fields have been proposed as an effective abstraction to fill the gap between the macro-level of such systems (specifying a system’s collective behaviour) and the micro-level (individual devices’ actions of computation and interaction to implement that collective specification), thereby providing a basis to better facilitate the engineering of collective APIs and complex systems at higher levels of abstraction.</description>
     </item>
-    
     <item>
       <title>Engineering Resilient Collective Adaptive Systems by Self-Stabilisation</title>
       <link>https://danysk.github.io/portfolio/2018-tomacs/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://danysk.github.io/portfolio/2018-tomacs/</guid>
       <description>Collective adaptive systems are an emerging class of networked computational systems particularly suited for application domains such as smart cities, complex sensor networks, and the Internet of Things. These systems tend to feature large-scale, heterogeneity of communication model (including opportunistic peer-to-peer wireless interaction) and require inherent self-adaptiveness properties to address unforeseen changes in operating conditions. In this context, it is extremely difficult (if not seemingly intractable) to engineer reusable pieces of distributed behaviour to make them provably correct and smoothly composable.</description>
     </item>
-    
     <item>
       <title>Self-Adaptation to Device Distribution in the Internet of Things</title>
       <link>https://danysk.github.io/portfolio/2017-taas/</link>
       <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://danysk.github.io/portfolio/2017-taas/</guid>
       <description>A key problem when coordinating the behaviour of spatially situated networks, like those typically found in the Internet of Things (IoT), is adaptation to changes impacting network topology, density, and heterogeneity. Computational goals for such systems, however, are often dependent on geometric properties of the continuous environment in which the devices are situated rather than the particulars of how devices happen to be distributed through it. In this article, we identify a new property of distributed algorithms, eventual consistency, which guarantees that computation converges to a final state that approximates a predictable limit, based on the continuous environment, as the density and speed of devices increases.</description>
     </item>
-    
     <item>
       <title>Protelis: Practical Aggregate Programming</title>
       <link>https://danysk.github.io/portfolio/2015-sac-protelis/</link>
       <pubDate>Wed, 01 Apr 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://danysk.github.io/portfolio/2015-sac-protelis/</guid>
       <description>The notion of a computational field has been proposed as a unifying abstraction for developing distributed systems, focusing on the computations and coordination of aggregates of devices instead of individual behavior. Prior field-based languages, however, have suffered from a number of practical limitations that have posed barriers to adoption and use. We address these limitations by introduction of Protelis, a functional language based on computational fields and embedded in Java, thereby enabling the construction of widely reusable components of aggregate systems.</description>
     </item>
-    
     <item>
       <title>Chemical-oriented simulation of computational systems with Alchemist</title>
       <link>https://danysk.github.io/portfolio/2019-jlamp/</link>
       <pubDate>Sun, 01 Sep 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://danysk.github.io/portfolio/2019-jlamp/</guid>
       <description>In this paper we address the engineering of complex and emerging computational systems featuring situatedness, adaptivity and self-organisation, like pervasive computing applications in which humans and devices, dipped in a very mobile environment, opportunistically interact to provide and exploit information services. We adopt a meta-model in which possibly mobile, interconnected and communicating agents work according to a set of chemical-like laws. According to this view, substantiated by recent research on pervasive computing systems, we present the Alchemist simulation framework, which retains the performance of known Stochastic Simulation Algorithms for (bio)chemistry, though it is tailored to the specific features of complex and situated computational systems.</description>
     </item>
-    
     <item>
       <title>Aggregate Programming for the Internet of Things</title>
       <link>https://danysk.github.io/portfolio/2015-ieee-computer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://danysk.github.io/portfolio/2015-ieee-computer/</guid>
       <description>Through field calculus constructs and building-block APIs, aggregate programming could help unlock the IoT&amp;rsquo;s true potential by allowing complex distributed services to be specified succinctly and by enabling such services to be safely encapsulated, modulated, and composed with one another.</description>
     </item>
-    
   </channel>
 </rss>
