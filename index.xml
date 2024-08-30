@@ -52,6 +52,13 @@
       <description>Per ogni corso, l&amp;rsquo;Università di Bologna richiede agli studenti di compilare dei questionari anonimi, i cui risultati sono poi visibili ai docenti.&#xA;Personalmente insisto sull&amp;rsquo;importanza di compilare (oltre allo spazio con le risposte sintetiche sul gradimento del corso) anche lo spazio con i commenti in testo libero, visto che scoccio per scriverli, mi prendo la briga di leggerli e rispondere. I commenti dovrebbero esserci tutti, tranne quelli con argomenti capiti meglio / peggio senza un chiaro contesto.</description>
     </item>
     <item>
+      <title>A Collective Adaptive Approach to Decentralised k-Coverage in Multi-robot Systems</title>
+      <link>https://danysk.github.io/portfolio/2022-taas-smartcam/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://danysk.github.io/portfolio/2022-taas-smartcam/</guid>
+      <description>Abstract We focus on the online multi-object k-coverage problem (OMOkC), where mobile robots are required to sense a mobile target from k diverse points of view, coordinating themselves in a scalable and possibly decentralised way. There is active research on OMOkC, particularly in the design of decentralised algorithms for solving it. We propose a new take on the issue: Rather than classically developing new algorithms, we apply a macro-level paradigm, called aggregate computing, specifically designed to directly program the global behaviour of a whole ensemble of devices at once.</description>
+    </item>
+    <item>
       <title>Risposte ai questionari di LSS 2020/21</title>
       <link>https://danysk.github.io/post/2021-05-24-risposte-studenti-lss/</link>
       <pubDate>Mon, 24 May 2021 19:25:30 +0200</pubDate>

@@ -77,6 +77,21 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://danysk.github.io/portfolio/2022-taas-smartcam/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danysk.github.io/designs/federico-pettinari/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danysk.github.io/designs/lukas-esterle/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://danysk.github.io/post/2021-05-24-risposte-studenti-lss/</loc>
     <lastmod>2021-05-24T19:25:30+02:00</lastmod>
     <changefreq>monthly</changefreq>
