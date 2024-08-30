@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Danilo Pianini</copyright>
-    <lastBuildDate>Thu, 01 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Jun 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://danysk.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Runtime Load-Shifting of Distributed Controllers Across Networked Devices</title>
+      <link>https://danysk.github.io/portfolio/2023-dais/</link>
+      <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://danysk.github.io/portfolio/2023-dais/</guid>
+      <description>Abstract The ability to monitor and steer the behaviour of complex distributed systems is an increasingly hot research topic, fostered by the growing adoption of hybrid cloud-edge technologies that constitute a computational continuum. One key feature of these systems is the ability to scale in size, embracing a wide number of heterogeneous devices and applications. This complexity, in turn, impacts the monitoring and control systems that need, at the same time, to be able to deal with high complexity and computational load and be available on all kinds of devices.</description>
+    </item>
     <item>
       <title>Dynamic Decentralization Domains for the Internet of Things</title>
       <link>https://danysk.github.io/portfolio/2022-ieeeinternetcomp/</link>
