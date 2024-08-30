@@ -6,7 +6,7 @@ work: [DAIS 2023 - 23rd International Conference on Distributed Applications and
 #techs: [ protelis ]
 designs: [Angelo Filaseta, Danilo Pianini]
 thumbnail: 2023-dais/thumb.png
-projectUrl: https://doi.org/10.1109/MIC.2022.3216753
+projectUrl: https://doi.org/10.1007/978-3-031-35260-7_6
 # testimonial:
 #   name: John Doe
 #   role: CEO @Example
