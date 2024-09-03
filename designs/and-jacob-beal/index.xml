@@ -14,7 +14,7 @@
       <link>https://danysk.github.io/portfolio/2015-sac-protelis/</link>
       <pubDate>Wed, 01 Apr 2015 00:00:00 +0000</pubDate>
       <guid>https://danysk.github.io/portfolio/2015-sac-protelis/</guid>
-      <description>The notion of a computational field has been proposed as a unifying abstraction for developing distributed systems, focusing on the computations and coordination of aggregates of devices instead of individual behavior. Prior field-based languages, however, have suffered from a number of practical limitations that have posed barriers to adoption and use. We address these limitations by introduction of Protelis, a functional language based on computational fields and embedded in Java, thereby enabling the construction of widely reusable components of aggregate systems.</description>
+      <description>&lt;p&gt;The notion of a computational field has been proposed as a unifying abstraction for developing distributed systems, focusing on the computations and coordination of aggregates of devices instead of individual behavior. Prior field-based languages, however, have suffered from a number of practical limitations that have posed barriers to adoption and use. We address these limitations by introduction of Protelis, a functional language based on computational fields and embedded in Java, thereby enabling the construction of widely reusable components of aggregate systems. We demonstrate the simplicity of Protelis integration and programming through two examples: simulation of a pervasive computing scenario in the Alchemist simulator, and coordinated management of a network of services.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
