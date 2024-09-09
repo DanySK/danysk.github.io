@@ -22,7 +22,27 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://danysk.github.io/designs/mirko-viroli/</loc>
+    <lastmod>2023-06-10T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danysk.github.io/designs/nicolas-farabegoli/</loc>
+    <lastmod>2023-06-10T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danysk.github.io/designs/roberto-casadei/</loc>
+    <lastmod>2023-06-10T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://danysk.github.io/portfolio/2023-dais/</loc>
+    <lastmod>2023-06-10T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danysk.github.io/portfolio/2024-fgcs-pulverization/</loc>
     <lastmod>2023-06-10T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -38,16 +58,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://danysk.github.io/designs/gianluca-aguzzi/</loc>
-    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danysk.github.io/designs/mirko-viroli/</loc>
-    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danysk.github.io/designs/roberto-casadei/</loc>
     <lastmod>2022-12-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
