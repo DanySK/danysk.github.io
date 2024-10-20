@@ -14,7 +14,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build-website:
+  success:
     runs-on: ubuntu-latest
     steps:
       # Checkout the repository
