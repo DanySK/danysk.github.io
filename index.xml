@@ -136,6 +136,13 @@
       <description>&lt;p&gt;A key problem when coordinating the behaviour of spatially situated networks, like those typically found in the Internet of Things (IoT), is adaptation to changes impacting network topology, density, and heterogeneity. Computational goals for such systems, however, are often dependent on geometric properties of the continuous environment in which the devices are situated rather than the particulars of how devices happen to be distributed through it. In this article, we identify a new property of distributed algorithms, eventual consistency, which guarantees that computation converges to a final state that approximates a predictable limit, based on the continuous environment, as the density and speed of devices increases. We then identify a large class of programs that are eventually consistent, building on prior results on the field calculus computational model that identify a class of self-stabilizing programs. Finally, we confirm through simulation of IoT application scenarios that eventually consistent programs from this class can provide resilient behavior where programs that are only converging fail badly.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Aggregate Programming for the Internet of Things</title>
+      <link>https://danysk.github.io/portfolio/2015-ieee-computer/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>https://danysk.github.io/portfolio/2015-ieee-computer/</guid>
+      <description>&lt;p&gt;Through field calculus constructs and building-block APIs, aggregate programming could help unlock the IoT&amp;rsquo;s true potential by allowing complex distributed services to be specified succinctly and by enabling such services to be safely encapsulated, modulated, and composed with one another.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Protelis: Practical Aggregate Programming</title>
       <link>https://danysk.github.io/portfolio/2015-sac-protelis/</link>
       <pubDate>Wed, 01 Apr 2015 00:00:00 +0000</pubDate>
@@ -148,13 +155,6 @@
       <pubDate>Sun, 01 Sep 2013 00:00:00 +0000</pubDate>
       <guid>https://danysk.github.io/portfolio/2019-jlamp/</guid>
       <description>&lt;p&gt;In this paper we address the engineering of complex and emerging computational systems featuring situatedness, adaptivity and self-organisation, like pervasive computing applications in which humans and devices, dipped in a very mobile environment, opportunistically interact to provide and exploit information services. We adopt a meta-model in which possibly mobile, interconnected and communicating agents work according to a set of chemical-like laws. According to this view, substantiated by recent research on pervasive computing systems, we present the Alchemist simulation framework, which retains the performance of known Stochastic Simulation Algorithms for (bio)chemistry, though it is tailored to the specific features of complex and situated computational systems.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Aggregate Programming for the Internet of Things</title>
-      <link>https://danysk.github.io/portfolio/2015-ieee-computer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/portfolio/2015-ieee-computer/</guid>
-      <description>&lt;p&gt;Through field calculus constructs and building-block APIs, aggregate programming could help unlock the IoT&amp;rsquo;s true potential by allowing complex distributed services to be specified succinctly and by enabling such services to be safely encapsulated, modulated, and composed with one another.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
