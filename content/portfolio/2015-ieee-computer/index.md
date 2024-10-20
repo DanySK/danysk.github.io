@@ -1,7 +1,7 @@
 ---
 title: Aggregate Programming for the Internet of Things
 description: This is the description of our sample project
-date: "2015-09"
+date: "2015-09-01"
 jobDate: 2015
 work: [IEEE Computer]
 #techs: [ protelis ]
