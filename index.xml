@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Danilo Pianini</copyright>
-    <lastBuildDate>Tue, 10 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://danysk.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dynamic IoT deployment reconfiguration: A global-level self-organisation approach</title>
+      <link>https://danysk.github.io/portfolio/2024-iot-pulverization/</link>
+      <pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://danysk.github.io/portfolio/2024-iot-pulverization/</guid>
+      <description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;&#xA;&lt;p&gt;The edge-cloud continuum provides a heterogeneous, multi-scale, and dynamic infrastructure supporting complex deployment&#xA;profiles and trade-offs for application scenarios like those found in the Internet of Things&#xA;and large-scale cyber–physical systems domains.&#xA;To exploit the continuum, applications should be designed in a way that promotes flexibility and reconfigurability,&#xA;and proper management (sub-)systems should take care of reconfiguring them in response to changes in the environment&#xA;or non-functional requirements.&#xA;Approaches may leverage optimisation-based or heuristic-based policies,&#xA;and decision making may be centralised or distributed:&#xA;this work investigates decentralised heuristic-based approaches.&#xA;In particular, we focus on the pulverisation approach,&#xA;whereby a distributed software system is automatically partitioned (“pulverised”) into different deployment units.&#xA;In this context, we address two main research problems:&#xA;how to support the runtime reconfiguration of pulverised systems,&#xA;and how to specify decentralised reconfiguring policies by a global perspective.&#xA;To address the first problem,&#xA;we design and implement a middleware for pulverised systems separating infrastructural and application concerns.&#xA;To address the second problem, we leverage aggregate computing and exploit self-organisation patterns&#xA;to devise self-stabilising reconfiguration strategies.&#xA;By simulating deployments on different kinds of complex infrastructures,&#xA;we assess the flexibility of the pulverisation middleware design&#xA;as well as the effectiveness and resilience of the aggregate computing-based reconfiguration policies.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Scalability through Pulverisation: Declarative deployment reconfiguration at runtime</title>
       <link>https://danysk.github.io/portfolio/2024-fgcs-pulverization/</link>
