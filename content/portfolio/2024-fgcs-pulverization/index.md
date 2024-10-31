@@ -1,8 +1,8 @@
 ---
-title: Runtime Load-Shifting of Distributed Controllers Across Networked Devices
+title: "Scalability through Pulverisation: Declarative deployment reconfiguration at runtime"
 date: "2023-06-10"
 jobDate: 2023
-work: [DAIS 2023 - 23rd International Conference on Distributed Applications and Interoperable Systems]
+work: [Future Generation Computer Systems]
 #techs: [ protelis ]
 designs: [Nicolas Farabegoli, Danilo Pianini, Roberto Casadei, Mirko Viroli]
 thumbnail: 2024-fgcs-pulverization/thumb.png
