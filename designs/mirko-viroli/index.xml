@@ -7,12 +7,12 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Danilo Pianini</copyright>
-    <lastBuildDate>Sat, 10 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://danysk.github.io/designs/mirko-viroli/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Scalability through Pulverisation: Declarative deployment reconfiguration at runtime</title>
       <link>https://danysk.github.io/portfolio/2024-fgcs-pulverization/</link>
-      <pubDate>Sat, 10 Jun 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
       <guid>https://danysk.github.io/portfolio/2024-fgcs-pulverization/</guid>
       <description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;&#xA;&lt;p&gt;In recent years, the infrastructure supporting the execution of situated distributed computations evolved at a fast pace.&#xA;Modern collective adaptive applications – as found in the Internet of Things, swarm robotics, and social computing –&#xA;are designed to be executed on very diverse devices and to be deployed on infrastructures composed of devices ranging&#xA;from cloud servers to wearable devices,&#xA;constituting together a cloud–edge continuum.&#xA;The availability of such an infrastructure opens to better resource utilisation and performance but, at the same time,&#xA;introduces new challenges to software designers,&#xA;as applications must be conceived to be able to adapt to changing deployment domains and conditions.&#xA;In this paper, we introduce a practical framework for the development of systems based on the concept of pulverisation,&#xA;meant to neatly separate business logic and deployment concerns, allowing applications to be defined&#xA;independently of the infrastructure they will execute upon, thus supporting scalability.&#xA;The framework is based on a domain-specific language capturing, in a declarative fashion:&#xA;pulverised application components, device capabilities, resource allocation, and (runtime re-) configuration policies.&#xA;The framework, implemented in Kotlin multiplatform and available as open source,&#xA;is then evaluated in a small-scale real-world demo and in a city-scale simulated scenario,&#xA;demonstrating the feasibility of the approach and its potential benefits&#xA;in achieving better trade-offs between performance and resource utilisation.&lt;/p&gt;</description>
     </item>
