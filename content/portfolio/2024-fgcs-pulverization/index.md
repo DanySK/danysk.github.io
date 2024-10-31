@@ -1,7 +1,7 @@
 ---
 title: "Scalability through Pulverisation: Declarative deployment reconfiguration at runtime"
-date: "2023-06-10"
-jobDate: 2023
+date: "2024-09-10"
+jobDate: 2024
 work: [Future Generation Computer Systems]
 #techs: [ protelis ]
 designs: [Nicolas Farabegoli, Danilo Pianini, Roberto Casadei, Mirko Viroli]
