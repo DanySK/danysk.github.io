@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sven Tomforde on Danilo Pianini</title>
+    <link>https://danysk.github.io/designs/sven-tomforde/</link>
+    <description>Recent content in Sven Tomforde on Danilo Pianini</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Danilo Pianini</copyright>
+    <lastBuildDate>Mon, 02 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://danysk.github.io/designs/sven-tomforde/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Towards Adaptive Trajectories for Mixed Autonomous and Human-Operated Ships</title>
+      <link>https://danysk.github.io/portfolio/2024-sissy-ships/</link>
+      <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://danysk.github.io/portfolio/2024-sissy-ships/</guid>
+      <description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;&#xA;&lt;p&gt;We are witnessing the rise of autonomous cars,&#xA;which will likely revolutionize the way we travel.&#xA;Arguably, the maritime domain lags behind, as ships operate on many more degrees of freedom&#xA;(thus, a much larger search space):&#xA;there is less physical infrastructure, and rules are less consistent and constraining than what is found on roads.&#xA;The problem is further complicated by the inevitable co-existence of autonomous and human-operated ships:&#xA;the latter may take unpredictable decisions, which require adjustments on the autonomous ones.&#xA;Finally, the problem is inherently decentralised, there is no central authority,&#xA;and communication means can be very diverse in terms of communication distance and performance,&#xA;mandating special care on which information is shared and how.&#xA;In this work,&#xA;we elaborate on the challenges of trajectory prediction and adaptation for mixed autonomous and human-operated ships,&#xA;and we propose initial ideas on potential approaches to address them.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
