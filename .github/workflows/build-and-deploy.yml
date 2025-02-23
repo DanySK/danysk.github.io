@@ -55,7 +55,7 @@ jobs:
         run: hugo
       - name: Deploy website
         if: ${{ github.event_name != 'pull_request' }}
-        uses: JamesIves/github-pages-deploy-action@v4.7.2
+        uses: JamesIves/github-pages-deploy-action@v4.7.3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
