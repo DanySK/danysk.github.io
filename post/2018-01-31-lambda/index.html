@@ -8,7 +8,7 @@
   <meta name='theme-color' content='#FD3519' />
   
 
-  <meta name="generator" content="Hugo 0.152.2">
+  <meta name="generator" content="Hugo 0.153.0">
 
   
 
@@ -44,7 +44,7 @@
   <div class="intro">
     <div class="logo-container">
       <a href="/">
-        <img src='https://0.gravatar.com/avatar/b96269945e9426825bdbba067eb3eaed?s=1000' alt="Profile 404 Page not found" class="rounded-logo">
+        <img src='https://0.gravatar.com/avatar/b96269945e9426825bdbba067eb3eaed?s=1000' alt="Profile Designs" class="rounded-logo">
       </a>
     </div>
     <h2>Hi, I'm Danilo 👋</h2>
@@ -192,7 +192,7 @@
     <div class="intro">
       <div class="logo-container">
         <a href="/">
-          <img src='https://0.gravatar.com/avatar/b96269945e9426825bdbba067eb3eaed?s=1000' alt="Profile 404 Page not found" class="rounded-logo">
+          <img src='https://0.gravatar.com/avatar/b96269945e9426825bdbba067eb3eaed?s=1000' alt="Profile Designs" class="rounded-logo">
         </a>
       </div>
       <h2>Hi, I'm Danilo 👋</h2>
@@ -392,16 +392,16 @@ The latter is somewhat a dead language, almost superseded by Kotlin, but it is a
 <h3 id="a-lambda-with-a-single-parameter-used-once">A lambda with a single parameter used once</h3>
 <p>Let&rsquo;s start with: a single parameter lambda, where the parameter is used once. Our baseline is Java:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">final</span><span class="w"> </span><span class="n">Function</span><span class="o">&lt;</span><span class="n">Object</span><span class="p">,</span><span class="w"> </span><span class="n">Object</span><span class="o">&gt;</span><span class="w"> </span><span class="n">foo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">o</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">o</span><span class="p">.</span><span class="na">toString</span><span class="p">();</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">// Or, with method reference:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">final</span><span class="w"> </span><span class="n">Function</span><span class="o">&lt;</span><span class="n">Object</span><span class="p">,</span><span class="w"> </span><span class="n">Object</span><span class="o">&gt;</span><span class="w"> </span><span class="n">bar</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Object</span><span class="p">::</span><span class="n">toString</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="c1">// Or, with method reference:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="kd">final</span><span class="w"> </span><span class="n">Function</span><span class="o">&lt;</span><span class="n">Object</span><span class="p">,</span><span class="w"> </span><span class="n">Object</span><span class="o">&gt;</span><span class="w"> </span><span class="n">bar</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Object</span><span class="p">::</span><span class="n">toString</span><span class="p">;</span><span class="w">
 </span></span></span></code></pre></div><p>I find the second option way more elegant, but, as you can see, you end up spending more or less the same length.
 The caveat here is: if I have a single parameter, why do I need to name it?
 Let&rsquo;s see what Kotlin does:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-kotlin" data-lang="kotlin"><span class="line"><span class="cl"><span class="k">val</span> <span class="py">foo</span><span class="p">:</span> <span class="p">(</span><span class="n">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Any</span> <span class="p">=</span> <span class="p">{</span> <span class="n">o</span> <span class="o">-&gt;</span> <span class="n">o</span><span class="p">.</span><span class="n">toString</span><span class="p">()</span> <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="c1">// But the parameter is implicitly named &#34;it&#34;!
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">val</span> <span class="py">bar</span><span class="p">:</span> <span class="p">(</span><span class="n">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Any</span> <span class="p">=</span> <span class="p">{</span> <span class="k">it</span><span class="p">.</span><span class="n">toString</span><span class="p">()</span> <span class="p">}</span>
+</span></span></span><span class="line"><span class="cl"><span class="k">val</span> <span class="py">bar</span><span class="p">:</span> <span class="p">(</span><span class="n">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Any</span> <span class="p">=</span> <span class="p">{</span> <span class="k">it</span><span class="p">.</span><span class="n">toString</span><span class="p">()</span> <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="c1">// Kotlin supports method reference
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">val</span> <span class="py">foobar</span> <span class="p">=</span> <span class="n">Any</span><span class="o">::</span><span class="n">toString</span>
+</span></span></span><span class="line"><span class="cl"><span class="k">val</span> <span class="py">foobar</span> <span class="p">=</span> <span class="n">Any</span><span class="o">::</span><span class="n">toString</span>
 </span></span><span class="line"><span class="cl"><span class="c1">// The compiler infers type Any.() -&gt; String
 </span></span></span></code></pre></div><p>There are a couple of interesting things to notice:</p>
 <ol>
@@ -419,7 +419,7 @@ I like it better than Java, but prefer Kotlin here.</p>
 <p>Let&rsquo;s look at Scala now:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scala" data-lang="scala"><span class="line"><span class="cl"><span class="k">val</span> <span class="n">foo</span><span class="k">:</span> <span class="o">(</span><span class="kt">Any</span><span class="o">)</span> <span class="o">=&gt;</span> <span class="nc">String</span> <span class="k">=</span> <span class="n">o</span> <span class="k">=&gt;</span> <span class="n">o</span><span class="o">.</span><span class="n">toString</span>
 </span></span><span class="line"><span class="cl"><span class="c1">// Underscore as parameter name!
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">val</span> <span class="n">bar</span><span class="k">:</span> <span class="o">(</span><span class="kt">Any</span><span class="o">)</span> <span class="o">=&gt;</span> <span class="nc">String</span> <span class="k">=</span> <span class="k">_</span><span class="o">.</span><span class="n">toString</span>
+</span></span></span><span class="line"><span class="cl"><span class="k">val</span> <span class="n">bar</span><span class="k">:</span> <span class="o">(</span><span class="kt">Any</span><span class="o">)</span> <span class="o">=&gt;</span> <span class="nc">String</span> <span class="k">=</span> <span class="k">_</span><span class="o">.</span><span class="n">toString</span>
 </span></span></code></pre></div><p>Scala, similarly to Java, does not need any parentheses to surround the lambda expression.
 Additionally, if a method has no arguments, the brackets can be omitted when invoking it.
 This sounds really great (and partly is), but I find the final result a bit harder to read than the other languages: the combination of the type declaration after the variable name and the sequence of <code>=&gt; ... = ... =&gt;</code> (one in the type declaration, then the assignment, then the lambda) is not immediate to distinguish at glance.
@@ -443,7 +443,7 @@ Combine this with the possibility of omitting the parentheses, and you get an ex
 </code></pre><p>Here the greatness of Scala&rsquo;s underscores fails, as a second use of the underscore would imply a second parameter:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scala" data-lang="scala"><span class="line"><span class="cl"><span class="k">val</span> <span class="n">foo</span><span class="k">:</span> <span class="o">(</span><span class="kt">Any</span><span class="o">)</span> <span class="o">=&gt;</span> <span class="nc">String</span> <span class="k">=</span> <span class="n">o</span> <span class="k">=&gt;</span> <span class="n">o</span><span class="o">.</span><span class="n">toString</span> <span class="o">+</span> <span class="n">o</span><span class="o">.</span><span class="n">toString</span>
 </span></span><span class="line"><span class="cl"><span class="c1">// Or, more Kotlin-ishly
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">val</span> <span class="n">bar</span> <span class="k">=</span> <span class="o">{</span> <span class="n">o</span><span class="k">:</span> <span class="kt">Any</span> <span class="o">=&gt;</span> <span class="n">o</span><span class="o">.</span><span class="n">toString</span> <span class="o">+</span> <span class="n">o</span><span class="o">.</span><span class="n">toString</span> <span class="o">}</span>
+</span></span></span><span class="line"><span class="cl"><span class="k">val</span> <span class="n">bar</span> <span class="k">=</span> <span class="o">{</span> <span class="n">o</span><span class="k">:</span> <span class="kt">Any</span> <span class="o">=&gt;</span> <span class="n">o</span><span class="o">.</span><span class="n">toString</span> <span class="o">+</span> <span class="n">o</span><span class="o">.</span><span class="n">toString</span> <span class="o">}</span>
 </span></span></code></pre></div><p>My personal preference order for this kind of lambda is Kotlin &gt; Xtend &gt; Scala &gt; Java</p>
 <h3 id="a-lambda-with-two-parameters-used-once">A lambda with two parameters used once</h3>
 <p>In case there are two parameters used once each, Scala gets back to its super compact lambdas using underscores:</p>
@@ -453,7 +453,7 @@ Combine this with the possibility of omitting the parentheses, and you get an ex
 Kotlin at this point requires parameters to be explicitly named:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-kotlin" data-lang="kotlin"><span class="line"><span class="cl"><span class="k">val</span> <span class="py">bar</span><span class="p">:</span> <span class="p">(</span><span class="n">Int</span><span class="p">,</span> <span class="n">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Int</span> <span class="p">=</span> <span class="p">{</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">-&gt;</span> <span class="n">a</span> <span class="p">+</span> <span class="n">b</span> <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="c1">// Or, equivalently:
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">val</span> <span class="py">bar</span> <span class="p">=</span> <span class="p">{</span> <span class="n">a</span><span class="p">:</span> <span class="n">Int</span><span class="p">,</span> <span class="n">b</span><span class="p">:</span> <span class="n">Int</span> <span class="o">-&gt;</span> <span class="n">a</span> <span class="p">+</span> <span class="n">b</span> <span class="p">}</span>
+</span></span></span><span class="line"><span class="cl"><span class="k">val</span> <span class="py">bar</span> <span class="p">=</span> <span class="p">{</span> <span class="n">a</span><span class="p">:</span> <span class="n">Int</span><span class="p">,</span> <span class="n">b</span><span class="p">:</span> <span class="n">Int</span> <span class="o">-&gt;</span> <span class="n">a</span> <span class="p">+</span> <span class="n">b</span> <span class="p">}</span>
 </span></span></code></pre></div><p>Xtend has got another card to play, though: parameters can be accessed with their positional name!</p>
 <pre tabindex="0"><code class="language-xtend" data-lang="xtend">val (int, int) -&gt; int bar = [ $1 + $2 ]
 </code></pre><p>I find this syntax a very good compromise between compactness and clarity.</p>
@@ -470,7 +470,7 @@ Kotlin at this point requires parameters to be explicitly named:</p>
 <p>Kotlin, having only the <code>it</code> trick, needs to name its parameters as Scala and Java need to, and we end up with something like:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-kotlin" data-lang="kotlin"><span class="line"><span class="cl"><span class="k">val</span> <span class="py">bar</span><span class="p">:</span> <span class="p">(</span><span class="n">Int</span><span class="p">,</span> <span class="n">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Int</span> <span class="p">=</span> <span class="p">{</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">-&gt;</span> <span class="n">a</span> <span class="p">*</span> <span class="n">a</span> <span class="p">+</span> <span class="n">b</span> <span class="p">*</span> <span class="n">b</span> <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="c1">// Or, equivalently:
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">val</span> <span class="py">bar</span> <span class="p">=</span> <span class="p">{</span> <span class="n">a</span><span class="p">:</span> <span class="n">Int</span><span class="p">,</span> <span class="n">b</span><span class="p">:</span> <span class="n">Int</span> <span class="o">-&gt;</span> <span class="n">a</span> <span class="p">*</span> <span class="n">a</span> <span class="p">+</span> <span class="n">b</span> <span class="p">*</span> <span class="n">b</span> <span class="p">}</span>
+</span></span></span><span class="line"><span class="cl"><span class="k">val</span> <span class="py">bar</span> <span class="p">=</span> <span class="p">{</span> <span class="n">a</span><span class="p">:</span> <span class="n">Int</span><span class="p">,</span> <span class="n">b</span><span class="p">:</span> <span class="n">Int</span> <span class="o">-&gt;</span> <span class="n">a</span> <span class="p">*</span> <span class="n">a</span> <span class="p">+</span> <span class="n">b</span> <span class="p">*</span> <span class="n">b</span> <span class="p">}</span>
 </span></span></code></pre></div><p>With respect to Scala and Java there is no obvious advantage, though I find the syntax to be slightly clearer.
 A handy feature of Kotlin when it comes to writing compact and clear lambdas is the usage of the underscore for marking unused parameters.
 It saves up some space, but I frankly used it rather sparingly.</p>
