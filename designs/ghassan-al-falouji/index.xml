@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ghassan Al-Falouji on Danilo Pianini</title>
+    <link>https://danysk.github.io/designs/ghassan-al-falouji/</link>
+    <description>Recent content in Ghassan Al-Falouji on Danilo Pianini</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Danilo Pianini</copyright>
+    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://danysk.github.io/designs/ghassan-al-falouji/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Robust Communication Through Collective Adaptive Relay Schemes for Maritime Vessels</title>
+      <link>https://danysk.github.io/portfolio/2025-acsos-maritime-relay/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://danysk.github.io/portfolio/2025-acsos-maritime-relay/</guid>
+      <description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;&#xA;&lt;p&gt;Communication in maritime environments poses significant challenges due to the dynamic and&#xA;heterogeneous nature of the medium: ships are mobile, the topology changes continuously,&#xA;and infrastructure coverage may be sparse or absent.&#xA;In this work, we investigate how collective adaptive systems can be leveraged to design&#xA;robust relay communication schemes for fleets of maritime vessels.&#xA;Inspired by self-organisation principles, we propose relay strategies where vessels&#xA;collectively and dynamically elect relay nodes,&#xA;maintaining end-to-end communication even under adverse conditions such as node failures,&#xA;varying densities, and diverse communication ranges.&#xA;The approach is evaluated through simulation, demonstrating resilience and adaptability&#xA;compared to static or centralised alternatives.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

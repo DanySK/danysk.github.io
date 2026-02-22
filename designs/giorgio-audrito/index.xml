@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Danilo Pianini</copyright>
-    <lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://danysk.github.io/designs/giorgio-audrito/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Software Engineering for Collective Cyber-Physical Ecosystems</title>
+      <link>https://danysk.github.io/portfolio/2025-tosem-collective-cps/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://danysk.github.io/portfolio/2025-tosem-collective-cps/</guid>
+      <description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;&#xA;&lt;p&gt;Today&amp;rsquo;s distributed and pervasive computing addresses large-scale cyber-physical ecosystems,&#xA;characterised by dense and large networks of devices capable of computation, communication&#xA;and interaction with the environment and people.&#xA;While most research focusses on treating these systems as &amp;ldquo;composites&amp;rdquo;&#xA;(i.e., heterogeneous functional complexes),&#xA;recent developments in fields such as self-organising systems and swarm robotics&#xA;have opened up a complementary perspective:&#xA;treating systems as &amp;ldquo;collectives&amp;rdquo;&#xA;(i.e., uniform, collaborative, and self-organising groups of entities).&#xA;This article explores the motivations, state of the art, and implications of this&#xA;&amp;ldquo;collective computing paradigm&amp;rdquo; in software engineering,&#xA;discusses its peculiar challenges, and outlines a path for future research,&#xA;touching on aspects such as macroprogramming, collective intelligence,&#xA;self-adaptive middleware, learning, synthesis,&#xA;and experimentation of collective behaviour.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>From distributed coordination to field calculus and aggregate computing</title>
       <link>https://danysk.github.io/portfolio/2013-jos-alchemist/</link>

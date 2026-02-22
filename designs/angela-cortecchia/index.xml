@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Angela Cortecchia on Danilo Pianini</title>
+    <link>https://danysk.github.io/designs/angela-cortecchia/</link>
+    <description>Recent content in Angela Cortecchia on Danilo Pianini</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Danilo Pianini</copyright>
+    <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://danysk.github.io/designs/angela-cortecchia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Demonstrator for Self-organizing Robot Teams</title>
+      <link>https://danysk.github.io/portfolio/2025-coordination-robot-demo/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://danysk.github.io/portfolio/2025-coordination-robot-demo/</guid>
+      <description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;&#xA;&lt;p&gt;Self-organising multi-robot systems hold great promise for tackling complex tasks in&#xA;unstructured and dynamic environments,&#xA;yet bridging the gap between theoretical models and practical deployments remains challenging.&#xA;In this work, we present a demonstrator showcasing a team of robots that collectively&#xA;self-organise their behaviour using aggregate computing.&#xA;The demonstrator illustrates how high-level, globally-specified collective behaviour&#xA;can be automatically mapped to individual robot actions,&#xA;supporting coordination patterns such as leader election, coverage, and formation control.&#xA;The system is implemented on physical hardware and is also reproducible in simulation,&#xA;making it a concrete testbed for collective adaptive robotics research.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

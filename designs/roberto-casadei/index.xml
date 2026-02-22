@@ -7,8 +7,22 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Danilo Pianini</copyright>
-    <lastBuildDate>Mon, 28 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://danysk.github.io/designs/roberto-casadei/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Demonstrator for Self-organizing Robot Teams</title>
+      <link>https://danysk.github.io/portfolio/2025-coordination-robot-demo/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://danysk.github.io/portfolio/2025-coordination-robot-demo/</guid>
+      <description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;&#xA;&lt;p&gt;Self-organising multi-robot systems hold great promise for tackling complex tasks in&#xA;unstructured and dynamic environments,&#xA;yet bridging the gap between theoretical models and practical deployments remains challenging.&#xA;In this work, we present a demonstrator showcasing a team of robots that collectively&#xA;self-organise their behaviour using aggregate computing.&#xA;The demonstrator illustrates how high-level, globally-specified collective behaviour&#xA;can be automatically mapped to individual robot actions,&#xA;supporting coordination patterns such as leader election, coverage, and formation control.&#xA;The system is implemented on physical hardware and is also reproducible in simulation,&#xA;making it a concrete testbed for collective adaptive robotics research.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Software Engineering for Collective Cyber-Physical Ecosystems</title>
+      <link>https://danysk.github.io/portfolio/2025-tosem-collective-cps/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://danysk.github.io/portfolio/2025-tosem-collective-cps/</guid>
+      <description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;&#xA;&lt;p&gt;Today&amp;rsquo;s distributed and pervasive computing addresses large-scale cyber-physical ecosystems,&#xA;characterised by dense and large networks of devices capable of computation, communication&#xA;and interaction with the environment and people.&#xA;While most research focusses on treating these systems as &amp;ldquo;composites&amp;rdquo;&#xA;(i.e., heterogeneous functional complexes),&#xA;recent developments in fields such as self-organising systems and swarm robotics&#xA;have opened up a complementary perspective:&#xA;treating systems as &amp;ldquo;collectives&amp;rdquo;&#xA;(i.e., uniform, collaborative, and self-organising groups of entities).&#xA;This article explores the motivations, state of the art, and implications of this&#xA;&amp;ldquo;collective computing paradigm&amp;rdquo; in software engineering,&#xA;discusses its peculiar challenges, and outlines a path for future research,&#xA;touching on aspects such as macroprogramming, collective intelligence,&#xA;self-adaptive middleware, learning, synthesis,&#xA;and experimentation of collective behaviour.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Dynamic IoT deployment reconfiguration: A global-level self-organisation approach</title>
       <link>https://danysk.github.io/portfolio/2024-iot-pulverization/</link>

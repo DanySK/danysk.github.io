@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 140" width="200" height="140">
+  <!-- Sea background -->
+  <rect width="200" height="140" fill="#e8f4f8"/>
+  <!-- Water -->
+  <rect y="95" width="200" height="45" fill="#4e9af1" opacity="0.4"/>
+  <!-- Waves -->
+  <path d="M0 100 Q25 95 50 100 Q75 105 100 100 Q125 95 150 100 Q175 105 200 100" stroke="#2171b5" stroke-width="1.5" fill="none"/>
+  <!-- Ships -->
+  <polygon points="30,90 25,98 35,98" fill="#555"/>
+  <rect x="27" y="88" width="6" height="4" fill="#777"/>
+  <polygon points="80,90 75,98 85,98" fill="#555"/>
+  <rect x="77" y="88" width="6" height="4" fill="#777"/>
+  <polygon points="130,90 125,98 135,98" fill="#555"/>
+  <rect x="127" y="88" width="6" height="4" fill="#777"/>
+  <polygon points="175,90 170,98 180,98" fill="#555"/>
+  <rect x="172" y="88" width="6" height="4" fill="#777"/>
+  <!-- Communication arcs (relay) -->
+  <path d="M30 88 Q55 70 80 88" stroke="#e69f00" stroke-width="2" fill="none" stroke-dasharray="4,2"/>
+  <path d="M80 88 Q105 70 130 88" stroke="#e69f00" stroke-width="2" fill="none" stroke-dasharray="4,2"/>
+  <path d="M130 88 Q152 70 175 88" stroke="#e69f00" stroke-width="2" fill="none" stroke-dasharray="4,2"/>
+  <!-- Direct signal indicators -->
+  <circle cx="30" cy="85" r="3" fill="#e69f00"/>
+  <circle cx="80" cy="85" r="3" fill="#e69f00"/>
+  <circle cx="130" cy="85" r="3" fill="#e69f00"/>
+  <circle cx="175" cy="85" r="3" fill="#e69f00"/>
+  <!-- Title bar -->
+  <rect width="200" height="28" fill="#2171b5"/>
+  <text x="100" y="12" font-family="sans-serif" font-size="7.5" font-weight="bold" fill="white" text-anchor="middle">Collective Adaptive Relay Schemes</text>
+  <text x="100" y="23" font-family="sans-serif" font-size="7" fill="#cce5ff" text-anchor="middle">for Maritime Vessels</text>
+  <!-- Label -->
+  <text x="100" y="136" font-family="sans-serif" font-size="6.5" fill="#2171b5" text-anchor="middle">ACSOS 2025</text>
+</svg>
