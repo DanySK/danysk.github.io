@@ -4,7 +4,7 @@ date: "2025-07-01"
 jobDate: 2025
 work: [2025 IEEE International Conference on Autonomic Computing and Self-Organizing Systems (ACSOS)]
 designs: [Martina Baiardi, Danilo Pianini, Ghassan Al-Falouji, Sven Tomforde]
-thumbnail: 2025-acsos-maritime-relay/thumb.svg
+thumbnail: 2025-acsos-maritime-relay/thumb.png
 projectUrl: https://doi.org/10.1109/ACSOS66086.2025.00019
 ---
 

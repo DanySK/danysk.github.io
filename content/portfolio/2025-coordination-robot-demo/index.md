@@ -4,7 +4,7 @@ date: "2025-06-01"
 jobDate: 2025
 work: [27th International Conference on Coordination Models and Languages (COORDINATION)]
 designs: [Gianluca Aguzzi, Lorenzo Bacchini, Martina Baiardi, Roberto Casadei, Angela Cortecchia, Davide Domini, Nicolas Farabegoli, Danilo Pianini, Mirko Viroli]
-thumbnail: 2025-coordination-robot-demo/thumb.svg
+thumbnail: 2025-coordination-robot-demo/thumb.png
 projectUrl: https://doi.org/10.1007/978-3-031-95589-1_12
 ---
 
