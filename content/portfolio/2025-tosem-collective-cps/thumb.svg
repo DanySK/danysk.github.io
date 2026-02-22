@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 140" width="200" height="140">
+  <!-- Background -->
+  <rect width="200" height="140" fill="#f8f9fa"/>
+  <!-- Title area -->
+  <rect width="200" height="30" fill="#0072b2"/>
+  <text x="100" y="19" font-family="sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Collective Cyber-Physical Ecosystems</text>
+  <!-- Cloud node -->
+  <ellipse cx="100" cy="65" rx="20" ry="14" fill="#4e9af1" opacity="0.8"/>
+  <text x="100" y="68" font-family="sans-serif" font-size="7" fill="white" text-anchor="middle">Cloud</text>
+  <!-- Edge nodes -->
+  <circle cx="40" cy="90" r="12" fill="#e69f00" opacity="0.9"/>
+  <text x="40" y="93" font-family="sans-serif" font-size="6" fill="white" text-anchor="middle">Edge</text>
+  <circle cx="160" cy="90" r="12" fill="#e69f00" opacity="0.9"/>
+  <text x="160" y="93" font-family="sans-serif" font-size="6" fill="white" text-anchor="middle">Edge</text>
+  <!-- IoT devices -->
+  <rect x="20" y="118" width="14" height="10" rx="2" fill="#009e73"/>
+  <rect x="60" y="118" width="14" height="10" rx="2" fill="#009e73"/>
+  <rect x="126" y="118" width="14" height="10" rx="2" fill="#009e73"/>
+  <rect x="166" y="118" width="14" height="10" rx="2" fill="#009e73"/>
+  <!-- Connections -->
+  <line x1="100" y1="79" x2="40" y2="78" stroke="#555" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <line x1="100" y1="79" x2="160" y2="78" stroke="#555" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <line x1="40" y1="102" x2="27" y2="118" stroke="#555" stroke-width="1"/>
+  <line x1="40" y1="102" x2="67" y2="118" stroke="#555" stroke-width="1"/>
+  <line x1="160" y1="102" x2="133" y2="118" stroke="#555" stroke-width="1"/>
+  <line x1="160" y1="102" x2="173" y2="118" stroke="#555" stroke-width="1"/>
+  <!-- Label -->
+  <text x="100" y="136" font-family="sans-serif" font-size="6" fill="#555" text-anchor="middle">TOSEM 2025</text>
+</svg>
