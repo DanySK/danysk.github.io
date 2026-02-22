@@ -1,0 +1,15 @@
+{{- $pc := .Page.Site.Config.Privacy.X -}}
+{{- if not $pc.Disable -}}
+{{- if $pc.Simple -}}
+{{ template "_internal/shortcodes/twitter_simple.html" . }}
+{{- else -}}
+{{- $tweetID := print (index .Params 0) -}}
+{{- $url := printf "https://api.twitter.com/1/statuses/oembed.json?hide_thread=1&id=%s&dnt=%t" $tweetID $pc.EnableDNT -}}
+{{- $response := resources.GetRemote $url -}}
+{{- if $response.Err -}}
+  {{- errorf "Failed to fetch tweet %s: %s" $tweetID $response.Err -}}
+{{- end -}}
+{{- $json := $response | transform.Unmarshal -}}
+{{ $json.html | safeHTML }}
+{{- end -}}
+{{- end -}}
