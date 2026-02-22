@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Danilo Pianini</copyright>
-    <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://danysk.github.io/designs/roberto-casadei/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FieldVMC: An Asynchronous Model and Platform for Self-organising Morphogenesis of Artificial Structures</title>
+      <link>https://danysk.github.io/portfolio/2025-cais-fieldvmc/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://danysk.github.io/portfolio/2025-cais-fieldvmc/</guid>
+      <description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;&#xA;&lt;p&gt;In the field of evolutionary computing, the concept of Vascular Morphogenesis Controller (VMC)&#xA;has been proposed to model the growth of artificial structures over time,&#xA;stemming from a botanical metaphor of plant morphogenesis.&#xA;VMC entails a distributed and self-organising protocol where each node in a tree-shaped structure&#xA;is responsible for distributing resources to its children and collecting success towards its parent.&lt;/p&gt;&#xA;&lt;p&gt;However, the original VMC model has known limitations:&#xA;it assumes a tree organisation structure and is implicitly synchronous.&#xA;These assumptions may induce abstraction gaps when VMC is used to model real-world systems,&#xA;and limit the applicability of the pattern to engineered morphogenetic systems.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>A Demonstrator for Self-organizing Robot Teams</title>
       <link>https://danysk.github.io/portfolio/2025-coordination-robot-demo/</link>

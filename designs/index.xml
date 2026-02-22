@@ -7,13 +7,76 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Danilo Pianini</copyright>
-    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://danysk.github.io/designs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Danilo Pianini</title>
       <link>https://danysk.github.io/designs/danilo-pianini/</link>
-      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://danysk.github.io/designs/danilo-pianini/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Giovanni Ciatto</title>
+      <link>https://danysk.github.io/designs/giovanni-ciatto/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://danysk.github.io/designs/giovanni-ciatto/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Martina Baiardi</title>
+      <link>https://danysk.github.io/designs/martina-baiardi/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://danysk.github.io/designs/martina-baiardi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Samuele Burattini</title>
+      <link>https://danysk.github.io/designs/samuele-burattini/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://danysk.github.io/designs/samuele-burattini/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Angela Cortecchia</title>
+      <link>https://danysk.github.io/designs/angela-cortecchia/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://danysk.github.io/designs/angela-cortecchia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Roberto Casadei</title>
+      <link>https://danysk.github.io/designs/roberto-casadei/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://danysk.github.io/designs/roberto-casadei/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Alessandro Papadopoulos</title>
+      <link>https://danysk.github.io/designs/alessandro-papadopoulos/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://danysk.github.io/designs/alessandro-papadopoulos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Branko Miloradovic</title>
+      <link>https://danysk.github.io/designs/branko-miloradovic/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://danysk.github.io/designs/branko-miloradovic/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gianluca Aguzzi</title>
+      <link>https://danysk.github.io/designs/gianluca-aguzzi/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://danysk.github.io/designs/gianluca-aguzzi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mirko Viroli</title>
+      <link>https://danysk.github.io/designs/mirko-viroli/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://danysk.github.io/designs/mirko-viroli/</guid>
       <description></description>
     </item>
     <item>
@@ -24,24 +87,10 @@
       <description></description>
     </item>
     <item>
-      <title>Martina Baiardi</title>
-      <link>https://danysk.github.io/designs/martina-baiardi/</link>
-      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/martina-baiardi/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Sven Tomforde</title>
       <link>https://danysk.github.io/designs/sven-tomforde/</link>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://danysk.github.io/designs/sven-tomforde/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Angela Cortecchia</title>
-      <link>https://danysk.github.io/designs/angela-cortecchia/</link>
-      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/angela-cortecchia/</guid>
       <description></description>
     </item>
     <item>
@@ -52,13 +101,6 @@
       <description></description>
     </item>
     <item>
-      <title>Gianluca Aguzzi</title>
-      <link>https://danysk.github.io/designs/gianluca-aguzzi/</link>
-      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/gianluca-aguzzi/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Lorenzo Bacchini</title>
       <link>https://danysk.github.io/designs/lorenzo-bacchini/</link>
       <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
@@ -66,24 +108,10 @@
       <description></description>
     </item>
     <item>
-      <title>Mirko Viroli</title>
-      <link>https://danysk.github.io/designs/mirko-viroli/</link>
-      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/mirko-viroli/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Nicolas Farabegoli</title>
       <link>https://danysk.github.io/designs/nicolas-farabegoli/</link>
       <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://danysk.github.io/designs/nicolas-farabegoli/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Roberto Casadei</title>
-      <link>https://danysk.github.io/designs/roberto-casadei/</link>
-      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/roberto-casadei/</guid>
       <description></description>
     </item>
     <item>

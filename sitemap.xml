@@ -3,12 +3,87 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://danysk.github.io/designs/danilo-pianini/</loc>
-    <lastmod>2025-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://danysk.github.io/designs/</loc>
-    <lastmod>2025-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danysk.github.io/designs/giovanni-ciatto/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danysk.github.io/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danysk.github.io/portfolio/2026-jakta/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danysk.github.io/designs/martina-baiardi/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danysk.github.io/designs/samuele-burattini/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danysk.github.io/portfolio/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danysk.github.io/designs/angela-cortecchia/</loc>
+    <lastmod>2025-12-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danysk.github.io/portfolio/2025-cais-fieldvmc/</loc>
+    <lastmod>2025-12-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danysk.github.io/designs/roberto-casadei/</loc>
+    <lastmod>2025-12-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danysk.github.io/portfolio/2025-hyperagents-bdi/</loc>
+    <lastmod>2025-10-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danysk.github.io/portfolio/2025-acsos-swarm-replanning/</loc>
+    <lastmod>2025-09-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danysk.github.io/designs/alessandro-papadopoulos/</loc>
+    <lastmod>2025-09-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danysk.github.io/designs/branko-miloradovic/</loc>
+    <lastmod>2025-09-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danysk.github.io/designs/gianluca-aguzzi/</loc>
+    <lastmod>2025-09-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danysk.github.io/designs/mirko-viroli/</loc>
+    <lastmod>2025-09-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -17,22 +92,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://danysk.github.io/</loc>
-    <lastmod>2025-07-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danysk.github.io/designs/martina-baiardi/</loc>
-    <lastmod>2025-07-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://danysk.github.io/portfolio/2025-acsos-maritime-relay/</loc>
-    <lastmod>2025-07-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danysk.github.io/portfolio/</loc>
     <lastmod>2025-07-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -47,17 +107,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://danysk.github.io/designs/angela-cortecchia/</loc>
-    <lastmod>2025-06-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://danysk.github.io/designs/davide-domini/</loc>
-    <lastmod>2025-06-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danysk.github.io/designs/gianluca-aguzzi/</loc>
     <lastmod>2025-06-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -67,17 +117,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://danysk.github.io/designs/mirko-viroli/</loc>
-    <lastmod>2025-06-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://danysk.github.io/designs/nicolas-farabegoli/</loc>
-    <lastmod>2025-06-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danysk.github.io/designs/roberto-casadei/</loc>
     <lastmod>2025-06-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

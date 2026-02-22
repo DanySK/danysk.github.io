@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Giovanni Ciatto on Danilo Pianini</title>
+    <link>https://danysk.github.io/designs/giovanni-ciatto/</link>
+    <description>Recent content in Giovanni Ciatto on Danilo Pianini</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Danilo Pianini</copyright>
+    <lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://danysk.github.io/designs/giovanni-ciatto/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JaKtA: Closing the Tooling Gap for Mainstream BDI</title>
+      <link>https://danysk.github.io/portfolio/2026-jakta/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://danysk.github.io/portfolio/2026-jakta/</guid>
+      <description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;&#xA;&lt;p&gt;Belief-Desire-Intention (BDI) agent-oriented programming is a well-established paradigm&#xA;for developing autonomous agents,&#xA;yet its adoption in mainstream software engineering remains limited—partly due to a lack of accessible tooling&#xA;that integrates well with widely adopted programming languages and development practices.&lt;/p&gt;&#xA;&lt;p&gt;This chapter presents JaKtA (Jason-like Kotlin Agents),&#xA;a BDI agent-oriented programming framework designed as a Kotlin internal DSL.&#xA;JaKtA brings BDI programming to the JVM ecosystem,&#xA;enabling developers to define agents using familiar Kotlin idioms&#xA;while benefiting from the full power of the language&amp;rsquo;s type system, tooling, and ecosystem.&#xA;The chapter discusses the design rationale, architecture, and capabilities of JaKtA,&#xA;and shows how it addresses the gap between theoretical BDI models&#xA;and practical, maintainable multi-agent system development.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>FieldVMC: An Asynchronous Model and Platform for Self-organising Morphogenesis of Artificial Structures</title>
+      <link>https://danysk.github.io/portfolio/2025-cais-fieldvmc/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://danysk.github.io/portfolio/2025-cais-fieldvmc/</guid>
+      <description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;&#xA;&lt;p&gt;In the field of evolutionary computing, the concept of Vascular Morphogenesis Controller (VMC)&#xA;has been proposed to model the growth of artificial structures over time,&#xA;stemming from a botanical metaphor of plant morphogenesis.&#xA;VMC entails a distributed and self-organising protocol where each node in a tree-shaped structure&#xA;is responsible for distributing resources to its children and collecting success towards its parent.&lt;/p&gt;&#xA;&lt;p&gt;However, the original VMC model has known limitations:&#xA;it assumes a tree organisation structure and is implicitly synchronous.&#xA;These assumptions may induce abstraction gaps when VMC is used to model real-world systems,&#xA;and limit the applicability of the pattern to engineered morphogenetic systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Gap Between BDI Agents and Semantic Hypermedia and What We Can Do About It</title>
+      <link>https://danysk.github.io/portfolio/2025-hyperagents-bdi/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://danysk.github.io/portfolio/2025-hyperagents-bdi/</guid>
+      <description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;&#xA;&lt;p&gt;Traditional BDI agents, rooted in logic programming, remain challenging to integrate with the hypermedia nature&#xA;of open Web environments that rely on Semantic Web technologies like RDF and OWL.&#xA;This paper examines the gap between these paradigms and surveys existing integration efforts&#xA;on a conceptual and technical level,&#xA;arguing that existing tools offer limited ergonomic support for developers.&lt;/p&gt;&#xA;&lt;p&gt;The proposal for a deeper integration relies on a generalised BDI engine&#xA;to enable the development of BDI agents that can directly reason and operate on semantic hypermedia resources.&#xA;Ideal requirements are derived and an abstract architecture is presented&#xA;that can be tailored to support different types of beliefs and reasoning mechanisms.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

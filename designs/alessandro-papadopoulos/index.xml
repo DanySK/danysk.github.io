@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alessandro Papadopoulos on Danilo Pianini</title>
+    <link>https://danysk.github.io/designs/alessandro-papadopoulos/</link>
+    <description>Recent content in Alessandro Papadopoulos on Danilo Pianini</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Danilo Pianini</copyright>
+    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://danysk.github.io/designs/alessandro-papadopoulos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Field-Based Approach for Runtime Replanning in Swarm Robotics Missions</title>
+      <link>https://danysk.github.io/portfolio/2025-acsos-swarm-replanning/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://danysk.github.io/portfolio/2025-acsos-swarm-replanning/</guid>
+      <description>&lt;p&gt;🏆 &lt;strong&gt;Best Student Paper — ACSOS 2025&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;&#xA;&lt;p&gt;Ensuring mission success for multi-robot systems operating in unpredictable environments&#xA;requires robust mechanisms to react to unpredictable events,&#xA;such as robot failures, by adapting plans in real-time.&#xA;Adaptive mechanisms are especially needed for large teams deployed in areas with unreliable network infrastructure,&#xA;for which centralised control is impractical and where network segmentation is frequent.&lt;/p&gt;&#xA;&lt;p&gt;This work advances the state of the art by proposing a field-based runtime replanning approach&#xA;grounded in aggregate programming.&#xA;Through this paradigm,&#xA;the mission and the environment are represented by continuously evolving fields,&#xA;enabling robots to make decentralised decisions and collectively adapt the ongoing plan.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
