@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Valter Venusti on Danilo Pianini</title>
+    <link>https://danysk.github.io/designs/valter-venusti/</link>
+    <description>Recent content in Valter Venusti on Danilo Pianini</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Danilo Pianini</copyright>
+    <lastBuildDate>Thu, 26 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://danysk.github.io/designs/valter-venusti/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First-order optimization algorithms: state of the art, classification, and performance: a practitioner&#39;s guide</title>
+      <link>https://danysk.github.io/portfolio/2026-nca-optimizer-survey/</link>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://danysk.github.io/portfolio/2026-nca-optimizer-survey/</guid>
+      <description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;&#xA;&lt;p&gt;Driven by the rising interest in machine learning techniques,&#xA;mathematical continuous optimization algorithms have made great progress.&#xA;Among them, first-order optimization algorithms,&#xA;which rely on the first derivative (gradient) to find a function&amp;rsquo;s minimum or maximum,&#xA;have gained popularity due to their efficiency and scalability.&#xA;As a result, a vast number of optimization algorithms have been developed,&#xA;each applying different techniques and offering diverse guarantees.&#xA;This variety, while beneficial, makes selecting the most appropriate algorithm&#xA;a challenging yet crucial task—choosing the wrong one may lead to sub-par accuracy or performance.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
