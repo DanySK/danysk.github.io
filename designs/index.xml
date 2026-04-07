@@ -7,20 +7,41 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Danilo Pianini</copyright>
-    <lastBuildDate>Thu, 26 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://danysk.github.io/designs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Danilo Pianini</title>
+      <link>https://danysk.github.io/designs/danilo-pianini/</link>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://danysk.github.io/designs/danilo-pianini/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Giovanni Ciatto</title>
+      <link>https://danysk.github.io/designs/giovanni-ciatto/</link>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://danysk.github.io/designs/giovanni-ciatto/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Martina Baiardi</title>
+      <link>https://danysk.github.io/designs/martina-baiardi/</link>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://danysk.github.io/designs/martina-baiardi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Samuele Burattini</title>
+      <link>https://danysk.github.io/designs/samuele-burattini/</link>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://danysk.github.io/designs/samuele-burattini/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Angelo Filaseta</title>
       <link>https://danysk.github.io/designs/angelo-filaseta/</link>
       <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://danysk.github.io/designs/angelo-filaseta/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Danilo Pianini</title>
-      <link>https://danysk.github.io/designs/danilo-pianini/</link>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/danilo-pianini/</guid>
       <description></description>
     </item>
     <item>
@@ -42,27 +63,6 @@
       <link>https://danysk.github.io/designs/valter-venusti/</link>
       <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://danysk.github.io/designs/valter-venusti/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Giovanni Ciatto</title>
-      <link>https://danysk.github.io/designs/giovanni-ciatto/</link>
-      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/giovanni-ciatto/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Martina Baiardi</title>
-      <link>https://danysk.github.io/designs/martina-baiardi/</link>
-      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/martina-baiardi/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Samuele Burattini</title>
-      <link>https://danysk.github.io/designs/samuele-burattini/</link>
-      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/samuele-burattini/</guid>
       <description></description>
     </item>
     <item>

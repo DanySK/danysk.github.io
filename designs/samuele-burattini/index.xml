@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Danilo Pianini</copyright>
-    <lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://danysk.github.io/designs/samuele-burattini/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testing BDI-based multi-agent systems using discrete event simulation</title>
+      <link>https://danysk.github.io/portfolio/2026-aamas-jakta-des/</link>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://danysk.github.io/portfolio/2026-aamas-jakta-des/</guid>
+      <description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;&#xA;&lt;p&gt;Multi-agent systems are designed to deal with open, distributed systems with unpredictable dynamics,&#xA;which makes them inherently hard to test.&#xA;The value of using simulation for this purpose is recognized in the literature,&#xA;although achieving sufficient fidelity (i.e., the degree of similarity between the simulation and the real-world system)&#xA;remains a challenging task.&#xA;This is exacerbated when dealing with cognitive agent models,&#xA;such as the Belief Desire Intention (BDI) model,&#xA;where the agent codebase is not suitable to run unchanged in simulation environments,&#xA;thus increasing the reality gap between the deployed and simulated systems.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>JaKtA: Closing the Tooling Gap for Mainstream BDI</title>
       <link>https://danysk.github.io/portfolio/2026-jakta/</link>
