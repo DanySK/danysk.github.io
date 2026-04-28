@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Danilo Pianini</copyright>
-    <lastBuildDate>Thu, 02 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://danysk.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Self-organisation with Aggregate Computing: A Reflection Under the Lenses of Multi-agent Systems Engineering</title>
+      <link>https://danysk.github.io/portfolio/2026-aggr-mas-selforganisation/</link>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://danysk.github.io/portfolio/2026-aggr-mas-selforganisation/</guid>
+      <description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;&#xA;&lt;p&gt;In multi-agent systems research, large-scale is traditionally addressed by bio-inspired self-organisation:&#xA;starting from the paradigmatic case of ant colonies,&#xA;potentially myriads of agents can be designed to bring about global complex behaviour&#xA;by simple individual tasks and local interactions, by emergence.&#xA;With that inspiration, the research on aggregate computing developed a theoretical and programming framework&#xA;to express and engineer resilient collective behaviour in a compositional and declarative fashion,&#xA;completely abstracting from population size and shape.&#xA;This grounds on previous work on co-fields for agent coordination,&#xA;macro-languages for amorphous computing, and environment design for multi-agent systems,&#xA;and culminated in the field calculus computing model,&#xA;novel programming languages,&#xA;and libraries for complex and distributed situation recognition,&#xA;swarm behaviour, agent-assisted crowd engineering, and the like.&#xA;Overall, after a decade, several results have been provided in the area of coordination,&#xA;programming languages, distributed algorithms and platforms,&#xA;and self-adaptive and self-organising systems.&#xA;In this chapter we seek to pave the way for bringing some of such results back to the agent community.&#xA;We overview such results and elaborate on how they can provide contributions&#xA;and research perspectives to traditional multi-agent systems research threads,&#xA;especially in the design of distributed digital signs for environment-mediated agent coordination,&#xA;collective plans for agents and swarms,&#xA;and reinforcement learning frameworks for many-agent systems.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Testing BDI-based multi-agent systems using discrete event simulation</title>
       <link>https://danysk.github.io/portfolio/2026-aamas-jakta-des/</link>

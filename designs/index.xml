@@ -7,13 +7,34 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Danilo Pianini</copyright>
-    <lastBuildDate>Thu, 02 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://danysk.github.io/designs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Danilo Pianini</title>
       <link>https://danysk.github.io/designs/danilo-pianini/</link>
-      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
       <guid>https://danysk.github.io/designs/danilo-pianini/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gianluca Aguzzi</title>
+      <link>https://danysk.github.io/designs/gianluca-aguzzi/</link>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://danysk.github.io/designs/gianluca-aguzzi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mirko Viroli</title>
+      <link>https://danysk.github.io/designs/mirko-viroli/</link>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://danysk.github.io/designs/mirko-viroli/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Roberto Casadei</title>
+      <link>https://danysk.github.io/designs/roberto-casadei/</link>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://danysk.github.io/designs/roberto-casadei/</guid>
       <description></description>
     </item>
     <item>
@@ -73,13 +94,6 @@
       <description></description>
     </item>
     <item>
-      <title>Roberto Casadei</title>
-      <link>https://danysk.github.io/designs/roberto-casadei/</link>
-      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/roberto-casadei/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Alessandro Papadopoulos</title>
       <link>https://danysk.github.io/designs/alessandro-papadopoulos/</link>
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
@@ -91,20 +105,6 @@
       <link>https://danysk.github.io/designs/branko-miloradovic/</link>
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://danysk.github.io/designs/branko-miloradovic/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Gianluca Aguzzi</title>
-      <link>https://danysk.github.io/designs/gianluca-aguzzi/</link>
-      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/gianluca-aguzzi/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mirko Viroli</title>
-      <link>https://danysk.github.io/designs/mirko-viroli/</link>
-      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/mirko-viroli/</guid>
       <description></description>
     </item>
     <item>
