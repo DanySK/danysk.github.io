@@ -1,34 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Nicolas Farabegoli on Danilo Pianini</title>
-    <link>https://danysk.github.io/designs/nicolas-farabegoli/</link>
-    <description>Recent content in Nicolas Farabegoli on Danilo Pianini</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <copyright>© Danilo Pianini</copyright>
-    <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://danysk.github.io/designs/nicolas-farabegoli/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>A Demonstrator for Self-organizing Robot Teams</title>
-      <link>https://danysk.github.io/portfolio/2025-coordination-robot-demo/</link>
-      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/portfolio/2025-coordination-robot-demo/</guid>
-      <description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;&#xA;&lt;p&gt;Self-organising multi-robot systems hold great promise for tackling complex tasks in&#xA;unstructured and dynamic environments,&#xA;yet bridging the gap between theoretical models and practical deployments remains challenging.&#xA;In this work, we present a demonstrator showcasing a team of robots that collectively&#xA;self-organise their behaviour using aggregate computing.&#xA;The demonstrator illustrates how high-level, globally-specified collective behaviour&#xA;can be automatically mapped to individual robot actions,&#xA;supporting coordination patterns such as leader election, coverage, and formation control.&#xA;The system is implemented on physical hardware and is also reproducible in simulation,&#xA;making it a concrete testbed for collective adaptive robotics research.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Dynamic IoT deployment reconfiguration: A global-level self-organisation approach</title>
-      <link>https://danysk.github.io/portfolio/2024-iot-pulverization/</link>
-      <pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/portfolio/2024-iot-pulverization/</guid>
-      <description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;&#xA;&lt;p&gt;The edge-cloud continuum provides a heterogeneous, multi-scale, and dynamic infrastructure supporting complex deployment&#xA;profiles and trade-offs for application scenarios like those found in the Internet of Things&#xA;and large-scale cyber–physical systems domains.&#xA;To exploit the continuum, applications should be designed in a way that promotes flexibility and reconfigurability,&#xA;and proper management (sub-)systems should take care of reconfiguring them in response to changes in the environment&#xA;or non-functional requirements.&#xA;Approaches may leverage optimisation-based or heuristic-based policies,&#xA;and decision making may be centralised or distributed:&#xA;this work investigates decentralised heuristic-based approaches.&#xA;In particular, we focus on the pulverisation approach,&#xA;whereby a distributed software system is automatically partitioned (“pulverised”) into different deployment units.&#xA;In this context, we address two main research problems:&#xA;how to support the runtime reconfiguration of pulverised systems,&#xA;and how to specify decentralised reconfiguring policies by a global perspective.&#xA;To address the first problem,&#xA;we design and implement a middleware for pulverised systems separating infrastructural and application concerns.&#xA;To address the second problem, we leverage aggregate computing and exploit self-organisation patterns&#xA;to devise self-stabilising reconfiguration strategies.&#xA;By simulating deployments on different kinds of complex infrastructures,&#xA;we assess the flexibility of the pulverisation middleware design&#xA;as well as the effectiveness and resilience of the aggregate computing-based reconfiguration policies.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Scalability through Pulverisation: Declarative deployment reconfiguration at runtime</title>
-      <link>https://danysk.github.io/portfolio/2024-fgcs-pulverization/</link>
-      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/portfolio/2024-fgcs-pulverization/</guid>
-      <description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;&#xA;&lt;p&gt;In recent years, the infrastructure supporting the execution of situated distributed computations evolved at a fast pace.&#xA;Modern collective adaptive applications – as found in the Internet of Things, swarm robotics, and social computing –&#xA;are designed to be executed on very diverse devices and to be deployed on infrastructures composed of devices ranging&#xA;from cloud servers to wearable devices,&#xA;constituting together a cloud–edge continuum.&#xA;The availability of such an infrastructure opens to better resource utilisation and performance but, at the same time,&#xA;introduces new challenges to software designers,&#xA;as applications must be conceived to be able to adapt to changing deployment domains and conditions.&#xA;In this paper, we introduce a practical framework for the development of systems based on the concept of pulverisation,&#xA;meant to neatly separate business logic and deployment concerns, allowing applications to be defined&#xA;independently of the infrastructure they will execute upon, thus supporting scalability.&#xA;The framework is based on a domain-specific language capturing, in a declarative fashion:&#xA;pulverised application components, device capabilities, resource allocation, and (runtime re-) configuration policies.&#xA;The framework, implemented in Kotlin multiplatform and available as open source,&#xA;is then evaluated in a small-scale real-world demo and in a city-scale simulated scenario,&#xA;demonstrating the feasibility of the approach and its potential benefits&#xA;in achieving better trade-offs between performance and resource utilisation.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Nicolas Farabegoli on Danilo Pianini</title>
+		<link>https://danysk.github.io/designs/nicolas-farabegoli/</link>
+		<description>Recent content in Nicolas Farabegoli on Danilo Pianini</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+			<copyright>© Danilo Pianini</copyright>
+		
+		
+			<lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://danysk.github.io/designs/nicolas-farabegoli/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>A Demonstrator for Self-organizing Robot Teams</title>
+				<link>https://danysk.github.io/portfolio/2025-coordination-robot-demo/</link>
+				<pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/portfolio/2025-coordination-robot-demo/</guid>
+				<description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;&#xA;&lt;p&gt;Self-organising multi-robot systems hold great promise for tackling complex tasks in&#xA;unstructured and dynamic environments,&#xA;yet bridging the gap between theoretical models and practical deployments remains challenging.&#xA;In this work, we present a demonstrator showcasing a team of robots that collectively&#xA;self-organise their behaviour using aggregate computing.&#xA;The demonstrator illustrates how high-level, globally-specified collective behaviour&#xA;can be automatically mapped to individual robot actions,&#xA;supporting coordination patterns such as leader election, coverage, and formation control.&#xA;The system is implemented on physical hardware and is also reproducible in simulation,&#xA;making it a concrete testbed for collective adaptive robotics research.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Dynamic IoT deployment reconfiguration: A global-level self-organisation approach</title>
+				<link>https://danysk.github.io/portfolio/2024-iot-pulverization/</link>
+				<pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/portfolio/2024-iot-pulverization/</guid>
+				<description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;&#xA;&lt;p&gt;The edge-cloud continuum provides a heterogeneous, multi-scale, and dynamic infrastructure supporting complex deployment&#xA;profiles and trade-offs for application scenarios like those found in the Internet of Things&#xA;and large-scale cyber–physical systems domains.&#xA;To exploit the continuum, applications should be designed in a way that promotes flexibility and reconfigurability,&#xA;and proper management (sub-)systems should take care of reconfiguring them in response to changes in the environment&#xA;or non-functional requirements.&#xA;Approaches may leverage optimisation-based or heuristic-based policies,&#xA;and decision making may be centralised or distributed:&#xA;this work investigates decentralised heuristic-based approaches.&#xA;In particular, we focus on the pulverisation approach,&#xA;whereby a distributed software system is automatically partitioned (“pulverised”) into different deployment units.&#xA;In this context, we address two main research problems:&#xA;how to support the runtime reconfiguration of pulverised systems,&#xA;and how to specify decentralised reconfiguring policies by a global perspective.&#xA;To address the first problem,&#xA;we design and implement a middleware for pulverised systems separating infrastructural and application concerns.&#xA;To address the second problem, we leverage aggregate computing and exploit self-organisation patterns&#xA;to devise self-stabilising reconfiguration strategies.&#xA;By simulating deployments on different kinds of complex infrastructures,&#xA;we assess the flexibility of the pulverisation middleware design&#xA;as well as the effectiveness and resilience of the aggregate computing-based reconfiguration policies.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Scalability through Pulverisation: Declarative deployment reconfiguration at runtime</title>
+				<link>https://danysk.github.io/portfolio/2024-fgcs-pulverization/</link>
+				<pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/portfolio/2024-fgcs-pulverization/</guid>
+				<description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;&#xA;&lt;p&gt;In recent years, the infrastructure supporting the execution of situated distributed computations evolved at a fast pace.&#xA;Modern collective adaptive applications – as found in the Internet of Things, swarm robotics, and social computing –&#xA;are designed to be executed on very diverse devices and to be deployed on infrastructures composed of devices ranging&#xA;from cloud servers to wearable devices,&#xA;constituting together a cloud–edge continuum.&#xA;The availability of such an infrastructure opens to better resource utilisation and performance but, at the same time,&#xA;introduces new challenges to software designers,&#xA;as applications must be conceived to be able to adapt to changing deployment domains and conditions.&#xA;In this paper, we introduce a practical framework for the development of systems based on the concept of pulverisation,&#xA;meant to neatly separate business logic and deployment concerns, allowing applications to be defined&#xA;independently of the infrastructure they will execute upon, thus supporting scalability.&#xA;The framework is based on a domain-specific language capturing, in a declarative fashion:&#xA;pulverised application components, device capabilities, resource allocation, and (runtime re-) configuration policies.&#xA;The framework, implemented in Kotlin multiplatform and available as open source,&#xA;is then evaluated in a small-scale real-world demo and in a city-scale simulated scenario,&#xA;demonstrating the feasibility of the approach and its potential benefits&#xA;in achieving better trade-offs between performance and resource utilisation.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

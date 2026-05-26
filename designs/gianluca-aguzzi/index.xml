@@ -1,48 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Gianluca Aguzzi on Danilo Pianini</title>
-    <link>https://danysk.github.io/designs/gianluca-aguzzi/</link>
-    <description>Recent content in Gianluca Aguzzi on Danilo Pianini</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <copyright>© Danilo Pianini</copyright>
-    <lastBuildDate>Tue, 28 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://danysk.github.io/designs/gianluca-aguzzi/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Self-organisation with Aggregate Computing: A Reflection Under the Lenses of Multi-agent Systems Engineering</title>
-      <link>https://danysk.github.io/portfolio/2026-aggr-mas-selforganisation/</link>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/portfolio/2026-aggr-mas-selforganisation/</guid>
-      <description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;&#xA;&lt;p&gt;In multi-agent systems research, large-scale is traditionally addressed by bio-inspired self-organisation:&#xA;starting from the paradigmatic case of ant colonies,&#xA;potentially myriads of agents can be designed to bring about global complex behaviour&#xA;by simple individual tasks and local interactions, by emergence.&#xA;With that inspiration, the research on aggregate computing developed a theoretical and programming framework&#xA;to express and engineer resilient collective behaviour in a compositional and declarative fashion,&#xA;completely abstracting from population size and shape.&#xA;This grounds on previous work on co-fields for agent coordination,&#xA;macro-languages for amorphous computing, and environment design for multi-agent systems,&#xA;and culminated in the field calculus computing model,&#xA;novel programming languages,&#xA;and libraries for complex and distributed situation recognition,&#xA;swarm behaviour, agent-assisted crowd engineering, and the like.&#xA;Overall, after a decade, several results have been provided in the area of coordination,&#xA;programming languages, distributed algorithms and platforms,&#xA;and self-adaptive and self-organising systems.&#xA;In this chapter we seek to pave the way for bringing some of such results back to the agent community.&#xA;We overview such results and elaborate on how they can provide contributions&#xA;and research perspectives to traditional multi-agent systems research threads,&#xA;especially in the design of distributed digital signs for environment-mediated agent coordination,&#xA;collective plans for agents and swarms,&#xA;and reinforcement learning frameworks for many-agent systems.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>A Field-Based Approach for Runtime Replanning in Swarm Robotics Missions</title>
-      <link>https://danysk.github.io/portfolio/2025-acsos-swarm-replanning/</link>
-      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/portfolio/2025-acsos-swarm-replanning/</guid>
-      <description>&lt;p&gt;🏆 &lt;strong&gt;Best Student Paper — ACSOS 2025&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;&#xA;&lt;p&gt;Ensuring mission success for multi-robot systems operating in unpredictable environments&#xA;requires robust mechanisms to react to unpredictable events,&#xA;such as robot failures, by adapting plans in real-time.&#xA;Adaptive mechanisms are especially needed for large teams deployed in areas with unreliable network infrastructure,&#xA;for which centralised control is impractical and where network segmentation is frequent.&lt;/p&gt;&#xA;&lt;p&gt;This work advances the state of the art by proposing a field-based runtime replanning approach&#xA;grounded in aggregate programming.&#xA;Through this paradigm,&#xA;the mission and the environment are represented by continuously evolving fields,&#xA;enabling robots to make decentralised decisions and collectively adapt the ongoing plan.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>A Demonstrator for Self-organizing Robot Teams</title>
-      <link>https://danysk.github.io/portfolio/2025-coordination-robot-demo/</link>
-      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/portfolio/2025-coordination-robot-demo/</guid>
-      <description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;&#xA;&lt;p&gt;Self-organising multi-robot systems hold great promise for tackling complex tasks in&#xA;unstructured and dynamic environments,&#xA;yet bridging the gap between theoretical models and practical deployments remains challenging.&#xA;In this work, we present a demonstrator showcasing a team of robots that collectively&#xA;self-organise their behaviour using aggregate computing.&#xA;The demonstrator illustrates how high-level, globally-specified collective behaviour&#xA;can be automatically mapped to individual robot actions,&#xA;supporting coordination patterns such as leader election, coverage, and formation control.&#xA;The system is implemented on physical hardware and is also reproducible in simulation,&#xA;making it a concrete testbed for collective adaptive robotics research.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Software Engineering for Collective Cyber-Physical Ecosystems</title>
-      <link>https://danysk.github.io/portfolio/2025-tosem-collective-cps/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/portfolio/2025-tosem-collective-cps/</guid>
-      <description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;&#xA;&lt;p&gt;Today&amp;rsquo;s distributed and pervasive computing addresses large-scale cyber-physical ecosystems,&#xA;characterised by dense and large networks of devices capable of computation, communication&#xA;and interaction with the environment and people.&#xA;While most research focusses on treating these systems as &amp;ldquo;composites&amp;rdquo;&#xA;(i.e., heterogeneous functional complexes),&#xA;recent developments in fields such as self-organising systems and swarm robotics&#xA;have opened up a complementary perspective:&#xA;treating systems as &amp;ldquo;collectives&amp;rdquo;&#xA;(i.e., uniform, collaborative, and self-organising groups of entities).&#xA;This article explores the motivations, state of the art, and implications of this&#xA;&amp;ldquo;collective computing paradigm&amp;rdquo; in software engineering,&#xA;discusses its peculiar challenges, and outlines a path for future research,&#xA;touching on aspects such as macroprogramming, collective intelligence,&#xA;self-adaptive middleware, learning, synthesis,&#xA;and experimentation of collective behaviour.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Dynamic Decentralization Domains for the Internet of Things</title>
-      <link>https://danysk.github.io/portfolio/2022-ieeeinternetcomp/</link>
-      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/portfolio/2022-ieeeinternetcomp/</guid>
-      <description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;&#xA;&lt;p&gt;The Internet of Things (IoT) and edge computing are fostering a future of ecosystems hosting complex decentralized computations that are deeply integrated with our very dynamic environments. Digitalized buildings, communities of people, and cities will be the next-generation “hardwarae and platform,” counting myriads of interconnected devices, on top of which intrinsically distributed computational processes will run and self-organize. They will spontaneously spawn, diffuse to pertinent logical/physical regions, cooperate and compete, opportunistically summon required resources, collect and analyze data, compute results, trigger distributed actions, and eventually decay. What would a programming model for such ecosystems look like? Based on research findings on self-adaptive/self-organizing systems, this article proposes design abstractions based on “dynamic decentralization domains”: regions of space opportunistically formed to support situated recognition and action. We embody the approach into a Scala application program interface (API) enacting distributed execution and show its applicability in a case study of environmental monitoring.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Gianluca Aguzzi on Danilo Pianini</title>
+		<link>https://danysk.github.io/designs/gianluca-aguzzi/</link>
+		<description>Recent content in Gianluca Aguzzi on Danilo Pianini</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+			<copyright>© Danilo Pianini</copyright>
+		
+		
+			<lastBuildDate>Tue, 28 Apr 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://danysk.github.io/designs/gianluca-aguzzi/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Self-organisation with Aggregate Computing: A Reflection Under the Lenses of Multi-agent Systems Engineering</title>
+				<link>https://danysk.github.io/portfolio/2026-aggr-mas-selforganisation/</link>
+				<pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/portfolio/2026-aggr-mas-selforganisation/</guid>
+				<description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;&#xA;&lt;p&gt;In multi-agent systems research, large-scale is traditionally addressed by bio-inspired self-organisation:&#xA;starting from the paradigmatic case of ant colonies,&#xA;potentially myriads of agents can be designed to bring about global complex behaviour&#xA;by simple individual tasks and local interactions, by emergence.&#xA;With that inspiration, the research on aggregate computing developed a theoretical and programming framework&#xA;to express and engineer resilient collective behaviour in a compositional and declarative fashion,&#xA;completely abstracting from population size and shape.&#xA;This grounds on previous work on co-fields for agent coordination,&#xA;macro-languages for amorphous computing, and environment design for multi-agent systems,&#xA;and culminated in the field calculus computing model,&#xA;novel programming languages,&#xA;and libraries for complex and distributed situation recognition,&#xA;swarm behaviour, agent-assisted crowd engineering, and the like.&#xA;Overall, after a decade, several results have been provided in the area of coordination,&#xA;programming languages, distributed algorithms and platforms,&#xA;and self-adaptive and self-organising systems.&#xA;In this chapter we seek to pave the way for bringing some of such results back to the agent community.&#xA;We overview such results and elaborate on how they can provide contributions&#xA;and research perspectives to traditional multi-agent systems research threads,&#xA;especially in the design of distributed digital signs for environment-mediated agent coordination,&#xA;collective plans for agents and swarms,&#xA;and reinforcement learning frameworks for many-agent systems.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>A Field-Based Approach for Runtime Replanning in Swarm Robotics Missions</title>
+				<link>https://danysk.github.io/portfolio/2025-acsos-swarm-replanning/</link>
+				<pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/portfolio/2025-acsos-swarm-replanning/</guid>
+				<description>&lt;p&gt;🏆 &lt;strong&gt;Best Student Paper — ACSOS 2025&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;&#xA;&lt;p&gt;Ensuring mission success for multi-robot systems operating in unpredictable environments&#xA;requires robust mechanisms to react to unpredictable events,&#xA;such as robot failures, by adapting plans in real-time.&#xA;Adaptive mechanisms are especially needed for large teams deployed in areas with unreliable network infrastructure,&#xA;for which centralised control is impractical and where network segmentation is frequent.&lt;/p&gt;&#xA;&lt;p&gt;This work advances the state of the art by proposing a field-based runtime replanning approach&#xA;grounded in aggregate programming.&#xA;Through this paradigm,&#xA;the mission and the environment are represented by continuously evolving fields,&#xA;enabling robots to make decentralised decisions and collectively adapt the ongoing plan.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>A Demonstrator for Self-organizing Robot Teams</title>
+				<link>https://danysk.github.io/portfolio/2025-coordination-robot-demo/</link>
+				<pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/portfolio/2025-coordination-robot-demo/</guid>
+				<description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;&#xA;&lt;p&gt;Self-organising multi-robot systems hold great promise for tackling complex tasks in&#xA;unstructured and dynamic environments,&#xA;yet bridging the gap between theoretical models and practical deployments remains challenging.&#xA;In this work, we present a demonstrator showcasing a team of robots that collectively&#xA;self-organise their behaviour using aggregate computing.&#xA;The demonstrator illustrates how high-level, globally-specified collective behaviour&#xA;can be automatically mapped to individual robot actions,&#xA;supporting coordination patterns such as leader election, coverage, and formation control.&#xA;The system is implemented on physical hardware and is also reproducible in simulation,&#xA;making it a concrete testbed for collective adaptive robotics research.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Software Engineering for Collective Cyber-Physical Ecosystems</title>
+				<link>https://danysk.github.io/portfolio/2025-tosem-collective-cps/</link>
+				<pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/portfolio/2025-tosem-collective-cps/</guid>
+				<description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;&#xA;&lt;p&gt;Today&amp;rsquo;s distributed and pervasive computing addresses large-scale cyber-physical ecosystems,&#xA;characterised by dense and large networks of devices capable of computation, communication&#xA;and interaction with the environment and people.&#xA;While most research focusses on treating these systems as &amp;ldquo;composites&amp;rdquo;&#xA;(i.e., heterogeneous functional complexes),&#xA;recent developments in fields such as self-organising systems and swarm robotics&#xA;have opened up a complementary perspective:&#xA;treating systems as &amp;ldquo;collectives&amp;rdquo;&#xA;(i.e., uniform, collaborative, and self-organising groups of entities).&#xA;This article explores the motivations, state of the art, and implications of this&#xA;&amp;ldquo;collective computing paradigm&amp;rdquo; in software engineering,&#xA;discusses its peculiar challenges, and outlines a path for future research,&#xA;touching on aspects such as macroprogramming, collective intelligence,&#xA;self-adaptive middleware, learning, synthesis,&#xA;and experimentation of collective behaviour.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Dynamic Decentralization Domains for the Internet of Things</title>
+				<link>https://danysk.github.io/portfolio/2022-ieeeinternetcomp/</link>
+				<pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/portfolio/2022-ieeeinternetcomp/</guid>
+				<description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;&#xA;&lt;p&gt;The Internet of Things (IoT) and edge computing are fostering a future of ecosystems hosting complex decentralized computations that are deeply integrated with our very dynamic environments. Digitalized buildings, communities of people, and cities will be the next-generation “hardwarae and platform,” counting myriads of interconnected devices, on top of which intrinsically distributed computational processes will run and self-organize. They will spontaneously spawn, diffuse to pertinent logical/physical regions, cooperate and compete, opportunistically summon required resources, collect and analyze data, compute results, trigger distributed actions, and eventually decay. What would a programming model for such ecosystems look like? Based on research findings on self-adaptive/self-organizing systems, this article proposes design abstractions based on “dynamic decentralization domains”: regions of space opportunistically formed to support situated recognition and action. We embody the approach into a Scala application program interface (API) enacting distributed execution and show its applicability in a case study of environmental monitoring.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

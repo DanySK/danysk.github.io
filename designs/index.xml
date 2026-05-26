@@ -1,216 +1,222 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Designs on Danilo Pianini</title>
-    <link>https://danysk.github.io/designs/</link>
-    <description>Recent content in Designs on Danilo Pianini</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <copyright>© Danilo Pianini</copyright>
-    <lastBuildDate>Tue, 28 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://danysk.github.io/designs/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Danilo Pianini</title>
-      <link>https://danysk.github.io/designs/danilo-pianini/</link>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/danilo-pianini/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Gianluca Aguzzi</title>
-      <link>https://danysk.github.io/designs/gianluca-aguzzi/</link>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/gianluca-aguzzi/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mirko Viroli</title>
-      <link>https://danysk.github.io/designs/mirko-viroli/</link>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/mirko-viroli/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Roberto Casadei</title>
-      <link>https://danysk.github.io/designs/roberto-casadei/</link>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/roberto-casadei/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Giovanni Ciatto</title>
-      <link>https://danysk.github.io/designs/giovanni-ciatto/</link>
-      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/giovanni-ciatto/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Martina Baiardi</title>
-      <link>https://danysk.github.io/designs/martina-baiardi/</link>
-      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/martina-baiardi/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Samuele Burattini</title>
-      <link>https://danysk.github.io/designs/samuele-burattini/</link>
-      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/samuele-burattini/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Angelo Filaseta</title>
-      <link>https://danysk.github.io/designs/angelo-filaseta/</link>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/angelo-filaseta/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Gabriele D&#39;Angelo</title>
-      <link>https://danysk.github.io/designs/gabriele-dangelo/</link>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/gabriele-dangelo/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ruslan Shaiakhmetov</title>
-      <link>https://danysk.github.io/designs/ruslan-shaiakhmetov/</link>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/ruslan-shaiakhmetov/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Valter Venusti</title>
-      <link>https://danysk.github.io/designs/valter-venusti/</link>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/valter-venusti/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Angela Cortecchia</title>
-      <link>https://danysk.github.io/designs/angela-cortecchia/</link>
-      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/angela-cortecchia/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Alessandro Papadopoulos</title>
-      <link>https://danysk.github.io/designs/alessandro-papadopoulos/</link>
-      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/alessandro-papadopoulos/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Branko Miloradovic</title>
-      <link>https://danysk.github.io/designs/branko-miloradovic/</link>
-      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/branko-miloradovic/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ghassan Al-Falouji</title>
-      <link>https://danysk.github.io/designs/ghassan-al-falouji/</link>
-      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/ghassan-al-falouji/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sven Tomforde</title>
-      <link>https://danysk.github.io/designs/sven-tomforde/</link>
-      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/sven-tomforde/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Davide Domini</title>
-      <link>https://danysk.github.io/designs/davide-domini/</link>
-      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/davide-domini/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Lorenzo Bacchini</title>
-      <link>https://danysk.github.io/designs/lorenzo-bacchini/</link>
-      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/lorenzo-bacchini/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Nicolas Farabegoli</title>
-      <link>https://danysk.github.io/designs/nicolas-farabegoli/</link>
-      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/nicolas-farabegoli/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ferruccio Damiani</title>
-      <link>https://danysk.github.io/designs/ferruccio-damiani/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/ferruccio-damiani/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Gianluca Torta</title>
-      <link>https://danysk.github.io/designs/gianluca-torta/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/gianluca-torta/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Giordano Scarso</title>
-      <link>https://danysk.github.io/designs/giordano-scarso/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/giordano-scarso/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Giorgio Audrito</title>
-      <link>https://danysk.github.io/designs/giorgio-audrito/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/giorgio-audrito/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Federico Pettinari</title>
-      <link>https://danysk.github.io/designs/federico-pettinari/</link>
-      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/federico-pettinari/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Lukas Esterle</title>
-      <link>https://danysk.github.io/designs/lukas-esterle/</link>
-      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/lukas-esterle/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Antonio Natali</title>
-      <link>https://danysk.github.io/designs/antonio-natali/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/antonio-natali/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Jacob Beal</title>
-      <link>https://danysk.github.io/designs/jacob-beal/</link>
-      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/jacob-beal/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>And Jacob Beal</title>
-      <link>https://danysk.github.io/designs/and-jacob-beal/</link>
-      <pubDate>Wed, 01 Apr 2015 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/and-jacob-beal/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sara Montagna</title>
-      <link>https://danysk.github.io/designs/sara-montagna/</link>
-      <pubDate>Sun, 01 Sep 2013 00:00:00 +0000</pubDate>
-      <guid>https://danysk.github.io/designs/sara-montagna/</guid>
-      <description></description>
-    </item>
-  </channel>
+	<channel>
+		<title>Designs on Danilo Pianini</title>
+		<link>https://danysk.github.io/designs/</link>
+		<description>Recent content in Designs on Danilo Pianini</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+			<copyright>© Danilo Pianini</copyright>
+		
+		
+			<lastBuildDate>Tue, 28 Apr 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://danysk.github.io/designs/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Danilo Pianini</title>
+				<link>https://danysk.github.io/designs/danilo-pianini/</link>
+				<pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/designs/danilo-pianini/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Gianluca Aguzzi</title>
+				<link>https://danysk.github.io/designs/gianluca-aguzzi/</link>
+				<pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/designs/gianluca-aguzzi/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Mirko Viroli</title>
+				<link>https://danysk.github.io/designs/mirko-viroli/</link>
+				<pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/designs/mirko-viroli/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Roberto Casadei</title>
+				<link>https://danysk.github.io/designs/roberto-casadei/</link>
+				<pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/designs/roberto-casadei/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Giovanni Ciatto</title>
+				<link>https://danysk.github.io/designs/giovanni-ciatto/</link>
+				<pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/designs/giovanni-ciatto/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Martina Baiardi</title>
+				<link>https://danysk.github.io/designs/martina-baiardi/</link>
+				<pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/designs/martina-baiardi/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Samuele Burattini</title>
+				<link>https://danysk.github.io/designs/samuele-burattini/</link>
+				<pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/designs/samuele-burattini/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Angelo Filaseta</title>
+				<link>https://danysk.github.io/designs/angelo-filaseta/</link>
+				<pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/designs/angelo-filaseta/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Gabriele D&#39;Angelo</title>
+				<link>https://danysk.github.io/designs/gabriele-dangelo/</link>
+				<pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/designs/gabriele-dangelo/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Ruslan Shaiakhmetov</title>
+				<link>https://danysk.github.io/designs/ruslan-shaiakhmetov/</link>
+				<pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/designs/ruslan-shaiakhmetov/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Valter Venusti</title>
+				<link>https://danysk.github.io/designs/valter-venusti/</link>
+				<pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/designs/valter-venusti/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Angela Cortecchia</title>
+				<link>https://danysk.github.io/designs/angela-cortecchia/</link>
+				<pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/designs/angela-cortecchia/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Alessandro Papadopoulos</title>
+				<link>https://danysk.github.io/designs/alessandro-papadopoulos/</link>
+				<pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/designs/alessandro-papadopoulos/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Branko Miloradovic</title>
+				<link>https://danysk.github.io/designs/branko-miloradovic/</link>
+				<pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/designs/branko-miloradovic/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Ghassan Al-Falouji</title>
+				<link>https://danysk.github.io/designs/ghassan-al-falouji/</link>
+				<pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/designs/ghassan-al-falouji/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Sven Tomforde</title>
+				<link>https://danysk.github.io/designs/sven-tomforde/</link>
+				<pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/designs/sven-tomforde/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Davide Domini</title>
+				<link>https://danysk.github.io/designs/davide-domini/</link>
+				<pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/designs/davide-domini/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Lorenzo Bacchini</title>
+				<link>https://danysk.github.io/designs/lorenzo-bacchini/</link>
+				<pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/designs/lorenzo-bacchini/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Nicolas Farabegoli</title>
+				<link>https://danysk.github.io/designs/nicolas-farabegoli/</link>
+				<pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/designs/nicolas-farabegoli/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Ferruccio Damiani</title>
+				<link>https://danysk.github.io/designs/ferruccio-damiani/</link>
+				<pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/designs/ferruccio-damiani/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Gianluca Torta</title>
+				<link>https://danysk.github.io/designs/gianluca-torta/</link>
+				<pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/designs/gianluca-torta/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Giordano Scarso</title>
+				<link>https://danysk.github.io/designs/giordano-scarso/</link>
+				<pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/designs/giordano-scarso/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Giorgio Audrito</title>
+				<link>https://danysk.github.io/designs/giorgio-audrito/</link>
+				<pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/designs/giorgio-audrito/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Federico Pettinari</title>
+				<link>https://danysk.github.io/designs/federico-pettinari/</link>
+				<pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/designs/federico-pettinari/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Lukas Esterle</title>
+				<link>https://danysk.github.io/designs/lukas-esterle/</link>
+				<pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/designs/lukas-esterle/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Antonio Natali</title>
+				<link>https://danysk.github.io/designs/antonio-natali/</link>
+				<pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/designs/antonio-natali/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Jacob Beal</title>
+				<link>https://danysk.github.io/designs/jacob-beal/</link>
+				<pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/designs/jacob-beal/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>And Jacob Beal</title>
+				<link>https://danysk.github.io/designs/and-jacob-beal/</link>
+				<pubDate>Wed, 01 Apr 2015 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/designs/and-jacob-beal/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Sara Montagna</title>
+				<link>https://danysk.github.io/designs/sara-montagna/</link>
+				<pubDate>Sun, 01 Sep 2013 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/designs/sara-montagna/</guid>
+				<description></description>
+			</item>
+	</channel>
 </rss>
