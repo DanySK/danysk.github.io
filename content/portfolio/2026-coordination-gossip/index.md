@@ -4,7 +4,7 @@ date: "2026-06-21"
 jobDate: 2026
 work: [Coordination Models and Languages (Lecture Notes in Computer Science 16590)]
 designs: [Angela Cortecchia, Danilo Pianini, Mirko Viroli]
-thumbnail: 2026-coordination-gossip/thumb.png
+thumbnail: 2026-coordination-gossip/gossip.gif
 projectUrl: https://doi.org/10.1007/978-3-032-28358-0_5
 ---
 
