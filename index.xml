@@ -16,6 +16,13 @@
 		
 			<atom:link href="https://danysk.github.io/index.xml" rel="self" type="application/rss+xml" />
 			<item>
+				<title>A Self-stabilizing Min-Max Consensus via Path-Loop Detection</title>
+				<link>https://danysk.github.io/portfolio/2026-coordination-gossip/</link>
+				<pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/portfolio/2026-coordination-gossip/</guid>
+				<description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;&#xA;&lt;p&gt;In large-scale distributed systems, such as the Internet of Things (IoT), min-max consensus algorithms provide a mechanism for collective coordination by enabling nodes to converge on a “best” value produced by one of the participants in the computation. However, min-max consensus algorithms are monotonic and non-self-stabilizing by nature: once a value is merged into the aggregate it cannot be retracted, leading to propagation of stale or incorrect data in the presence of transient faults or topology changes. In this work, we propose a novel self-stabilizing min-max consensus algorithm ensuring convergence to the best available value in the network by propagating information along shortest valid paths. Each gossip message carries a value and path of nodes that have acknowledged it, enabling loop-freedom and natural pruning of obsolete contributions. We rely on field-based coordination and specifically the Aggregate Computing paradigm to present the algorithm, prove self-stabilization, and provide an implementation as a reusable library for the &lt;em&gt;Collektive&lt;/em&gt; DSL. This work contributes a foundational building block for resilient coordination in pervasive computing systems, paving the way to more complex, self-stabilizing distributed applications.&lt;/p&gt;</description>
+			</item>
+			<item>
 				<title>High-Fidelity Simulation of Aggregate Computing Systems with Collektivity</title>
 				<link>https://danysk.github.io/portfolio/2026-coordination-collektivity/</link>
 				<pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
