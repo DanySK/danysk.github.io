@@ -12,14 +12,28 @@
 			<copyright>© Danilo Pianini</copyright>
 		
 		
-			<lastBuildDate>Tue, 28 Apr 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Sun, 21 Jun 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="https://danysk.github.io/designs/index.xml" rel="self" type="application/rss+xml" />
 			<item>
+				<title>Angela Cortecchia</title>
+				<link>https://danysk.github.io/designs/angela-cortecchia/</link>
+				<pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/designs/angela-cortecchia/</guid>
+				<description></description>
+			</item>
+			<item>
 				<title>Danilo Pianini</title>
 				<link>https://danysk.github.io/designs/danilo-pianini/</link>
-				<pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+				<pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
 				<guid>https://danysk.github.io/designs/danilo-pianini/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Mirko Viroli</title>
+				<link>https://danysk.github.io/designs/mirko-viroli/</link>
+				<pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/designs/mirko-viroli/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -27,13 +41,6 @@
 				<link>https://danysk.github.io/designs/gianluca-aguzzi/</link>
 				<pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
 				<guid>https://danysk.github.io/designs/gianluca-aguzzi/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Mirko Viroli</title>
-				<link>https://danysk.github.io/designs/mirko-viroli/</link>
-				<pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>https://danysk.github.io/designs/mirko-viroli/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -90,13 +97,6 @@
 				<link>https://danysk.github.io/designs/valter-venusti/</link>
 				<pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
 				<guid>https://danysk.github.io/designs/valter-venusti/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Angela Cortecchia</title>
-				<link>https://danysk.github.io/designs/angela-cortecchia/</link>
-				<pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
-				<guid>https://danysk.github.io/designs/angela-cortecchia/</guid>
 				<description></description>
 			</item>
 			<item>
