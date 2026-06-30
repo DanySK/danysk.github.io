@@ -4,7 +4,7 @@ date: "2026-06-21"
 jobDate: 2026
 work: [28th International Conference on Coordination Models and Languages (COORDINATION)]
 designs: [Filippo Gurioli, Martina Baiardi, Angela Cortecchia, Danilo Pianini]
-thumbnail: 2026-coordination-collektivity/thumb.svg
+thumbnail: 2026-coordination-collektivity/thumb.png
 projectUrl: https://doi.org/10.1007/978-3-032-28358-0_13
 ---
 
