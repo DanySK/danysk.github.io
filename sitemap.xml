@@ -1,12 +1,8 @@
+
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://danysk.github.io/portfolio/2026-coordination-gossip/</loc>
-    <lastmod>2026-06-21T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://danysk.github.io/designs/angela-cortecchia/</loc>
     <lastmod>2026-06-21T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -22,12 +18,22 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://danysk.github.io/designs/filippo-gurioli/</loc>
+    <lastmod>2026-06-21T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danysk.github.io/portfolio/2026-coordination-collektivity/</loc>
+    <lastmod>2026-06-21T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://danysk.github.io/</loc>
     <lastmod>2026-06-21T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://danysk.github.io/designs/mirko-viroli/</loc>
+    <loc>https://danysk.github.io/designs/martina-baiardi/</loc>
     <lastmod>2026-06-21T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -38,6 +44,11 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://danysk.github.io/designs/gianluca-aguzzi/</loc>
+    <lastmod>2026-04-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danysk.github.io/designs/mirko-viroli/</loc>
     <lastmod>2026-04-28T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -53,11 +64,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://danysk.github.io/designs/giovanni-ciatto/</loc>
-    <lastmod>2026-04-02T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danysk.github.io/designs/martina-baiardi/</loc>
     <lastmod>2026-04-02T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

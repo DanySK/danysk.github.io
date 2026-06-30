@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Filippo Gurioli on Danilo Pianini</title>
+		<link>https://danysk.github.io/designs/filippo-gurioli/</link>
+		<description>Recent content in Filippo Gurioli on Danilo Pianini</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+			<copyright>© Danilo Pianini</copyright>
+		
+		
+			<lastBuildDate>Sun, 21 Jun 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://danysk.github.io/designs/filippo-gurioli/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>High-Fidelity Simulation of Aggregate Computing Systems with Collektivity</title>
+				<link>https://danysk.github.io/portfolio/2026-coordination-collektivity/</link>
+				<pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/portfolio/2026-coordination-collektivity/</guid>
+				<description>&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;&#xA;&lt;p&gt;The verification and validation of collective adaptive systems is a challenging task,&#xA;typically tackled through a combination of approaches including formal analysis,&#xA;simulation, Hardware-in-the-Loop, and real-world experimentation.&#xA;One critical aspect of simulation concerns the trade-off between realism and scalability.&#xA;A typical validation pipeline involves initial simulation of large-scale scenarios with simplified models of the world,&#xA;and detail is gradually increased in subsequent steps,&#xA;introducing more realistic physical and environmental dynamics.&#xA;An underexplored opportunity in this context lies in leveraging game development platforms&#xA;to achieve high-fidelity simulations.&#xA;In this work,&#xA;we explore the integration of an existing implementation of aggregate programming,&#xA;a common paradigm for engineering collective adaptive systems,&#xA;with Unity, a widely used game development platform.&#xA;We show that this integration is feasible even though the two systems were not designed to work together,&#xA;we discuss the technical challenges that were encountered and the limitations of the approach,&#xA;while highlighting the potential for such integration to enhance simulation realism&#xA;in the study of collective adaptive systems.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

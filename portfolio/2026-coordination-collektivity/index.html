@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang='en'><head>
-  <title>A Self-stabilizing Min-Max Consensus via Path-Loop Detection - Danilo Pianini</title>
-  <link rel='canonical' href='https://danysk.github.io/portfolio/2026-coordination-gossip/' />
+  <title>High-Fidelity Simulation of Aggregate Computing Systems with Collektivity - Danilo Pianini</title>
+  <link rel='canonical' href='https://danysk.github.io/portfolio/2026-coordination-collektivity/' />
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width, initial-scale=1' />
   <meta name='description' content='' />
   <meta name='theme-color' content='#FD3519' />
   
 
-  <meta name="generator" content="Hugo 0.163.3">
+  <meta name="generator" content="Hugo 0.162.1">
 
   
 
@@ -19,10 +19,10 @@
 <link rel="stylesheet" href="https://danysk.github.io/sass/style.min.e9d654972aaf1bd2b0d08bc6892c08c325f6e6a18a8ccda98fcda48967e1631b.css" integrity="sha256-6dZUlyqvG9Kw0IvGiSwIwyX25qGKjM2pj82kiWfhYxs=" media="screen">
 <link rel="stylesheet" href="https://danysk.github.io/syntax.min.css" integrity="" media="screen">
 
-  <meta property="og:url" content="https://danysk.github.io/portfolio/2026-coordination-gossip/">
+  <meta property="og:url" content="https://danysk.github.io/portfolio/2026-coordination-collektivity/">
 	<meta property="og:site_name" content="Danilo Pianini">
-	<meta property="og:title" content="A Self-stabilizing Min-Max Consensus via Path-Loop Detection">
-	<meta property="og:description" content="Abstract In large-scale distributed systems, such as the Internet of Things (IoT), min-max consensus algorithms provide a mechanism for collective coordination by enabling nodes to converge on a “best” value produced by one of the participants in the computation. However, min-max consensus algorithms are monotonic and non-self-stabilizing by nature: once a value is merged into the aggregate it cannot be retracted, leading to propagation of stale or incorrect data in the presence of transient faults or topology changes. In this work, we propose a novel self-stabilizing min-max consensus algorithm ensuring convergence to the best available value in the network by propagating information along shortest valid paths. Each gossip message carries a value and path of nodes that have acknowledged it, enabling loop-freedom and natural pruning of obsolete contributions. We rely on field-based coordination and specifically the Aggregate Computing paradigm to present the algorithm, prove self-stabilization, and provide an implementation as a reusable library for the Collektive DSL. This work contributes a foundational building block for resilient coordination in pervasive computing systems, paving the way to more complex, self-stabilizing distributed applications.">
+	<meta property="og:title" content="High-Fidelity Simulation of Aggregate Computing Systems with Collektivity">
+	<meta property="og:description" content="Abstract The verification and validation of collective adaptive systems is a challenging task, typically tackled through a combination of approaches including formal analysis, simulation, Hardware-in-the-Loop, and real-world experimentation. One critical aspect of simulation concerns the trade-off between realism and scalability. A typical validation pipeline involves initial simulation of large-scale scenarios with simplified models of the world, and detail is gradually increased in subsequent steps, introducing more realistic physical and environmental dynamics. An underexplored opportunity in this context lies in leveraging game development platforms to achieve high-fidelity simulations. In this work, we explore the integration of an existing implementation of aggregate programming, a common paradigm for engineering collective adaptive systems, with Unity, a widely used game development platform. We show that this integration is feasible even though the two systems were not designed to work together, we discuss the technical challenges that were encountered and the limitations of the approach, while highlighting the potential for such integration to enhance simulation realism in the study of collective adaptive systems.">
 	<meta property="og:locale" content="en_us">
 	<meta property="og:type" content="article">
 		<meta property="article:section" content="portfolio">
@@ -30,12 +30,12 @@
 		<meta property="article:modified_time" content="2026-06-21T00:00:00+00:00">
 
   
-	<meta itemprop="name" content="A Self-stabilizing Min-Max Consensus via Path-Loop Detection">
-	<meta itemprop="description" content="Abstract In large-scale distributed systems, such as the Internet of Things (IoT), min-max consensus algorithms provide a mechanism for collective coordination by enabling nodes to converge on a “best” value produced by one of the participants in the computation. However, min-max consensus algorithms are monotonic and non-self-stabilizing by nature: once a value is merged into the aggregate it cannot be retracted, leading to propagation of stale or incorrect data in the presence of transient faults or topology changes. In this work, we propose a novel self-stabilizing min-max consensus algorithm ensuring convergence to the best available value in the network by propagating information along shortest valid paths. Each gossip message carries a value and path of nodes that have acknowledged it, enabling loop-freedom and natural pruning of obsolete contributions. We rely on field-based coordination and specifically the Aggregate Computing paradigm to present the algorithm, prove self-stabilization, and provide an implementation as a reusable library for the Collektive DSL. This work contributes a foundational building block for resilient coordination in pervasive computing systems, paving the way to more complex, self-stabilizing distributed applications.">
+	<meta itemprop="name" content="High-Fidelity Simulation of Aggregate Computing Systems with Collektivity">
+	<meta itemprop="description" content="Abstract The verification and validation of collective adaptive systems is a challenging task, typically tackled through a combination of approaches including formal analysis, simulation, Hardware-in-the-Loop, and real-world experimentation. One critical aspect of simulation concerns the trade-off between realism and scalability. A typical validation pipeline involves initial simulation of large-scale scenarios with simplified models of the world, and detail is gradually increased in subsequent steps, introducing more realistic physical and environmental dynamics. An underexplored opportunity in this context lies in leveraging game development platforms to achieve high-fidelity simulations. In this work, we explore the integration of an existing implementation of aggregate programming, a common paradigm for engineering collective adaptive systems, with Unity, a widely used game development platform. We show that this integration is feasible even though the two systems were not designed to work together, we discuss the technical challenges that were encountered and the limitations of the approach, while highlighting the potential for such integration to enhance simulation realism in the study of collective adaptive systems.">
 	<meta itemprop="datePublished" content="2026-06-21T00:00:00+00:00">
 	<meta itemprop="dateModified" content="2026-06-21T00:00:00+00:00">
-	<meta itemprop="wordCount" content="184">
-	<meta itemprop="keywords" content="Angela Cortecchia,Danilo Pianini,Mirko Viroli">
+	<meta itemprop="wordCount" content="169">
+	<meta itemprop="keywords" content="Filippo Gurioli,Martina Baiardi,Angela Cortecchia,Danilo Pianini">
 </head>
 <body>
 
@@ -45,7 +45,7 @@
   <div class="intro">
     <div class="logo-container">
       <a href="/">
-        <img src='https://0.gravatar.com/avatar/b96269945e9426825bdbba067eb3eaed?s=1000' alt="Profile 404 Page not found" class="rounded-logo">
+        <img src='https://0.gravatar.com/avatar/b96269945e9426825bdbba067eb3eaed?s=1000' alt="Profile Designs" class="rounded-logo">
       </a>
     </div>
     <h2>Hi, I'm Danilo 👋</h2>
@@ -193,7 +193,7 @@
     <div class="intro">
       <div class="logo-container">
         <a href="/">
-          <img src='https://0.gravatar.com/avatar/b96269945e9426825bdbba067eb3eaed?s=1000' alt="Profile 404 Page not found" class="rounded-logo">
+          <img src='https://0.gravatar.com/avatar/b96269945e9426825bdbba067eb3eaed?s=1000' alt="Profile Designs" class="rounded-logo">
         </a>
       </div>
       <h2>Hi, I'm Danilo 👋</h2>
@@ -350,7 +350,7 @@
 
 
 <span  class="active">
-  <a href="https://danysk.github.io/portfolio/2026-coordination-gossip/">A Self-stabilizing Min-Max Consensus via Path-Loop Detection</a>
+  <a href="https://danysk.github.io/portfolio/2026-coordination-collektivity/">High-Fidelity Simulation of Aggregate Computing Systems with Collektivity</a>
   
 </span>
 
@@ -359,7 +359,7 @@
     
     <main id="content" class="portfolio">
 
-<h1>A Self-stabilizing Min-Max Consensus via Path-Loop Detection</h1>
+<h1>High-Fidelity Simulation of Aggregate Computing Systems with Collektivity</h1>
 <div class="tags">
   
   <div class="designs portfolio-tags">
@@ -373,17 +373,22 @@
 
     
       <span>
+          <a href="https://danysk.github.io/designs/filippo-gurioli/">Filippo Gurioli</a>
+        
+      </span>
+    
+      <span><span>- </span>
+          <a href="https://danysk.github.io/designs/martina-baiardi/">Martina Baiardi</a>
+        
+      </span>
+    
+      <span><span>- </span>
           <a href="https://danysk.github.io/designs/angela-cortecchia/">Angela Cortecchia</a>
         
       </span>
     
       <span><span>- </span>
           <a href="https://danysk.github.io/designs/danilo-pianini/">Danilo Pianini</a>
-        
-      </span>
-    
-      <span><span>- </span>
-          <a href="https://danysk.github.io/designs/mirko-viroli/">Mirko Viroli</a>
         
       </span>
     
@@ -402,7 +407,7 @@
   </svg>
 </div>
 
-    <a target="_blank" href="https://doi.org/10.1007/978-3-032-28358-0_5">https://doi.org/10.1007/978-3-032-28358-0_5</a>
+    <a target="_blank" href="https://doi.org/10.1007/978-3-032-28358-0_13">https://doi.org/10.1007/978-3-032-28358-0_13</a>
   </div>
 
 
@@ -419,11 +424,27 @@
 </div>
 </div>
 
-<img title="A Self-stabilizing Min-Max Consensus via Path-Loop Detection" alt="A Self-stabilizing Min-Max Consensus via Path-Loop Detection" src="/portfolio/2026-coordination-gossip/gossip.gif" />
+<img title="High-Fidelity Simulation of Aggregate Computing Systems with Collektivity" alt="High-Fidelity Simulation of Aggregate Computing Systems with Collektivity" src="/portfolio/2026-coordination-collektivity/thumb.png" />
 
 <h4 id="abstract">Abstract</h4>
-<p>In large-scale distributed systems, such as the Internet of Things (IoT), min-max consensus algorithms provide a mechanism for collective coordination by enabling nodes to converge on a “best” value produced by one of the participants in the computation. However, min-max consensus algorithms are monotonic and non-self-stabilizing by nature: once a value is merged into the aggregate it cannot be retracted, leading to propagation of stale or incorrect data in the presence of transient faults or topology changes. In this work, we propose a novel self-stabilizing min-max consensus algorithm ensuring convergence to the best available value in the network by propagating information along shortest valid paths. Each gossip message carries a value and path of nodes that have acknowledged it, enabling loop-freedom and natural pruning of obsolete contributions. We rely on field-based coordination and specifically the Aggregate Computing paradigm to present the algorithm, prove self-stabilization, and provide an implementation as a reusable library for the <em>Collektive</em> DSL. This work contributes a foundational building block for resilient coordination in pervasive computing systems, paving the way to more complex, self-stabilizing distributed applications.</p>
-<h4 id="slides-and-interactive-playground"><a href="https://danysk.github.io/slides-2026-coordination-gossip/#/">Slides and interactive playground</a></h4>
+<p>The verification and validation of collective adaptive systems is a challenging task,
+typically tackled through a combination of approaches including formal analysis,
+simulation, Hardware-in-the-Loop, and real-world experimentation.
+One critical aspect of simulation concerns the trade-off between realism and scalability.
+A typical validation pipeline involves initial simulation of large-scale scenarios with simplified models of the world,
+and detail is gradually increased in subsequent steps,
+introducing more realistic physical and environmental dynamics.
+An underexplored opportunity in this context lies in leveraging game development platforms
+to achieve high-fidelity simulations.
+In this work,
+we explore the integration of an existing implementation of aggregate programming,
+a common paradigm for engineering collective adaptive systems,
+with Unity, a widely used game development platform.
+We show that this integration is feasible even though the two systems were not designed to work together,
+we discuss the technical challenges that were encountered and the limitations of the approach,
+while highlighting the potential for such integration to enhance simulation realism
+in the study of collective adaptive systems.</p>
+<h4 id="tool-repository"><a href="https://github.com/pslab-unibo/collektivity">Tool Repository</a></h4>
 
 
 
