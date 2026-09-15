@@ -12,21 +12,56 @@
 			<copyright>© Danilo Pianini</copyright>
 		
 		
-			<lastBuildDate>Sun, 21 Jun 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Wed, 02 Sep 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="https://danysk.github.io/designs/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Angela Cortecchia</title>
 				<link>https://danysk.github.io/designs/angela-cortecchia/</link>
-				<pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
+				<pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
 				<guid>https://danysk.github.io/designs/angela-cortecchia/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Danilo Pianini</title>
 				<link>https://danysk.github.io/designs/danilo-pianini/</link>
-				<pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
+				<pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
 				<guid>https://danysk.github.io/designs/danilo-pianini/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Davide Domini</title>
+				<link>https://danysk.github.io/designs/davide-domini/</link>
+				<pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/designs/davide-domini/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Gianluca Aguzzi</title>
+				<link>https://danysk.github.io/designs/gianluca-aguzzi/</link>
+				<pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/designs/gianluca-aguzzi/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Martina Baiardi</title>
+				<link>https://danysk.github.io/designs/martina-baiardi/</link>
+				<pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/designs/martina-baiardi/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Mirko Viroli</title>
+				<link>https://danysk.github.io/designs/mirko-viroli/</link>
+				<pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/designs/mirko-viroli/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Nicolas Farabegoli</title>
+				<link>https://danysk.github.io/designs/nicolas-farabegoli/</link>
+				<pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>https://danysk.github.io/designs/nicolas-farabegoli/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -34,27 +69,6 @@
 				<link>https://danysk.github.io/designs/filippo-gurioli/</link>
 				<pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
 				<guid>https://danysk.github.io/designs/filippo-gurioli/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Martina Baiardi</title>
-				<link>https://danysk.github.io/designs/martina-baiardi/</link>
-				<pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>https://danysk.github.io/designs/martina-baiardi/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Mirko Viroli</title>
-				<link>https://danysk.github.io/designs/mirko-viroli/</link>
-				<pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>https://danysk.github.io/designs/mirko-viroli/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Gianluca Aguzzi</title>
-				<link>https://danysk.github.io/designs/gianluca-aguzzi/</link>
-				<pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>https://danysk.github.io/designs/gianluca-aguzzi/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -135,24 +149,10 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Davide Domini</title>
-				<link>https://danysk.github.io/designs/davide-domini/</link>
-				<pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
-				<guid>https://danysk.github.io/designs/davide-domini/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Lorenzo Bacchini</title>
 				<link>https://danysk.github.io/designs/lorenzo-bacchini/</link>
 				<pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
 				<guid>https://danysk.github.io/designs/lorenzo-bacchini/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Nicolas Farabegoli</title>
-				<link>https://danysk.github.io/designs/nicolas-farabegoli/</link>
-				<pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
-				<guid>https://danysk.github.io/designs/nicolas-farabegoli/</guid>
 				<description></description>
 			</item>
 			<item>
